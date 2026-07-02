@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<!-- viewport-fit=cover: iPhone çentik/safe-area alanlarını kullanabilmek için -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>NT2 B1 Spreken</title>
+<!-- PWA: manifest + iOS ana ekran ayarları -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1e8e3e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="NT2 Spreken">
+<link rel="apple-touch-icon" href="icon-180.png">
+<style>
+  :root {
+    --orange: #e97b0f;
+    --green: #1e8e3e;
+    --green-dark: #146c2e;
+    --bg: #f5f6f8;
+    --card: #ffffff;
+    --text: #22262b;
+    --muted: #6b7280;
+    --border: #e3e5e8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    /* iPhone safe-area: alt çubuk ve çentik boşlukları */
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 16px 16px calc(60px + env(safe-area-inset-bottom)); }
+
+  header { padding: calc(10px + env(safe-area-inset-top)) 0 10px; }
+  header h1 { font-size: 18px; margin: 0 0 4px; }
+  .progress-row {
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+    font-size: 13px; color: var(--muted);
+  }
+  .bar { flex: 1; min-width: 120px; height: 6px; background: var(--border); border-radius: 4px; overflow: hidden; }
+  .bar-fill { height: 100%; background: var(--green); width: 0%; transition: width .3s ease; }
+
+  .set-nav { display: flex; align-items: center; gap: 8px; margin: 10px 0 16px; flex-wrap: wrap; }
+  /* 16px input font: iOS'un dokununca otomatik zoom yapmasını engeller */
+  select, button, textarea { font-family: inherit; font-size: 16px; }
+  select {
+    padding: 10px; border-radius: 10px; border: 1px solid var(--border);
+    background: var(--card); color: var(--text);
+  }
+  .btn {
+    padding: 10px 14px; border-radius: 10px; border: 1px solid var(--border);
+    background: var(--card); cursor: pointer; color: var(--text);
+    min-height: 46px; /* parmak dostu dokunma alanı */
+    touch-action: manipulation; /* çift dokunma zoom'unu kapat */
+  }
+  .btn:hover { background: #f0f1f3; }
+  .btn:disabled { opacity: .4; cursor: not-allowed; }
+  .btn-primary { background: var(--green); border-color: var(--green); color: white; }
+  .btn-primary:hover { background: var(--green-dark); }
+  .btn.rec { background: #d93025; border-color: #d93025; color: white; }
+  .btn.rec:hover { background: #b3261e; }
+
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+    overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,.04); margin-bottom: 16px;
+  }
+  .card-header {
+    background: var(--orange); color: white; padding: 10px 16px;
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 13px; font-weight: 600; flex-wrap: wrap; gap: 4px;
+  }
+  .card-body { padding: 18px 16px; }
+  .title { font-size: 17px; font-weight: 700; margin: 0 0 12px; }
+  .situatie { white-space: pre-line; line-height: 1.55; font-size: 16px; }
+  .item-image { max-width: 100%; max-height: 320px; display: block; margin: 14px auto 0; border-radius: 8px; border: 1px solid var(--border); }
+
+  .vraag-box {
+    margin-top: 18px; background: var(--green); color: white; border-radius: 10px;
+    padding: 14px; font-weight: 600; line-height: 1.5; font-size: 15px;
+    display: flex; gap: 10px; align-items: flex-start;
+  }
+  .antwoord-box {
+    margin-top: 14px; background: #eaf6ec; border: 1px solid #bfe3c5; border-radius: 10px;
+    padding: 14px; line-height: 1.55; font-size: 15px; white-space: pre-line;
+    display: flex; gap: 10px; align-items: flex-start;
+  }
+  .speak-btn {
+    flex-shrink: 0; border: none; background: rgba(255,255,255,.25);
+    color: inherit; width: 40px; height: 40px; border-radius: 50%;
+    cursor: pointer; font-size: 18px; display:flex; align-items:center; justify-content:center;
+    touch-action: manipulation;
+  }
+  .antwoord-box .speak-btn { background: #d6ecda; color: var(--green-dark); }
+  .speak-btn:hover { filter: brightness(0.95); }
+
+  .mic-row { display: flex; align-items: center; gap: 10px; margin-top: 6px; flex-wrap: wrap; }
+  .mic-row .hint { margin-top: 0; }
+
+  .prep-row { margin-top: 18px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .timer { font-variant-numeric: tabular-nums; font-size: 22px; font-weight: 700; color: var(--green-dark); min-width: 52px; }
+  .hint { font-size: 13px; color: var(--muted); margin-top: 6px; }
+
+  .answer-label { margin-top: 20px; font-size: 13px; font-weight: 600; color: var(--muted); }
+  .answer-box {
+    margin-top: 6px; width: 100%; border: 1px solid var(--border); border-radius: 10px;
+    padding: 12px; font-size: 16px; line-height: 1.5; min-height: 90px; resize: vertical;
+  }
+
+  .action-row { display:flex; gap: 10px; margin-top: 14px; flex-wrap: wrap; }
+  .action-row .btn { flex: 1; min-width: 140px; }
+
+  .bottom-nav { display: flex; justify-content: space-between; align-items: center; margin-top: 18px; gap: 10px; }
+  .bottom-nav .btn { flex: 1; }
+
+  .set-tools { display: flex; justify-content: flex-end; margin-bottom: 8px; }
+  .set-tools .btn { font-size: 14px; }
+
+  footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 30px; line-height: 1.6; }
+
+  .home-intro { font-size: 14px; color: var(--muted); margin: 4px 0 18px; line-height: 1.5; }
+  .resume-card {
+    background: var(--green); color: white; border-radius: 12px; padding: 16px;
+    display: flex; justify-content: space-between; align-items: center; gap: 10px;
+    margin-bottom: 20px; cursor: pointer; border: none; width: 100%; text-align: left;
+    font-family: inherit; touch-action: manipulation;
+  }
+  .resume-card:hover { background: var(--green-dark); }
+  .resume-card .r-title { font-weight: 700; font-size: 15px; }
+  .resume-card .r-sub { font-size: 12px; opacity: .9; margin-top: 2px; }
+  .set-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 10px;
+  }
+  .set-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 14px; cursor: pointer; text-align: left; font-family: inherit;
+    min-height: 78px; touch-action: manipulation;
+  }
+  .set-card:hover { border-color: var(--green); }
+  .set-card.done { background: #eaf6ec; border-color: #bfe3c5; }
+  .set-card .s-title { font-weight: 700; font-size: 15px; margin-bottom: 6px; }
+  .set-card .s-count { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+  .set-card .s-bar { height: 5px; background: var(--border); border-radius: 3px; overflow: hidden; }
+  .set-card .s-bar-fill { height: 100%; background: var(--green); }
+  .home-btn {
+    border: 1px solid var(--border); background: var(--card); border-radius: 10px;
+    padding: 10px 12px; cursor: pointer; font-size: 14px; color: var(--text); font-family: inherit;
+    min-height: 46px; touch-action: manipulation;
+  }
+  .home-btn:hover { background: #f0f1f3; }
+  .exam-reset-row { text-align: left; margin: 0 0 10px; }
+
+  /* dar telefon ekranı ayarları */
+  @media (max-width: 480px) {
+    .wrap { padding: 10px 10px calc(50px + env(safe-area-inset-bottom)); }
+    header h1 { font-size: 16px; }
+    .card-body { padding: 14px 12px; }
+    .set-grid { grid-template-columns: repeat(2, 1fr); }
+    .action-row .btn { min-width: 100%; }
+    .set-nav select { flex: 1; min-width: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div id="homeView">
+    <header>
+      <h1>NT2 B1 Spreken <span style="color:var(--muted); font-weight:400;">— pratik & deneme</span></h1>
+    </header>
+    <div class="home-intro">368 soru · cevapların bu cihazda otomatik kaydedilir.</div>
+    <button class="resume-card" id="resumeCard" style="display:none;">
+      <span>
+        <div class="r-title" id="resumeTitle">Kaldığın yerden devam et</div>
+        <div class="r-sub" id="resumeSub"></div>
+      </span>
+      <span>→</span>
+    </button>
+    <div class="home-intro" id="statsLine" style="font-weight:600;"></div>
+    <div style="font-weight:700; margin:6px 0 8px;">Deneme Sınavları <span class="hint" style="display:inline; font-weight:400;">— sabit denemeler · her soru tam bir kez · 8 kort + 8 middel</span></div>
+    <div class="exam-reset-row">
+      <label class="hint" style="display:inline-flex; align-items:center; gap:6px; cursor:pointer;">
+        <input type="checkbox" id="examAutoChk"> Otomatik süre akışı (soru okunur → hazırlık → konuş → sonraki)
+      </label>
+    </div>
+    <div class="set-grid" id="examGrid" style="margin-bottom:22px;"></div>
+    <div style="font-weight:700; margin:6px 0 8px;">Setler <span class="hint" style="display:inline; font-weight:400;">— serbest pratik</span></div>
+    <div class="set-grid" id="setGrid"></div>
+  </div>
+
+  <div id="practiceView" style="display:none;">
+  <header>
+    <h1>NT2 B1 Spreken</h1>
+    <div class="progress-row">
+      <span id="posLabel">Set 1 · Opdracht 1/12</span>
+      <div class="bar"><div class="bar-fill" id="progressFill"></div></div>
+      <span id="totalLabel">1 / 368</span>
+    </div>
+  </header>
+
+  <div class="set-nav" id="setNav">
+    <button class="home-btn" id="homeBtn">⌂</button>
+    <button class="btn" id="prevSetBtn">◀</button>
+    <select id="setSelect"></select>
+    <button class="btn" id="nextSetBtn">▶</button>
+  </div>
+
+  <div class="set-tools">
+    <button class="btn btn-primary" id="copySetBtn">Bu seti kopyala (Claude için)</button>
+    <button class="btn btn-primary" id="examFinishBtn" style="display:none;">Sınavı bitir ve kopyala</button>
+  </div>
+  <div class="hint" id="copyStatus" style="text-align:right; margin-bottom:10px;"></div>
+
+  <div class="card">
+    <div class="card-header">
+      <span id="setLabel">SET 1</span>
+      <span id="opdrachtLabel">OPDRACHT 1/12</span>
+    </div>
+    <div class="card-body">
+      <p class="title" id="itemTitle"></p>
+      <p class="situatie" id="itemSituatie"></p>
+      <img id="itemImage" class="item-image" style="display:none;" alt="opdracht plaatje">
+
+      <div class="vraag-box" id="vraagBox" style="display:none;">
+        <button class="speak-btn" id="speakVraagBtn" title="Sesli dinle">🔊</button>
+        <span id="vraagText"></span>
+      </div>
+
+      <div class="prep-row">
+        <button class="btn" id="timerBtn">⏱ 20 sn hazırlan</button>
+        <span class="timer" id="timerDisplay"></span>
+        <button class="btn" id="autoSpeakBtn" title="Soru açılınca durum + soruyu sesli oku">🔊 Oto-okuma</button>
+      </div>
+      <div class="hint">Gerçek sınavda cevabını konuşursun — 🎤 ile konuşarak pratik yap. Mikrofon çalışmazsa iOS klavyesindeki dikteyi (🎤 tuşu) kullan.</div>
+
+      <div class="answer-label">Senin cevabın</div>
+      <div class="mic-row">
+        <button class="btn" id="micBtn">🎤 Konuşarak cevapla</button>
+        <span class="hint" id="micStatus"></span>
+      </div>
+      <textarea class="answer-box" id="answerBox" placeholder="Konuş (🎤) ya da Hollandaca cevabını buraya yaz..."></textarea>
+
+      <div class="action-row">
+        <button class="btn" id="revealBtn">Örnek cevabı göster</button>
+        <button class="btn" id="masterBtn">Hallettim olarak işaretle</button>
+      </div>
+
+      <div class="antwoord-box" id="antwoordBox" style="display:none;">
+        <button class="speak-btn" id="speakAntwoordBtn" title="Sesli dinle">🔊</button>
+        <span id="antwoordText"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-nav">
+    <button class="btn" id="prevBtn">⟵ Önceki</button>
+    <button class="btn btn-primary" id="nextBtn">Sonraki ⟶</button>
+  </div>
+  </div>
+
+  <footer>
+    NT2 B1 Spreken pratik uygulaması · 368 soru (Ad Appel + resmi sınav yeniden kurulumları)<br>
+    Kopyala butonları puanlama talimatı ekler — Claude'a yapıştırınca resmi modele göre puanlanır.<br>
+    Sesli okuma ve mikrofon için Chrome/Edge (masaüstü) en iyisi; iOS'ta dikte alternatifi kullanılabilir.
+  </footer>
+</div>
+
+<script src="spreken_data.js"></script>
+<script src="spreken_extra.js"></script>
+<script>
+// v5-pwa: mobil sürüm — veri spreken_data.js + spreken_extra.js dosyalarından gelir
+// merge official reconstructions + new items into the pool
+if (typeof EXTRA_DATA !== "undefined") EXTRA_DATA.forEach(x => DATA.push(x));
+const TAG_OF = (typeof OFFICIAL_TAGS !== "undefined") ? OFFICIAL_TAGS : {};
+function tagOf(item) { return item.tag || TAG_OF[String(item.id)] || ""; }
+
+const STORAGE_KEY = "spreken_ad_appel_progress_v3";
+
+function loadState() {
+  try {
+    const s = JSON.parse(localStorage.getItem(STORAGE_KEY));
+    if (s) return s;
+  } catch (e) {}
+  return { currentId: 1, answers: {} };
+}
+function saveState() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+}
+
+let state = loadState();
+if (state.autoSpeak === undefined) state.autoSpeak = true;  // soru açılınca sesli oku
+if (state.examAuto === undefined) state.examAuto = true;    // denemede süreli otomatik akış
+if (!state.mastered) state.mastered = {};                   // "hallettim" işaretleri
+if (!state.mocks) state.mocks = {};                         // deneme başına ilerleme
+let currentIndex = Math.max(0, DATA.findIndex(it => it.id === state.currentId));
+if (currentIndex === -1) currentIndex = 0;
+
+let timerInterval = null;
+let timerSeconds = 20;
+let examMode = false;
+
+const sets = [...new Set(DATA.map(it => it.set))].sort((a,b) => a-b);
+
+// ---------- voices / TTS ----------
+
+function pickDutchVoice() {
+  const voices = window.speechSynthesis ? window.speechSynthesis.getVoices() : [];
+  return voices.find(v => v.lang && v.lang.toLowerCase().startsWith("nl")) || null;
+}
+// speechGen: iptal edilen konuşmanın onend zinciri devam etmesin diye jenerasyon sayacı
+let speechGen = 0;
+function speak(text, onEnd) {
+  if (!text) { if (onEnd) onEnd(); return; }
+  if (!("speechSynthesis" in window)) {
+    if (onEnd) onEnd(); else alert("Bu tarayıcı sesli okumayı desteklemiyor.");
+    return;
+  }
+  const gen = ++speechGen;
+  window.speechSynthesis.cancel();
+  const utter = new SpeechSynthesisUtterance(text);
+  const voice = pickDutchVoice();
+  if (voice) utter.voice = voice;
+  utter.lang = "nl-NL";
+  utter.rate = 0.95;
+  utter.onend = () => { if (gen === speechGen && onEnd) onEnd(); };
+  window.speechSynthesis.speak(utter);
+}
+function stopSpeech() {
+  speechGen++;
+  if ("speechSynthesis" in window) window.speechSynthesis.cancel();
+}
+// gerçek sınav gibi: önce situatie, sonra vraag (CAPS → lowercase, tonlama düzgün olsun)
+function speakItem(item, onEnd) {
+  const parts = [];
+  if (item.situatie) parts.push(item.situatie);
+  if (item.vraag && item.vraag.trim()) parts.push(item.vraag.toLowerCase());
+  speakSeq(parts, onEnd);
+}
+function speakSeq(parts, onEnd) {
+  if (!parts.length) { if (onEnd) onEnd(); return; }
+  speak(parts[0], () => speakSeq(parts.slice(1), onEnd));
+}
+if ("speechSynthesis" in window) { window.speechSynthesis.onvoiceschanged = () => {}; }
+
+// ---------- timer ----------
+
+function stopTimer() { if (timerInterval) { clearInterval(timerInterval); timerInterval = null; } }
+function resetTimerUI() {
+  stopTimer();
+  cancelFlow();
+  stopSpeech();
+  stopMic();
+  timerSeconds = 20;
+  document.getElementById("timerDisplay").textContent = "";
+  const b = document.getElementById("timerBtn");
+  b.style.display = "";
+  b.textContent = "⏱ 20 sn hazırlan";
+  b.disabled = false;
+}
+
+// ---------- speech recognition: konuşarak cevaplama ----------
+
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+let recog = null;
+let micOn = false;
+
+function ensureRecog() {
+  if (recog || !SR) return recog;
+  recog = new SR();
+  recog.lang = "nl-NL";
+  recog.continuous = true;
+  recog.interimResults = true;
+  recog.onresult = (e) => {
+    let interim = "";
+    for (let i = e.resultIndex; i < e.results.length; i++) {
+      const res = e.results[i];
+      if (res.isFinal) appendToAnswer(res[0].transcript.trim());
+      else interim += res[0].transcript;
+    }
+    document.getElementById("micStatus").textContent = interim ? "… " + interim : "🎙 dinliyorum...";
+  };
+  recog.onerror = (e) => {
+    if (e.error === "not-allowed") {
+      document.getElementById("micStatus").textContent = "Mikrofon izni verilmedi — ayarlardan izin ver.";
+      micOn = false; updateMicUI();
+    } else if (e.error !== "no-speech") {
+      document.getElementById("micStatus").textContent = "Mikrofon hatası: " + e.error;
+    }
+  };
+  recog.onend = () => {
+    if (micOn) { try { recog.start(); } catch (err) {} }
+    else updateMicUI();
+  };
+  return recog;
+}
+
+function appendToAnswer(t) {
+  if (!t) return;
+  const box = document.getElementById("answerBox");
+  box.value = (box.value ? box.value.replace(/\s+$/, "") + " " : "") + t;
+  if (examMode) saveExamAnswerIfNeeded(); else saveAnswerIfNeeded();
+}
+
+function updateMicUI() {
+  const btn = document.getElementById("micBtn");
+  btn.classList.toggle("rec", micOn);
+  btn.textContent = micOn ? "⏹ Kaydı durdur" : "🎤 Konuşarak cevapla";
+  if (!micOn) document.getElementById("micStatus").textContent = "";
+}
+
+function startMic() {
+  if (!SR) {
+    document.getElementById("micStatus").textContent =
+      "Bu tarayıcıda konuşma tanıma yok — cevap kutusuna dokunup iOS klavyesindeki 🎤 dikteyi kullan.";
+    return;
+  }
+  if (micOn) return;
+  ensureRecog();
+  micOn = true;
+  try { recog.start(); } catch (e) {}
+  updateMicUI();
+  document.getElementById("micStatus").textContent = "🎙 dinliyorum...";
+}
+
+function stopMic() {
+  if (!micOn) return;
+  micOn = false;
+  try { if (recog) recog.stop(); } catch (e) {}
+  updateMicUI();
+}
+
+document.getElementById("micBtn").addEventListener("click", () => micOn ? stopMic() : startMic());
+
+// ---------- faz geçişlerinde kısa bip ----------
+
+let beepCtx = null;
+function beep(freq) {
+  try {
+    beepCtx = beepCtx || new (window.AudioContext || window.webkitAudioContext)();
+    const o = beepCtx.createOscillator(), g = beepCtx.createGain();
+    o.frequency.value = freq || 880;
+    o.connect(g); g.connect(beepCtx.destination);
+    g.gain.setValueAtTime(0.15, beepCtx.currentTime);
+    o.start(); o.stop(beepCtx.currentTime + 0.2);
+  } catch (e) {}
+}
+
+// ---------- deneme otomatik akışı: dinle -> hazırlan -> konuş -> sonraki ----------
+// NOT: süreler YAKLAŞIK; gerekirse buradan ayarla
+const EXAM_TIMING = {
+  kort:   { prep: 20, answer: 30 },
+  middel: { prep: 30, answer: 60 }
+};
+
+let flowTimer = null;
+let flowToken = 0;
+
+function cancelFlow() {
+  flowToken++;
+  if (flowTimer) { clearInterval(flowTimer); flowTimer = null; }
+}
+
+function runCountdown(seconds, label, onDone) {
+  const my = flowToken;
+  let left = seconds;
+  const disp = document.getElementById("timerDisplay");
+  disp.textContent = `${label} ${left} sn`;
+  flowTimer = setInterval(() => {
+    if (my !== flowToken) return;
+    left--;
+    if (left <= 0) {
+      clearInterval(flowTimer); flowTimer = null;
+      if (onDone) onDone();
+      return;
+    }
+    disp.textContent = `${label} ${left} sn`;
+  }, 1000);
+}
+
+function startExamFlow(item, type) {
+  const my = flowToken;
+  const t = EXAM_TIMING[type];
+  document.getElementById("timerBtn").style.display = "none";
+  document.getElementById("timerDisplay").textContent = "🔊 soru okunuyor...";
+  speakItem(item, () => {
+    if (my !== flowToken) return;
+    runCountdown(t.prep, "🕐 Hazırlık:", () => {
+      if (my !== flowToken) return;
+      beep(880);
+      startMic();
+      runCountdown(t.answer, "🎤 KONUŞ!", () => {
+        if (my !== flowToken) return;
+        beep(440);
+        stopMic();
+        if (examMode && currentExamNo) {
+          if (mock().index < EXAM_SIZE - 1) examGoTo(mock().index + 1);
+          else document.getElementById("copyStatus").textContent =
+            "Son soru bitti — 'Sınavı bitir ve kopyala' ile sonuçları al.";
+        }
+      });
+    });
+  });
+}
+function startTimer() {
+  timerSeconds = 20;
+  document.getElementById("timerBtn").disabled = true;
+  document.getElementById("timerDisplay").textContent = timerSeconds + " sn";
+  timerInterval = setInterval(() => {
+    timerSeconds -= 1;
+    if (timerSeconds <= 0) {
+      stopTimer();
+      document.getElementById("timerDisplay").textContent = "Süre bitti";
+      document.getElementById("timerBtn").disabled = false;
+      document.getElementById("timerBtn").textContent = "⏱ Tekrar başlat";
+      return;
+    }
+    document.getElementById("timerDisplay").textContent = timerSeconds + " sn";
+  }, 1000);
+}
+
+// ---------- answer persistence ----------
+
+function saveAnswerIfNeeded() {
+  const item = DATA[currentIndex];
+  const text = document.getElementById("answerBox").value;
+  if ((state.answers[item.id] || "") === text) return;
+  state.answers[item.id] = text;
+  saveState();
+}
+
+// ---------- render ----------
+
+const setSelect = document.getElementById("setSelect");
+sets.forEach(s => {
+  const opt = document.createElement("option");
+  opt.value = s;
+  const count = DATA.filter(it => it.set === s).length;
+  opt.textContent = `Set ${s} (${count})`;
+  setSelect.appendChild(opt);
+});
+
+// ---------- home ----------
+
+function answeredCountInSet(s) {
+  return DATA.filter(it => it.set === s && (state.answers[it.id] || "").trim() !== "").length;
+}
+
+function firstUnansweredIndexInSet(s) {
+  const idx = DATA.findIndex(it => it.set === s && (state.answers[it.id] || "").trim() === "");
+  if (idx !== -1) return idx;
+  return DATA.findIndex(it => it.set === s);
+}
+
+function renderHome() {
+  const grid = document.getElementById("setGrid");
+  grid.innerHTML = "";
+  sets.forEach(s => {
+    const total = DATA.filter(it => it.set === s).length;
+    const done = answeredCountInSet(s);
+    const card = document.createElement("button");
+    card.className = "set-card" + (done === total ? " done" : "");
+    card.innerHTML = `
+      <div class="s-title">Set ${s}</div>
+      <div class="s-count">${done}/${total} cevaplandı</div>
+      <div class="s-bar"><div class="s-bar-fill" style="width:${(done/total*100)}%"></div></div>
+    `;
+    card.addEventListener("click", () => {
+      currentIndex = firstUnansweredIndexInSet(s);
+      showPractice();
+    });
+    grid.appendChild(card);
+  });
+
+  const resumeCard = document.getElementById("resumeCard");
+  const lastItem = DATA.find(it => it.id === state.currentId);
+  const anyProgress = Object.values(state.answers || {}).some(a => (a || "").trim() !== "");
+  if (lastItem && anyProgress) {
+    resumeCard.style.display = "flex";
+    document.getElementById("resumeSub").textContent =
+      `Set ${lastItem.set} · Opdracht ${lastItem.opdracht_in_set} — ${lastItem.title}`;
+  } else {
+    resumeCard.style.display = "none";
+  }
+
+  renderExamGrid();
+  renderStats();
+}
+
+document.getElementById("resumeCard").addEventListener("click", () => {
+  currentIndex = Math.max(0, DATA.findIndex(it => it.id === state.currentId));
+  if (currentIndex === -1) currentIndex = 0;
+  showPractice();
+});
+
+function showHome(skipSave) {
+  resetTimerUI();
+  // skipSave=true: sınavdan çıkarken cevap kutusundaki SINAV cevabı
+  // son pratik sorusunun üstüne yazılmasın
+  if (!skipSave) saveAnswerIfNeeded();
+  renderHome();
+  document.getElementById("homeView").style.display = "block";
+  document.getElementById("practiceView").style.display = "none";
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function showPractice() {
+  examMode = false;
+  document.getElementById("homeView").style.display = "none";
+  document.getElementById("practiceView").style.display = "block";
+  renderItem();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+document.getElementById("homeBtn").addEventListener("click", () => {
+  if (examMode) exitExamToHome(); else showHome();
+});
+
+// ---------- sabit deneme serisi (EXAMS: spreken_extra.js) ----------
+// Her deneme 16 id: ilk 8 kort (Deel 1), son 8 middel (Deel 2). Her soru tam bir kez.
+
+const EXAM_SIZE = 16;
+const EXAM_KORT = 8;
+const EXAM_MIDDEL = 8;
+let currentExamNo = 0;
+
+function examIds() { return EXAMS[currentExamNo - 1]; }
+function mock() {
+  if (!state.mocks[currentExamNo]) state.mocks[currentExamNo] = { answers: {}, index: 0, finished: false };
+  return state.mocks[currentExamNo];
+}
+
+function examTypeForIndex(i) {
+  return i < EXAM_KORT ? "kort" : "middel";
+}
+
+function startExamNo(n) {
+  currentExamNo = n;
+  mock();
+  saveState();
+  showExam();
+}
+
+function examItemAt(i) {
+  const id = examIds()[i];
+  return DATA.find(it => it.id === id);
+}
+
+function activeItem() {
+  return examMode ? examItemAt(mock().index) : DATA[currentIndex];
+}
+
+function saveExamAnswerIfNeeded() {
+  if (!currentExamNo) return;
+  const m = mock();
+  const item = examItemAt(m.index);
+  const text = document.getElementById("answerBox").value;
+  if ((m.answers[item.id] || "") === text) return;
+  m.answers[item.id] = text;
+  saveState();
+}
+
+function renderExamItem() {
+  resetTimerUI();
+  const m = mock();
+  const i = m.index;
+  const item = examItemAt(i);
+  const type = examTypeForIndex(i);
+  const deelLabel = type === "kort" ? "DEEL 1 (kort)" : "DEEL 2 (middel)";
+  const maxPunt = type === "kort" ? 3 : 13;
+  const localIndex = type === "kort" ? (i + 1) : (i - EXAM_KORT + 1);
+  const localTotal = type === "kort" ? EXAM_KORT : EXAM_MIDDEL;
+
+  document.getElementById("setLabel").textContent = `DENEME ${currentExamNo} · ${deelLabel}`;
+  document.getElementById("opdrachtLabel").textContent = `VRAAG ${localIndex}/${localTotal} · max ${maxPunt} puan`;
+  document.getElementById("posLabel").textContent = `Deneme ${currentExamNo} · Vraag ${i + 1}/${EXAM_SIZE}`;
+  document.getElementById("totalLabel").textContent = `${i + 1} / ${EXAM_SIZE}`;
+  document.getElementById("progressFill").style.width = ((i + 1) / EXAM_SIZE * 100) + "%";
+
+  const tg = tagOf(item);
+  document.getElementById("itemTitle").textContent = item.title + (tg ? "  ·  " + tg : "");
+  document.getElementById("itemSituatie").textContent = item.situatie;
+
+  const imgEl = document.getElementById("itemImage");
+  if (item.image) {
+    imgEl.src = item.image;
+    imgEl.style.display = "block";
+  } else {
+    imgEl.style.display = "none";
+    imgEl.removeAttribute("src");
+  }
+
+  const vraagBox = document.getElementById("vraagBox");
+  if (item.vraag && item.vraag.trim() !== "") {
+    vraagBox.style.display = "flex";
+    document.getElementById("vraagText").textContent = item.vraag;
+  } else {
+    vraagBox.style.display = "none";
+  }
+
+  // denemede örnek cevap gizli (gerçek sınavda da göremezsin)
+  document.getElementById("antwoordBox").style.display = "none";
+  document.getElementById("antwoordText").textContent = item.antwoord;
+  document.getElementById("answerBox").value = m.answers[item.id] || "";
+
+  document.getElementById("copyStatus").textContent = "";
+  renderMasterBtn(item);
+
+  document.getElementById("prevBtn").disabled = i === 0;
+  document.getElementById("nextBtn").disabled = i === EXAM_SIZE - 1;
+
+  if (state.examAuto) startExamFlow(item, type);
+}
+
+function showExam() {
+  examMode = true;
+  document.getElementById("homeView").style.display = "none";
+  document.getElementById("practiceView").style.display = "block";
+  document.getElementById("setNav").style.display = "none";
+  document.getElementById("revealBtn").style.display = "none";
+  document.getElementById("copySetBtn").style.display = "none";
+  document.getElementById("examFinishBtn").style.display = "";
+  renderExamItem();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function exitExamToHome() {
+  saveExamAnswerIfNeeded();
+  examMode = false;
+  currentExamNo = 0;
+  document.getElementById("setNav").style.display = "";
+  document.getElementById("revealBtn").style.display = "";
+  document.getElementById("copySetBtn").style.display = "";
+  document.getElementById("examFinishBtn").style.display = "none";
+  showHome(true);
+}
+
+function examGoTo(index) {
+  saveExamAnswerIfNeeded();
+  mock().index = index;
+  saveState();
+  renderExamItem();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+// kopyalanan metnin başına puanlama talimatı — Claude'a yapıştırınca direkt puanlanır
+function rubricPrompt(kind) {
+  let p = "Rol: NT2 Staatsexamen Spreken I degerlendiricisi olarak asagidaki cevaplarimi resmi beoordelingsmodel mantigiyla puanla:\n";
+  p += "- Deel 1 / kort: soru basina max 3 puan (Inhoud 0/1, Woord-en-zinsvorming 0/1, Woordkeus 0/1). Cevap durumla ilgisizse (preconditie=0) o soru 0 puan.\n";
+  p += "- Deel 2 / middel: soru basina max 13 puan (Inhoud 0-3, Woord-en-zinsvorming 0-3, Woordenschat 0-3, Uitspraak 0-3, Tempo 0/1). Yazili metinden Uitspraak ve Tempo olculemez: bunlari 'degerlendirilemedi' olarak isaretle, soruyu 9 uzerinden puanla ve orantili 13'luk tahminini de ver.\n";
+  p += "- Gramer hatalarini etiketle: categorie-1 (lidwoord, meervoud, verkleinwoord) vs categorie-2 (kelime sirasi/inversie, fiil zamani, voltooid deelwoord, trappen). Categorie-2 agir sayilir.\n";
+  if (kind === "exam") {
+    p += "- Sonunda: soru soru puan listesi, toplam puan, 128 uzerinden orantili tahmin ve gecme esigi 73'e gore gecer miydim degerlendirmesi.\n";
+  } else {
+    p += "- Sorularin tipini kendin belirle: tek-iki cumlelik tepki isteyenler kort tarzi, 'iki sebep ver / oner / anlat' isteyenler middel tarzi.\n";
+    p += "- Sonunda: soru soru puan listesi ve en sik yaptigim 3 hata (duz liste, plan yok).\n";
+  }
+  return p + "\n";
+}
+
+function finishExam() {
+  saveExamAnswerIfNeeded();
+  const m = mock();
+  const items = examIds().map(id => DATA.find(it => it.id === id));
+  const answeredCount = items.filter(it => (m.answers[it.id] || "").trim() !== "").length;
+
+  let text = rubricPrompt("exam");
+  text += `NT2 B1 Spreken DENEME SINAVI ${currentExamNo} sonuclari (${answeredCount}/${EXAM_SIZE} soru cevaplanmis)\n\n`;
+  items.forEach((it, i) => {
+    const type = examTypeForIndex(i);
+    const deelLabel = type === "kort" ? "Deel 1 - kort, max 3 puan" : "Deel 2 - middel, max 13 puan";
+    const myAnswer = (m.answers[it.id] || "").trim();
+    text += `--- Vraag ${i + 1} (${deelLabel}) - ${it.title}${tagOf(it) ? " [" + tagOf(it) + "]" : ""} ---\n`;
+    text += `Durum: ${it.situatie}\n`;
+    if (it.vraag) text += `Soru: ${it.vraag}\n`;
+    text += `Benim cevabim: ${myAnswer || "(bos)"}\n`;
+    text += `Ornek cevap: ${it.antwoord}\n\n`;
+  });
+
+  m.finished = true;
+  saveState();
+
+  navigator.clipboard.writeText(text).then(() => {
+    document.getElementById("copyStatus").textContent =
+      `Sınav kopyalandı (${answeredCount}/${EXAM_SIZE} soru) — Claude sohbetine yapıştırabilirsin.`;
+  }).catch(() => {
+    const ta = document.createElement("textarea");
+    ta.value = text;
+    ta.style.position = "fixed";
+    ta.style.top = "0";
+    ta.style.left = "0";
+    ta.style.width = "100%";
+    ta.style.height = "200px";
+    ta.style.zIndex = "9999";
+    document.body.appendChild(ta);
+    ta.focus();
+    ta.select();
+    document.getElementById("copyStatus").textContent =
+      "Otomatik kopyalama engellendi — kutudaki metni elle seçip kopyala.";
+  });
+}
+
+document.getElementById("examFinishBtn").addEventListener("click", () => {
+  if (mock().index < EXAM_SIZE - 1 &&
+      !confirm("Sınav henüz bitmedi, yine de bitirip kopyalamak istiyor musun?")) return;
+  finishExam();
+});
+
+// ---------- home: deneme ızgarası + istatistik ----------
+
+function renderExamGrid() {
+  const grid = document.getElementById("examGrid");
+  grid.innerHTML = "";
+  if (typeof EXAMS === "undefined") {
+    grid.innerHTML = "<div class='hint'>spreken_extra.js yüklenemedi — dosyalar aynı klasörde olmalı.</div>";
+    return;
+  }
+  EXAMS.forEach((ids, idx) => {
+    const n = idx + 1;
+    const m = state.mocks[n];
+    const answered = m ? ids.filter(id => (m.answers[id] || "").trim() !== "").length : 0;
+    const done = m && m.finished;
+    const card = document.createElement("button");
+    card.className = "set-card" + (done ? " done" : "");
+    card.innerHTML = `
+      <div class="s-title">Deneme ${n}</div>
+      <div class="s-count">${done ? "✓ bitti · " : ""}${answered}/16 cevap</div>
+      <div class="s-bar"><div class="s-bar-fill" style="width:${(answered / 16 * 100)}%"></div></div>
+    `;
+    card.addEventListener("click", () => startExamNo(n));
+    grid.appendChild(card);
+  });
+}
+
+function renderStats() {
+  const answeredIds = new Set();
+  Object.entries(state.answers || {}).forEach(([id, a]) => { if ((a || "").trim()) answeredIds.add(id); });
+  Object.values(state.mocks || {}).forEach(m =>
+    Object.entries(m.answers || {}).forEach(([id, a]) => { if ((a || "").trim()) answeredIds.add(id); }));
+  const mastered = Object.values(state.mastered || {}).filter(Boolean).length;
+  const finished = Object.values(state.mocks || {}).filter(m => m.finished).length;
+  const nExams = (typeof EXAMS !== "undefined") ? EXAMS.length : 0;
+  document.getElementById("statsLine").textContent =
+    `${answeredIds.size}/${DATA.length} soru cevaplandı · ${mastered} hallettim ✓ · ${finished}/${nExams} deneme bitti`;
+}
+
+// ---------- pratik ekranı ----------
+
+function renderItem() {
+  resetTimerUI();
+  const item = DATA[currentIndex];
+
+  document.getElementById("setLabel").textContent = `SET ${item.set}`;
+  const countInSet = DATA.filter(i => i.set === item.set).length;
+  document.getElementById("opdrachtLabel").textContent = `OPDRACHT ${item.opdracht_in_set}/${countInSet}`;
+  document.getElementById("posLabel").textContent = `Set ${item.set} · Opdracht ${item.opdracht_in_set}/${countInSet}`;
+  document.getElementById("totalLabel").textContent = `${currentIndex + 1} / ${DATA.length}`;
+  document.getElementById("progressFill").style.width = ((currentIndex + 1) / DATA.length * 100) + "%";
+
+  const tg = tagOf(item);
+  document.getElementById("itemTitle").textContent = item.title + (tg ? "  ·  " + tg : "");
+  document.getElementById("itemSituatie").textContent = item.situatie;
+
+  const imgEl = document.getElementById("itemImage");
+  if (item.image) {
+    imgEl.src = item.image;
+    imgEl.style.display = "block";
+  } else {
+    imgEl.style.display = "none";
+    imgEl.removeAttribute("src");
+  }
+
+  const vraagBox = document.getElementById("vraagBox");
+  if (item.vraag && item.vraag.trim() !== "") {
+    vraagBox.style.display = "flex";
+    document.getElementById("vraagText").textContent = item.vraag;
+  } else {
+    vraagBox.style.display = "none";
+  }
+
+  document.getElementById("antwoordBox").style.display = "none";
+  document.getElementById("antwoordText").textContent = item.antwoord;
+  document.getElementById("answerBox").value = state.answers[item.id] || "";
+
+  setSelect.value = item.set;
+  document.getElementById("copyStatus").textContent = "";
+  renderMasterBtn(item);
+
+  document.getElementById("prevBtn").disabled = currentIndex === 0;
+  document.getElementById("nextBtn").disabled = currentIndex === DATA.length - 1;
+
+  state.currentId = item.id;
+  saveState();
+
+  // oto-okuma (🔊 butonuyla aç/kapa)
+  if (state.autoSpeak) speakItem(item);
+}
+
+document.getElementById("revealBtn").addEventListener("click", () => {
+  document.getElementById("antwoordBox").style.display = "flex";
+  stopTimer();
+});
+
+// ---------- "hallettim" işareti ----------
+
+function renderMasterBtn(item) {
+  const btn = document.getElementById("masterBtn");
+  const on = !!state.mastered[item.id];
+  btn.classList.toggle("btn-primary", on);
+  btn.textContent = on ? "✓ Hallettim" : "Hallettim olarak işaretle";
+}
+document.getElementById("masterBtn").addEventListener("click", () => {
+  const item = activeItem();
+  state.mastered[item.id] = !state.mastered[item.id];
+  saveState();
+  renderMasterBtn(item);
+});
+
+document.getElementById("timerBtn").addEventListener("click", startTimer);
+document.getElementById("speakVraagBtn").addEventListener("click", () => speak((activeItem().vraag || "").toLowerCase()));
+document.getElementById("speakAntwoordBtn").addEventListener("click", () => speak(activeItem().antwoord));
+
+// ---------- oto-okuma toggle ----------
+
+const autoSpeakBtn = document.getElementById("autoSpeakBtn");
+function renderAutoSpeakBtn() {
+  autoSpeakBtn.textContent = state.autoSpeak ? "🔊 Oto-okuma: açık" : "🔇 Oto-okuma: kapalı";
+}
+autoSpeakBtn.addEventListener("click", () => {
+  state.autoSpeak = !state.autoSpeak;
+  saveState();
+  renderAutoSpeakBtn();
+  if (!state.autoSpeak) stopSpeech();
+  else speakItem(activeItem());
+});
+renderAutoSpeakBtn();
+
+// ---------- deneme otomatik akış toggle ----------
+
+const examAutoChk = document.getElementById("examAutoChk");
+examAutoChk.checked = state.examAuto;
+examAutoChk.addEventListener("change", () => {
+  state.examAuto = examAutoChk.checked;
+  saveState();
+});
+
+function goTo(index) {
+  saveAnswerIfNeeded();
+  currentIndex = index;
+  renderItem();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+document.getElementById("nextBtn").addEventListener("click", () => {
+  if (examMode) {
+    if (mock().index < EXAM_SIZE - 1) examGoTo(mock().index + 1);
+    return;
+  }
+  saveAnswerIfNeeded();
+  if (currentIndex < DATA.length - 1) goTo(currentIndex + 1);
+});
+document.getElementById("prevBtn").addEventListener("click", () => {
+  if (examMode) {
+    if (mock().index > 0) examGoTo(mock().index - 1);
+    return;
+  }
+  saveAnswerIfNeeded();
+  if (currentIndex > 0) goTo(currentIndex - 1);
+});
+document.getElementById("prevSetBtn").addEventListener("click", () => {
+  saveAnswerIfNeeded();
+  const idx = sets.indexOf(DATA[currentIndex].set);
+  if (idx > 0) goTo(DATA.findIndex(it => it.set === sets[idx - 1]));
+});
+document.getElementById("nextSetBtn").addEventListener("click", () => {
+  saveAnswerIfNeeded();
+  const idx = sets.indexOf(DATA[currentIndex].set);
+  if (idx < sets.length - 1) goTo(DATA.findIndex(it => it.set === sets[idx + 1]));
+});
+setSelect.addEventListener("change", () => {
+  saveAnswerIfNeeded();
+  currentIndex = DATA.findIndex(it => it.set === parseInt(setSelect.value, 10));
+  renderItem();
+});
+document.getElementById("answerBox").addEventListener("input", () => {
+  if (examMode) saveExamAnswerIfNeeded(); else saveAnswerIfNeeded();
+});
+window.addEventListener("beforeunload", () => {
+  if (examMode) saveExamAnswerIfNeeded(); else saveAnswerIfNeeded();
+});
+
+// ---------- set kopyalama ----------
+
+document.getElementById("copySetBtn").addEventListener("click", async () => {
+  saveAnswerIfNeeded();
+  const currentSet = DATA[currentIndex].set;
+  const items = DATA.filter(it => it.set === currentSet);
+  const answered = items.filter(it => (state.answers[it.id] || "").trim() !== "");
+
+  if (!answered.length) {
+    document.getElementById("copyStatus").textContent = "Bu sette henüz cevapladığın soru yok.";
+    return;
+  }
+
+  let text = rubricPrompt("set");
+  text += `NT2 B1 Spreken pratik sonuclari - Set ${currentSet} (${answered.length}/${items.length} soru cevaplanmis)\n\n`;
+  items.forEach(it => {
+    const myAnswer = (state.answers[it.id] || "").trim();
+    if (!myAnswer) return;
+    text += `--- Opdracht ${it.opdracht_in_set} - ${it.title} ---\n`;
+    text += `Durum: ${it.situatie}\n`;
+    if (it.vraag) text += `Soru: ${it.vraag}\n`;
+    text += `Benim cevabim: ${myAnswer}\n`;
+    text += `Ornek cevap: ${it.antwoord}\n\n`;
+  });
+
+  try {
+    await navigator.clipboard.writeText(text);
+    document.getElementById("copyStatus").textContent =
+      `Kopyalandı (${answered.length}/${items.length} soru) — Claude sohbetine yapıştır.`;
+  } catch (e) {
+    const ta = document.createElement("textarea");
+    ta.value = text;
+    ta.style.position = "fixed";
+    ta.style.top = "0";
+    ta.style.left = "0";
+    ta.style.width = "100%";
+    ta.style.height = "200px";
+    ta.style.zIndex = "9999";
+    document.body.appendChild(ta);
+    ta.focus();
+    ta.select();
+    document.getElementById("copyStatus").textContent =
+      "Otomatik kopyalama engellendi — kutudaki metni elle seçip kopyala.";
+  }
+});
+
+showHome();
+
+// ---------- service worker: çevrimdışı çalışma ----------
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
+  });
+}
+</script>
+</body>
+</html>
