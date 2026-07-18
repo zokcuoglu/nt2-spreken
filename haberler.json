@@ -20,7 +20,77 @@
       "c1_woorden": "uiteenlopend | cok farkli, cesitli | heel verschillend | | De wolf roept uiteenlopende emoties op. | Kurt cok farkli duygular uyandiriyor.\nachterhaald | guncelligini yitirmis | oud, niet meer passend | verouderd | Critici vinden de regels achterhaald. | Elestirmenler kurallari guncelligini yitirmis buluyor.\nbeheersen | hakim olmak | bepalen, controleren | | Incidenten beheersen het debat. | Olaylar tartismaya hakim oluyor.",
       "grammatica": "1) Het passief (de lijdende vorm): worden + voltooid deelwoord\nWe gebruiken het passief als niet de dader, maar de actie belangrijk is.\n• De schapen worden 's nachts aangevallen. (door de wolf)\n• In 2015 werd voor het eerst weer een wolf gezien.\nIn de verleden tijd gebruik je 'werd' of 'werden'.\n2) 'Er' + passief\nAls er geen duidelijk onderwerp is, begint de zin vaak met 'er'.\n• Er wordt veel over de wolf gediscussieerd.\n• Er werden vorig jaar veel schapen gedood.",
       "vragen": "1. (A2) Wanneer werd de wolf voor het eerst weer in Nederland gezien?\n2. (B1) Waarom mogen boeren de wolf niet zomaar doden?\n3. (B2) Welke twee groepen staan in het debat tegenover elkaar en wat willen ze?",
-      "antwoorden": "1. In 2015, na bijna 150 jaar afwezigheid.\n2. Omdat de wolf een (Europees) beschermde diersoort is.\n3. Schapenhouders willen maatregelen om hun dieren te beschermen; natuurorganisaties willen de wolf juist beschermen, omdat hij bij een gezond ecosysteem hoort."
+      "antwoorden": "1. In 2015, na bijna 150 jaar afwezigheid.\n2. Omdat de wolf een (Europees) beschermde diersoort is.\n3. Schapenhouders willen maatregelen om hun dieren te beschermen; natuurorganisaties willen de wolf juist beschermen, omdat hij bij een gezond ecosysteem hoort.",
+      "quiz": {
+        "a2": {
+          "woorden": [
+            {"vraag": "Wat is een roedel?", "opties": ["een soort schaap", "een groep wolven", "een hoog hek", "een groot bos"], "juist": 1, "uitleg": "Een roedel is een groep wolven die samenleeft. (TR: kurt surusu)"},
+            {"vraag": "De wolf is een ... dier: je mag hem niet doden.", "opties": ["beschermd", "gevaarlijk", "snel", "wild"], "juist": 0, "uitleg": "Beschermd = de wet zegt dat je het dier niet mag doden of vangen."},
+            {"vraag": "Wat doet een wolf soms met schapen?", "opties": ["Hij speelt met ze.", "Hij telt ze.", "Hij valt ze aan.", "Hij helpt ze."], "juist": 2, "uitleg": "Aanvallen = ineens vechten tegen iets of iemand. (TR: saldirmak)"}
+          ],
+          "grammatica": [
+            {"vraag": "In 2015 ... voor het eerst weer een wolf gezien.", "opties": ["wordt", "werd", "worden", "word"], "juist": 1, "uitleg": "Verleden tijd + passief: werd + voltooid deelwoord (gezien)."},
+            {"vraag": "De schapen ... 's nachts aangevallen.", "opties": ["worden", "wordt", "werd", "bent"], "juist": 0, "uitleg": "'De schapen' is meervoud, dus: worden."},
+            {"vraag": "Er ... nu veel over de wolf gepraat.", "opties": ["worden", "praat", "wordt", "werden"], "juist": 2, "uitleg": "'Er wordt ... gepraat' - onpersoonlijk passief, enkelvoud."}
+          ],
+          "lezen": [
+            {"vraag": "Sinds wanneer zijn er weer wolven in Nederland?", "opties": ["2015", "2019", "1995", "2020"], "juist": 0, "uitleg": "In de tekst: 'Sinds 2015 zijn er weer wolven in Nederland.'"},
+            {"vraag": "Wat eet een wolf vooral?", "opties": ["gras", "vis", "brood", "wilde dieren zoals herten"], "juist": 3, "uitleg": "Een wolf is een roofdier en eet vooral wilde dieren."},
+            {"vraag": "Waar leven de meeste wolven in Nederland?", "opties": ["op de Veluwe", "in Amsterdam", "aan het strand", "in Limburg"], "juist": 0, "uitleg": "De Veluwe is een groot natuurgebied in het midden van Nederland."}
+          ]
+        },
+        "b1": {
+          "woorden": [
+            {"vraag": "'De terugkeer' betekent:", "opties": ["het vertrek", "het terugkomen", "de aanval", "de oplossing"], "juist": 1, "uitleg": "terugkeren = weer terugkomen; de terugkeer = het terugkomen. (TR: geri donus)"},
+            {"vraag": "Boeren willen betere ... voor hun dieren.", "opties": ["bescherming", "terugkeer", "natuur", "discussie"], "juist": 0, "uitleg": "beschermen (ww) -> de bescherming (zn). (TR: koruma)"},
+            {"vraag": "Een 'roofdier' is een dier dat ...", "opties": ["alleen planten eet", "in het water leeft", "andere dieren vangt en eet", "'s winters slaapt"], "juist": 2, "uitleg": "roof = stelen/pakken; een roofdier jaagt op andere dieren. (TR: yirtici)"}
+          ],
+          "grammatica": [
+            {"vraag": "Maak passief: 'Men ziet de wolf vaak op de Veluwe.'", "opties": ["De wolf wordt vaak op de Veluwe gezien.", "De wolf ziet vaak op de Veluwe.", "De wolf is vaak op de Veluwe zien.", "De wolf werd vaak op de Veluwe zien."], "juist": 0, "uitleg": "Passief presens: wordt + voltooid deelwoord (gezien)."},
+            {"vraag": "Vorig jaar ... veel schapen gedood.", "opties": ["worden", "wordt", "werden", "zijn geweest"], "juist": 2, "uitleg": "Verleden tijd + meervoud (schapen): werden."},
+            {"vraag": "Welke zin is correct?", "opties": ["Er word veel over de wolf gediscussieerd.", "Er wordt veel over de wolf gediscussieerd.", "Er worden veel over de wolf gediscussieerd.", "Er is veel over de wolf discussieert."], "juist": 1, "uitleg": "Onpersoonlijk passief is altijd enkelvoud: er wordt."}
+          ],
+          "lezen": [
+            {"vraag": "Waarom zijn natuurorganisaties blij met de wolf?", "opties": ["Hij trekt veel toeristen.", "Hij eet geen schapen meer.", "Hij is goedkoop.", "Hij hoort bij een gezonde natuur."], "juist": 3, "uitleg": "In de tekst: 'Volgens hen hoort dit roofdier bij een gezonde natuur.'"},
+            {"vraag": "Wat mag je niet doen met een beschermde diersoort?", "opties": ["doden of vangen", "fotograferen", "bekijken", "tellen"], "juist": 0, "uitleg": "Beschermd = de wet verbiedt doden en vangen."},
+            {"vraag": "Welke oplossing willen de boeren?", "opties": ["meer herten in het bos", "speciale hekken", "minder toeristen", "een nieuw natuurgebied"], "juist": 1, "uitleg": "In de tekst: 'bijvoorbeeld speciale hekken'."}
+          ]
+        },
+        "b2": {
+          "woorden": [
+            {"vraag": "'Zich vestigen' betekent:", "opties": ["op bezoek gaan", "verdwalen", "ergens gaan wonen en blijven", "snel weggaan"], "juist": 2, "uitleg": "De wolf heeft zich gevestigd = hij woont hier nu echt. (TR: yerlesmek)"},
+            {"vraag": "'Ten prooi vallen aan' betekent:", "opties": ["het slachtoffer worden van", "jagen op", "bang zijn voor", "wegrennen van"], "juist": 0, "uitleg": "de prooi = het dier dat gepakt wordt. (TR: av, kurban)"},
+            {"vraag": "Een 'verhit debat' is een ... discussie.", "opties": ["korte", "felle", "rustige", "geheime"], "juist": 1, "uitleg": "verhit = heet geworden -> fel, emotioneel."}
+          ],
+          "grammatica": [
+            {"vraag": "'Omdat de wolf beschermd is, ...' - kies het juiste vervolg:", "opties": ["de mogelijkheden zijn beperkt.", "zijn de mogelijkheden beperkt.", "de mogelijkheden beperkt zijn.", "beperkt zijn de mogelijkheden."], "juist": 1, "uitleg": "Na een bijzin vooraan komt inversie: werkwoord direct na de komma."},
+            {"vraag": "Er ... de laatste jaren veel hekken geplaatst.", "opties": ["worden", "zijn", "hebben", "wordt"], "juist": 1, "uitleg": "Passief perfectum: zijn + voltooid deelwoord (geplaatst)."},
+            {"vraag": "De schapen ... vorige week door een wolf aangevallen.", "opties": ["werden", "worden", "zijn geweest", "hadden"], "juist": 0, "uitleg": "Verleden tijd passief, meervoud: werden + aangevallen."}
+          ],
+          "lezen": [
+            {"vraag": "Wat betekent 'de mogelijkheden om in te grijpen zijn beperkt'?", "opties": ["Ingrijpen is verplicht.", "Iedereen mag ingrijpen.", "Je mag bijna niets tegen de wolf doen.", "Ingrijpen is gratis."], "juist": 2, "uitleg": "Beperkt = er is weinig ruimte/toestemming voor."},
+            {"vraag": "Hoe zoekt de overheid een middenweg?", "opties": ["door wolven te verhuizen", "door afschot toe te staan", "door niets te doen", "met subsidies voor wolfwerende hekken"], "juist": 3, "uitleg": "Wolfwerend = houdt de wolf tegen; subsidie = geld van de overheid."},
+            {"vraag": "Wat benadrukken natuurorganisaties?", "opties": ["De wolf speelt een waardevolle rol in het ecosysteem.", "De wolf hoort niet in Nederland.", "De wolf is gevaarlijk voor mensen.", "De wolf moet naar de dierentuin."], "juist": 0, "uitleg": "Zij zien de wolf als onderdeel van een gezonde natuur."}
+          ]
+        },
+        "c1": {
+          "woorden": [
+            {"vraag": "'Achterhaald' betekent:", "opties": ["heel modern", "niet meer passend bij deze tijd", "ingewikkeld", "verboden"], "juist": 1, "uitleg": "achterhaald = verouderd, ingehaald door de tijd. (TR: guncelligini yitirmis)"},
+            {"vraag": "'Uiteenlopende emoties' zijn ... emoties.", "opties": ["zeer verschillende", "vooral negatieve", "lichte", "verborgen"], "juist": 0, "uitleg": "uiteenlopen = uit elkaar lopen -> heel verschillend zijn."},
+            {"vraag": "'Het debat beheersen' betekent het debat ...", "opties": ["vermijden", "verliezen", "domineren", "organiseren"], "juist": 2, "uitleg": "beheersen = bepalen, controleren, domineren. (TR: hakim olmak)"}
+          ],
+          "grammatica": [
+            {"vraag": "Wat betekent 'ingrijpen - laat staan afschot - is zelden toegestaan'?", "opties": ["Afschot mag al helemaal niet.", "Vooral afschot mag wel.", "Afschot is een voorbeeld van ingrijpen dat wel mag.", "Behalve afschot mag alles."], "juist": 0, "uitleg": "'Laat staan X' = X is nog minder mogelijk dan het vorige."},
+            {"vraag": "'De wolf geniet een beschermde status.' 'Geniet' betekent hier:", "opties": ["vindt leuk", "verdient", "heeft", "krijgt binnenkort"], "juist": 2, "uitleg": "'Genieten' is hier formeel: een status/recht hebben."},
+            {"vraag": "Welke zin met 'waardoor' is correct?", "opties": ["De populatie groeit, waardoor wordt het debat feller.", "De populatie groeit, waardoor het debat feller wordt.", "De populatie groeit, waardoor feller het debat wordt.", "De populatie groeit, wordt waardoor het debat feller."], "juist": 1, "uitleg": "'Waardoor' start een bijzin: werkwoord naar het einde."}
+          ],
+          "lezen": [
+            {"vraag": "Wat bedoelt de auteur met 'hoeveel wildernis Nederland eigenlijk aankan'?", "opties": ["hoeveel bos er nog geplant wordt", "of het klimaat verandert", "hoeveel wolven er precies zijn", "in hoeverre er in Nederland ruimte is voor wilde natuur"], "juist": 3, "uitleg": "'Iets aankunnen' = ermee om kunnen gaan; het is een bredere, filosofische vraag."},
+            {"vraag": "Waarom vinden critici het juridische kader achterhaald?", "opties": ["Omdat de populatie gestaag groeit.", "Omdat de wolf bijna uitsterft.", "Omdat de regels te nieuw zijn.", "Omdat boeren geen subsidie krijgen."], "juist": 0, "uitleg": "De strenge bescherming stamt uit de tijd dat de wolf zeldzaam was."},
+            {"vraag": "Hoe is de toon van de C1-tekst?", "opties": ["fel voor de wolf", "fel tegen de wolf", "afgewogen en beschouwend", "humoristisch"], "juist": 2, "uitleg": "De auteur geeft beide kanten weer zonder zelf partij te kiezen."}
+          ]
+        }
+      }
     },
     {
       "titel": "Mag AI jouw gezicht gebruiken?",
@@ -39,7 +109,77 @@
       "c1_woorden": "feilloos | kusursuz | zonder fouten | perfect | AI bootst stemmen feilloos na. | AI sesleri kusursuz taklit ediyor.\nafdwingbaar | (hukuken) uygulanabilir | je kunt het echt laten gebeuren via de rechter | | Dat recht is moeilijk afdwingbaar. | Bu hak zor uygulanabilir.\nvervaardigen | imal etmek, uretmek | maken | produceren | Het beeld is met een algoritme vervaardigd. | Goruntu bir algoritmayla uretildi.",
       "grammatica": "1) Modale werkwoorden: mogen, kunnen, moeten, willen\n• AI kan jouw gezicht nadoen. (= het is technisch mogelijk)\n• AI mag jouw gezicht niet zomaar gebruiken. (= het is niet toegestaan)\n• Platforms moeten nepbeelden markeren. (= het is verplicht)\nLet op het verschil tussen 'kunnen' (mogelijkheid) en 'mogen' (toestemming).\n2) Zonder dat / zonder te\n• Iemand kan een deepfake maken zonder dat jij het weet. (+ zin met onderwerp)\n• Hij gebruikte de foto zonder het te vragen. (+ te + infinitief, zelfde onderwerp)",
       "vragen": "1. (A2) Hoe heet een nepvideo die met AI is gemaakt?\n2. (B1) Wat betekent portretrecht?\n3. (B2) Waarom is het portretrecht in de praktijk moeilijk te gebruiken tegen deepfakes?",
-      "antwoorden": "1. Een deepfake.\n2. Anderen mogen een herkenbaar beeld van jou niet zonder jouw toestemming publiceren.\n3. Omdat de makers vaak anoniem zijn en de beelden zich razendsnel verspreiden; de wetgeving loopt achter op de technologie."
+      "antwoorden": "1. Een deepfake.\n2. Anderen mogen een herkenbaar beeld van jou niet zonder jouw toestemming publiceren.\n3. Omdat de makers vaak anoniem zijn en de beelden zich razendsnel verspreiden; de wetgeving loopt achter op de technologie.",
+      "quiz": {
+        "a2": {
+          "woorden": [
+            {"vraag": "'Nep' betekent:", "opties": ["heel mooi", "niet echt", "duur", "nieuw"], "juist": 1, "uitleg": "nep = niet echt, vals. (TR: sahte)"},
+            {"vraag": "Een nepvideo die met AI is gemaakt, heet een ...", "opties": ["deepfake", "selfie", "vlog", "podcast"], "juist": 0, "uitleg": "Deepfake = een video waarin gezicht of stem is nagemaakt."},
+            {"vraag": "'De toestemming' betekent:", "opties": ["het geld", "de vraag", "het 'ja' van iemand", "de handtekening"], "juist": 2, "uitleg": "toestemming geven = zeggen dat iets mag. (TR: izin)"}
+          ],
+          "grammatica": [
+            {"vraag": "AI ... jouw stem nadoen. (= het is technisch mogelijk)", "opties": ["moet", "mag", "wil", "kan"], "juist": 3, "uitleg": "kunnen = mogelijkheid; mogen = toestemming."},
+            {"vraag": "Je ... niet zomaar een foto van iemand gebruiken. (= het is niet toegestaan)", "opties": ["mag", "kunt", "wilt", "zult"], "juist": 0, "uitleg": "mogen = toestemming hebben. Hier gaat het om regels."},
+            {"vraag": "Platforms ... nepbeelden duidelijk markeren. (= het is verplicht)", "opties": ["mogen", "moeten", "kunnen", "willen"], "juist": 1, "uitleg": "moeten = verplichting."}
+          ],
+          "lezen": [
+            {"vraag": "Wat kan AI volgens de tekst nadoen?", "opties": ["alleen teksten", "jouw gezicht en stem", "alleen muziek", "alleen foto's van dieren"], "juist": 1, "uitleg": "In de tekst: 'AI kan zelfs jouw gezicht of stem nadoen.'"},
+            {"vraag": "Wat betekent portretrecht?", "opties": ["Je mag alle foto's gratis gebruiken.", "Je moet elke foto delen.", "Anderen mogen jouw gezicht niet zomaar gebruiken.", "Je mag geen foto's maken."], "juist": 2, "uitleg": "Portret = afbeelding van een persoon; recht = wat de wet zegt."},
+            {"vraag": "Welke tip geeft de tekst?", "opties": ["Maak veel deepfakes.", "Deel al je foto's online.", "Koop een nieuwe telefoon.", "Zet niet te veel foto's openbaar online."], "juist": 3, "uitleg": "Minder openbare foto's = minder materiaal voor misbruik."}
+          ]
+        },
+        "b1": {
+          "woorden": [
+            {"vraag": "'Nabootsen' betekent:", "opties": ["nadoen, imiteren", "verkopen", "verbergen", "verwijderen"], "juist": 0, "uitleg": "nabootsen = nadoen. (TR: taklit etmek)"},
+            {"vraag": "'Herkenbaar' betekent:", "opties": ["onzichtbaar", "je kunt zien wie het is", "heel klein", "beroemd"], "juist": 1, "uitleg": "herkennen = weten wie/wat het is -> herkenbaar. (TR: taninabilir)"},
+            {"vraag": "'Misbruiken' betekent iets ...", "opties": ["weggooien", "repareren", "op een slechte manier gebruiken", "lenen"], "juist": 2, "uitleg": "mis- + gebruiken = verkeerd gebruiken. (TR: kotuye kullanmak)"}
+          ],
+          "grammatica": [
+            {"vraag": "Iemand kan een deepfake maken zonder ... jij het weet.", "opties": ["dat", "te", "om", "als"], "juist": 0, "uitleg": "Ander onderwerp (iemand/jij) -> zonder dat + zin."},
+            {"vraag": "Hij gebruikte de foto zonder het ... vragen.", "opties": ["dat", "om", "te", "moet"], "juist": 2, "uitleg": "Zelfde onderwerp -> zonder te + infinitief."},
+            {"vraag": "Welke zin is correct?", "opties": ["Je hebt toestemming nodig om een foto publiceren.", "Je hebt toestemming nodig om een foto te publiceren.", "Je hebt toestemming nodig een foto te publiceren om.", "Je hebt toestemming om nodig een foto publiceren."], "juist": 1, "uitleg": "om ... te + infinitief: 'om een foto te publiceren'."}
+          ],
+          "lezen": [
+            {"vraag": "Waarom zijn deepfakes een probleem?", "opties": ["Ze zijn te duur.", "Ze zijn bijna niet van echt te onderscheiden.", "Ze zijn altijd grappig.", "Ze duren te lang."], "juist": 1, "uitleg": "onderscheiden = het verschil zien."},
+            {"vraag": "Wat heb je nodig om een herkenbaar beeld van iemand te publiceren?", "opties": ["geld", "een goede camera", "toestemming", "een account"], "juist": 2, "uitleg": "Dat is de kern van het portretrecht."},
+            {"vraag": "Wat moet je doen als iemand jouw beeld misbruikt?", "opties": ["het melden", "niets doen", "zelf een deepfake maken", "je account verwijderen"], "juist": 0, "uitleg": "In de tekst: 'meld het als iemand jouw beeld misbruikt'."}
+          ]
+        },
+        "b2": {
+          "woorden": [
+            {"vraag": "'Overtuigend' betekent:", "opties": ["saai", "onduidelijk", "goedkoop", "heel geloofwaardig"], "juist": 3, "uitleg": "overtuigen = iemand laten geloven. (TR: ikna edici)"},
+            {"vraag": "'Genereren' betekent:", "opties": ["(kunstmatig) maken, produceren", "verwijderen", "kopiëren", "verkopen"], "juist": 0, "uitleg": "Door AI gegenereerd = door AI gemaakt. (TR: uretmek)"},
+            {"vraag": "'De praktijk is weerbarstiger' betekent: de praktijk is ...", "opties": ["eenvoudiger", "lastiger dan verwacht", "sneller", "goedkoper"], "juist": 1, "uitleg": "weerbarstig = moeilijk te sturen, lastig. (TR: cetrefilli)"}
+          ],
+          "grammatica": [
+            {"vraag": "Dit beeld ... door AI gegenereerd. (perfectum passief)", "opties": ["wordt", "werd", "is", "heeft"], "juist": 2, "uitleg": "Passief perfectum: is + voltooid deelwoord."},
+            {"vraag": "'Juridisch gezien is de zaak helder.' Wat betekent 'juridisch gezien'?", "opties": ["vanuit de wet bekeken", "volgens de rechter persoonlijk", "in het geheim", "sinds kort"], "juist": 0, "uitleg": "'X gezien' = vanuit het perspectief van X."},
+            {"vraag": "Deepfakes worden zo overtuigend ... zelfs experts ze niet herkennen.", "opties": ["omdat", "dat", "zodat", "hoewel"], "juist": 1, "uitleg": "zo + adjectief + dat: gevolgconstructie."}
+          ],
+          "lezen": [
+            {"vraag": "Voor welke beelden geldt het portretrecht?", "opties": ["alleen voor camerafoto's", "alleen voor oude foto's", "ook voor beelden die door AI zijn gemaakt", "alleen voor video's"], "juist": 2, "uitleg": "In de tekst: 'dat geldt ook voor beelden die door AI zijn gegenereerd'."},
+            {"vraag": "Waarom is handhaving in de praktijk lastig?", "opties": ["Deepfakes zijn duur.", "Niemand kijkt naar deepfakes.", "De wet bestaat niet.", "Makers zijn anoniem en beelden verspreiden zich snel."], "juist": 3, "uitleg": "Twee praktische problemen uit de tekst."},
+            {"vraag": "Wat wil de EU bereiken met strengere regels?", "opties": ["dat duidelijk wordt aangegeven wanneer beelden kunstmatig zijn", "dat AI verboden wordt", "dat iedereen deepfakes leert maken", "dat foto's duurder worden"], "juist": 0, "uitleg": "Transparantie: kunstmatige beelden moeten gemarkeerd worden."}
+          ]
+        },
+        "c1": {
+          "woorden": [
+            {"vraag": "'Feilloos' betekent:", "opties": ["met veel fouten", "zonder fouten", "langzaam", "verboden"], "juist": 1, "uitleg": "de feil = de fout; feilloos = foutloos. (TR: kusursuz)"},
+            {"vraag": "'Moeilijk afdwingbaar' betekent:", "opties": ["moeilijk te begrijpen", "moeilijk te betalen", "moeilijk via de rechter waar te maken", "moeilijk te vinden"], "juist": 2, "uitleg": "afdwingen = iets laten gebeuren met (juridische) kracht."},
+            {"vraag": "'Vervaardigen' is een formeel woord voor:", "opties": ["maken", "verkopen", "bekijken", "versturen"], "juist": 0, "uitleg": "vervaardigen = maken, produceren. (TR: imal etmek)"}
+          ],
+          "grammatica": [
+            {"vraag": "'Publicatie vereist in beginsel toestemming.' 'In beginsel' betekent:", "opties": ["nooit", "in principe, als hoofdregel", "onmiddellijk", "bij uitzondering"], "juist": 1, "uitleg": "in beginsel = in principe; er kunnen uitzonderingen zijn."},
+            {"vraag": "'... ongeacht of het beeld met een camera of algoritme is vervaardigd.' 'Ongeacht' betekent:", "opties": ["het maakt niet uit", "alleen als", "behalve wanneer", "dankzij"], "juist": 0, "uitleg": "ongeacht = zonder rekening te houden met."},
+            {"vraag": "'Kunstmatig gegenereerde beelden als zodanig markeren' betekent ze markeren ...", "opties": ["in kleur", "als kunstmatig gemaakt", "met een watermerk van de maker", "binnen 24 uur"], "juist": 1, "uitleg": "'als zodanig' = als dat wat ze zijn."}
+          ],
+          "lezen": [
+            {"vraag": "Welke 'fundamentele vraag' staat centraal in de tekst?", "opties": ["hoe je deepfakes maakt", "wie eigenaar is van je eigen gezicht", "hoeveel AI kost", "welke apps veilig zijn"], "juist": 1, "uitleg": "De auteur formuleert dit expliciet in de eerste alinea."},
+            {"vraag": "Wat is volgens de tekst 'vooralsnog de beste bescherming'?", "opties": ["de AI-verordening", "het portretrecht", "waakzaamheid van de gebruiker zelf", "een verbod op AI"], "juist": 2, "uitleg": "vooralsnog = voorlopig, tot nu toe."},
+            {"vraag": "Welke 'kloof' probeert de Europese AI-verordening te dichten?", "opties": ["tussen arm en rijk", "tussen jong en oud", "tussen Nederland en Europa", "tussen technologie en wetgeving"], "juist": 3, "uitleg": "De technologie ontwikkelt zich sneller dan de wet."}
+          ]
+        }
+      }
     },
     {
       "titel": "Treinmachinist: meer dan op een knop drukken",
@@ -58,7 +198,77 @@
       "c1_woorden": "iemand tekortdoen | hakkini yememek (tekortdoen: hakkini yemek) | niet eerlijk beoordelen | onderwaarderen | Dat beeld doet het beroep tekort. | Bu bakis meslegin hakkini yiyor.\ningrijpend | sarsici, derin etkili | met grote gevolgen | heftig | Machinisten maken soms ingrijpende incidenten mee. | Makinistler bazen sarsici olaylar yasar.\naanhoudend | surekli devam eden | dat maar doorgaat | voortdurend | Er is een aanhoudend tekort aan machinisten. | Surekli bir makinist acigi var.",
       "grammatica": "1) Om ... te + infinitief (doel)\n• Om machinist te worden, volg je een opleiding van een jaar.\n• Hij remt op tijd om veilig te stoppen.\nHet doel-deel kan vooraan of achteraan in de zin staan.\n2) Scheidbare werkwoorden met 'te'\nBij scheidbare werkwoorden komt 'te' tussen de twee delen in.\n• opletten -> Hij probeert goed op te letten.\n• vooruitdenken -> Het is belangrijk om vooruit te denken.",
       "vragen": "1. (A2) Wat is een sein?\n2. (B1) Waarom moet een machinist zo ver vooruitkijken?\n3. (B2) Hoe word je treinmachinist?",
-      "antwoorden": "1. Een soort verkeerslicht voor treinen.\n2. Omdat een trein een remweg van honderden meters heeft en niet kan uitwijken.\n3. Je volgt een opleiding van ongeveer een jaar met strenge examens en begint daarna onder begeleiding."
+      "antwoorden": "1. Een soort verkeerslicht voor treinen.\n2. Omdat een trein een remweg van honderden meters heeft en niet kan uitwijken.\n3. Je volgt een opleiding van ongeveer een jaar met strenge examens en begint daarna onder begeleiding.",
+      "quiz": {
+        "a2": {
+          "woorden": [
+            {"vraag": "Wie bestuurt de trein?", "opties": ["de conducteur", "de machinist", "de reiziger", "de monteur"], "juist": 1, "uitleg": "De machinist rijdt; de conducteur controleert de kaartjes."},
+            {"vraag": "Wat is een sein?", "opties": ["een soort verkeerslicht voor treinen", "een kaartje", "een station", "een brug"], "juist": 0, "uitleg": "Bij een rood sein moet de trein stoppen. (TR: sinyal)"},
+            {"vraag": "'Remmen' betekent:", "opties": ["sneller gaan", "toeteren", "langzamer gaan of stoppen", "achteruit rijden"], "juist": 2, "uitleg": "remmen = de snelheid verminderen. (TR: fren yapmak)"}
+          ],
+          "grammatica": [
+            {"vraag": "... machinist te worden, volg je een opleiding.", "opties": ["Voor", "Om", "Met", "Door"], "juist": 1, "uitleg": "Doel uitdrukken: om ... te + infinitief."},
+            {"vraag": "Hij remt op tijd om veilig ... stoppen.", "opties": ["te", "om", "en", "dat"], "juist": 0, "uitleg": "om + te + infinitief: 'om veilig te stoppen'."},
+            {"vraag": "Welke zin is correct?", "opties": ["Ik leer om trein rijden.", "Ik leer trein te rijden om.", "Ik leer om de trein rijden te.", "Ik leer om de trein te besturen."], "juist": 3, "uitleg": "om + (object) + te + infinitief aan het einde."}
+          ],
+          "lezen": [
+            {"vraag": "Waarom is machinist een grote verantwoordelijkheid?", "opties": ["De trein is duur.", "Het is 's nachts.", "Er zitten vaak honderden mensen in de trein.", "De trein is snel."], "juist": 2, "uitleg": "In de tekst: 'in een trein zitten vaak honderden mensen'."},
+            {"vraag": "Wat moet de trein doen bij een rood sein?", "opties": ["stoppen", "sneller rijden", "toeteren", "keren"], "juist": 0, "uitleg": "Rood = stoppen, net als in het verkeer."},
+            {"vraag": "Hoe lang duurt de opleiding ongeveer?", "opties": ["een maand", "een jaar", "vijf jaar", "een week"], "juist": 1, "uitleg": "In de tekst: 'een opleiding van ongeveer een jaar'."}
+          ]
+        },
+        "b1": {
+          "woorden": [
+            {"vraag": "'Opletten' betekent:", "opties": ["goed je aandacht erbij houden", "opstaan", "wachten", "opschrijven"], "juist": 0, "uitleg": "Let op! = kijk goed / wees alert. (TR: dikkat etmek)"},
+            {"vraag": "De 'remweg' is ...", "opties": ["de weg naar het station", "een kapotte rem", "een speciale rail", "de afstand die een trein nodig heeft om te stoppen"], "juist": 3, "uitleg": "Bij een trein is de remweg honderden meters lang."},
+            {"vraag": "'Eenvoudig' betekent:", "opties": ["makkelijk, simpel", "saai", "gevaarlijk", "eenzaam"], "juist": 0, "uitleg": "eenvoudig = simpel. (TR: basit)"}
+          ],
+          "grammatica": [
+            {"vraag": "Hij probeert goed ... (opletten - scheidbaar werkwoord)", "opties": ["te opletten", "op te letten", "opletten te", "letten op te"], "juist": 1, "uitleg": "Bij scheidbare werkwoorden komt 'te' tussen de delen: op te letten."},
+            {"vraag": "Het is belangrijk om vooruit ... denken.", "opties": ["te", "om te", "en", "dat"], "juist": 0, "uitleg": "vooruitdenken -> vooruit te denken."},
+            {"vraag": "Welke zin is correct?", "opties": ["Om machinist worden, moet je een jaar studeren.", "Om machinist te worden, moet je een jaar studeren.", "Machinist om te worden, moet je een jaar studeren.", "Om te machinist worden, moet je een jaar studeren."], "juist": 1, "uitleg": "'Om machinist te worden' - te staat voor de infinitief."}
+          ],
+          "lezen": [
+            {"vraag": "Waarom lijkt het beroep eenvoudig?", "opties": ["De trein rijdt toch gewoon over de rails.", "De machinist werkt maar kort.", "Iedereen kan het meteen.", "De trein rijdt automatisch."], "juist": 0, "uitleg": "'Maar niets is minder waar' = het is juist niet zo."},
+            {"vraag": "Wat houdt de machinist in de gaten?", "opties": ["de reizigers", "de seinen en de snelheid", "de conducteur", "het weer"], "juist": 1, "uitleg": "'In de gaten houden' = goed blijven volgen."},
+            {"vraag": "Wat gebeurt er na de opleiding?", "opties": ["Je krijgt meteen je eigen trein.", "Je stopt met leren.", "Je begint onder begeleiding.", "Je wordt conducteur."], "juist": 2, "uitleg": "onder begeleiding = met een ervaren collega erbij."}
+          ]
+        },
+        "b2": {
+          "woorden": [
+            {"vraag": "'Onderschatten' betekent:", "opties": ["te makkelijk/licht inschatten", "te moeilijk vinden", "goed begrijpen", "overdrijven"], "juist": 0, "uitleg": "onder + schatten: je denkt dat iets minder is dan het echt is. (TR: hafife almak)"},
+            {"vraag": "'Anticiperen op' betekent:", "opties": ["wachten tot het gebeurt", "vooruitdenken en je erop voorbereiden", "protesteren tegen", "twijfelen aan"], "juist": 1, "uitleg": "De machinist reageert al voordat iets gebeurt. (TR: ongorup hazirlanmak)"},
+            {"vraag": "'Adequaat handelen' betekent ... handelen.", "opties": ["langzaam en voorzichtig", "goedkoop", "passend en effectief", "automatisch"], "juist": 2, "uitleg": "adequaat = precies goed voor de situatie. (TR: yerinde)"}
+          ],
+          "grammatica": [
+            {"vraag": "'Gezien het tekort aan machinisten ...' - 'gezien' betekent hier:", "opties": ["vanwege, met het oog op", "nadat ze zagen", "ondanks", "in plaats van"], "juist": 0, "uitleg": "gezien + zn = vanwege, gelet op."},
+            {"vraag": "De opleiding ... afgesloten met strenge examens.", "opties": ["heeft", "is", "wordt", "zal"], "juist": 2, "uitleg": "Passief presens: wordt + voltooid deelwoord."},
+            {"vraag": "Omdat de remweg honderden meters ..., moet hij vroeg reageren.", "opties": ["bedraagt", "bedraagt is", "is bedraagt", "bedragen"], "juist": 0, "uitleg": "'Bedragen' = zijn (bij afstanden/bedragen); in de bijzin achteraan."}
+          ],
+          "lezen": [
+            {"vraag": "Waarom wordt het beroep vaak onderschat?", "opties": ["Machinisten verdienen weinig.", "Mensen denken dat de trein zichzelf stuurt.", "De opleiding is kort.", "Er zijn te veel machinisten."], "juist": 1, "uitleg": "'Een trein stuurt zichzelf via de rails, dus wat doet die machinist eigenlijk?'"},
+            {"vraag": "Waarom moet een machinist ruim van tevoren reageren?", "opties": ["Omdat de remweg al snel honderden meters bedraagt.", "Omdat hij moe wordt.", "Omdat de trein oud is.", "Omdat reizigers dat vragen."], "juist": 0, "uitleg": "Lange remweg = vroeg beginnen met remmen."},
+            {"vraag": "Wat zoeken vervoerders volgens de tekst?", "opties": ["nieuwe treinen", "meer reizigers", "nieuwe machinisten", "snellere rails"], "juist": 2, "uitleg": "Er is een tekort aan machinisten."}
+          ]
+        },
+        "c1": {
+          "woorden": [
+            {"vraag": "'Het beroep tekortdoen' betekent:", "opties": ["het beroep verbeteren", "het beroep niet op waarde schatten", "het beroep afschaffen", "het beroep leren"], "juist": 1, "uitleg": "iemand/iets tekortdoen = oneerlijk beoordelen, onderwaarderen."},
+            {"vraag": "Een 'ingrijpend incident' is een incident ...", "opties": ["met grote impact", "zonder gevolgen", "dat snel voorbij is", "dat vaak voorkomt"], "juist": 0, "uitleg": "ingrijpend = diep ingrijpend in je leven, heftig. (TR: sarsici)"},
+            {"vraag": "'Aanhoudend tekort' = een tekort dat ...", "opties": ["net begonnen is", "bijna opgelost is", "maar blijft duren", "klein is"], "juist": 2, "uitleg": "aanhouden = doorgaan, niet stoppen. (TR: surekli)"}
+          ],
+          "grammatica": [
+            {"vraag": "'Juist doordat een trein niet kan uitwijken, ...' - 'uitwijken' betekent:", "opties": ["opzij gaan om iets te ontwijken", "stoppen", "omkeren", "versnellen"], "juist": 0, "uitleg": "Een auto kan om een obstakel heen; een trein niet."},
+            {"vraag": "'Het spoor kampt met een personeelstekort.' 'Kampen met' betekent:", "opties": ["vechten tegen soldaten", "kamperen bij", "last hebben van, worstelen met", "blij zijn met"], "juist": 2, "uitleg": "kampen met = te maken hebben met (een probleem)."},
+            {"vraag": "'... waarvan de verwerking lang kan duren.' Waar verwijst 'waarvan' naar?", "opties": ["de reizigers", "de ingrijpende incidenten", "de campagnes", "de examens"], "juist": 1, "uitleg": "Relatief: de verwerking van die incidenten."}
+          ],
+          "lezen": [
+            {"vraag": "Wat bedoelt de auteur met 'een baan met een letterlijk weids uitzicht'?", "opties": ["Je verdient veel geld.", "Je werkt in een hoog gebouw.", "Je reist naar het buitenland.", "Je kijkt vanuit de cabine echt ver over het landschap."], "juist": 3, "uitleg": "'Letterlijk' geeft aan dat 'weids uitzicht' hier niet figuurlijk is."},
+            {"vraag": "Welke 'zware mentale component' noemt de tekst?", "opties": ["confrontatie met ingrijpende incidenten op het spoor", "lange werkdagen", "moeilijke examens", "lastige reizigers"], "juist": 0, "uitleg": "De verwerking daarvan kan lang duren."},
+            {"vraag": "Wat doen vervoerders tegen het personeelstekort?", "opties": ["Ze verhogen de prijzen.", "Ze voeren campagnes om het vak aantrekkelijker te maken.", "Ze rijden minder treinen.", "Ze verkorten de opleiding."], "juist": 1, "uitleg": "Staat in de laatste alinea."}
+          ]
+        }
+      }
     },
     {
       "titel": "Brainrot: wat doet eindeloos scrollen met je?",
@@ -77,7 +287,77 @@
       "c1_woorden": "toegesneden op | ozel olarak tasarlanmis | speciaal gemaakt voor | afgestemd op | Algoritmes zijn toegesneden op jouw gedrag. | Algoritmalar davranisina gore tasarlanmis.\noverladen met | bogmak, asiri yuklemek | te veel geven | overspoelen | We worden overladen met prikkels. | Uyaranlara boguluyoruz.\nhet doemdenken | felaket senaryolari kurmak | denken dat alles slecht afloopt | pessimisme | Wetenschappers waarschuwen voor doemdenken. | Bilim insanlari felaketcilige karsi uyariyor.",
       "grammatica": "1) Hoe ... hoe ... (vergelijking)\n• Hoe meer je scrolt, hoe moeilijker het wordt om te stoppen.\n• Hoe vaker de beloning komt, hoe minder leuk gewone dingen voelen.\nLet op: in beide delen staat het werkwoord achteraan.\n2) De comparatief (vergrotende trap)\n• saai -> saaier, moeilijk -> moeilijker, vaak -> vaker\n• Na de comparatief gebruik je 'dan': Lezen is moeilijker dan scrollen.",
       "vragen": "1. (A2) Wat betekent 'brainrot'?\n2. (B1) Waarom voelt huiswerk maken saaier als je veel korte filmpjes kijkt?\n3. (B2) Waarom zeggen deskundigen dat paniek niet nodig is?",
-      "antwoorden": "1. Het gevoel dat je hersenen 'zacht' worden of 'wegrotten' door te veel domme, korte filmpjes.\n2. Omdat je hersenen wennen aan snelle beloningen; activiteiten zonder snelle beloning voelen dan saai.\n3. Omdat het brein veerkrachtig is: wie zijn schermtijd beperkt, merkt vaak al snel verschil, en van blijvende hersenschade is geen sprake."
+      "antwoorden": "1. Het gevoel dat je hersenen 'zacht' worden of 'wegrotten' door te veel domme, korte filmpjes.\n2. Omdat je hersenen wennen aan snelle beloningen; activiteiten zonder snelle beloning voelen dan saai.\n3. Omdat het brein veerkrachtig is: wie zijn schermtijd beperkt, merkt vaak al snel verschil, en van blijvende hersenschade is geen sprake.",
+      "quiz": {
+        "a2": {
+          "woorden": [
+            {"vraag": "'Scrollen' betekent:", "opties": ["bellen", "met je vinger door je telefoon bladeren", "een foto maken", "typen"], "juist": 1, "uitleg": "Je veegt met je vinger omhoog voor het volgende filmpje. (TR: kaydirmak)"},
+            {"vraag": "Waarmee denk je?", "opties": ["je longen", "je handen", "je hersenen", "je ogen"], "juist": 2, "uitleg": "de hersenen = het orgaan in je hoofd. (TR: beyin)"},
+            {"vraag": "'De schermtijd' is de tijd die je ...", "opties": ["op telefoon of tablet kijkt", "buiten speelt", "slaapt", "op school zit"], "juist": 0, "uitleg": "het scherm = van telefoon, tablet, tv. (TR: ekran suresi)"}
+          ],
+          "grammatica": [
+            {"vraag": "Lezen is ... dan scrollen. (moeilijk)", "opties": ["moeilijk", "moeilijker", "moeilijkst", "meest moeilijk"], "juist": 1, "uitleg": "Vergelijken met 'dan': + er -> moeilijker dan."},
+            {"vraag": "Hij kijkt steeds ... filmpjes. (vaak)", "opties": ["vaakst", "vaak", "vaker", "meest vaak"], "juist": 2, "uitleg": "vaak -> vaker (comparatief)."},
+            {"vraag": "Dit filmpje is ... dan dat filmpje. (leuk)", "opties": ["leuker", "leukst", "meer leuk", "het leukst"], "juist": 0, "uitleg": "leuk -> leuker dan."}
+          ],
+          "lezen": [
+            {"vraag": "Wat noemen we 'brainrot'?", "opties": ["een nieuw spel", "rare of domme filmpjes", "een soort telefoon", "een ziekte van de ogen"], "juist": 1, "uitleg": "In de tekst: 'Rare of domme filmpjes noemen we brainrot.'"},
+            {"vraag": "Wat was 'brain rot' in 2024?", "opties": ["een nieuwe app", "een film", "het woord van het jaar", "een liedje"], "juist": 2, "uitleg": "Het Engelse woord werd gekozen tot woord van het jaar."},
+            {"vraag": "Welke tip geven experts?", "opties": ["Zet je telefoon vaker uit.", "Kijk meer filmpjes.", "Koop een grotere telefoon.", "Slaap minder."], "juist": 0, "uitleg": "En: verveel je soms, dat is gezond voor je hersenen."}
+          ]
+        },
+        "b1": {
+          "woorden": [
+            {"vraag": "'Wennen aan' betekent:", "opties": ["bang worden van", "iets normaal gaan vinden", "stoppen met", "vergeten"], "juist": 1, "uitleg": "Eerst is het nieuw, daarna is het gewoon. (TR: alismak)"},
+            {"vraag": "'Zich vervelen' betekent:", "opties": ["niets te doen hebben", "hard werken", "boos zijn", "moe zijn"], "juist": 0, "uitleg": "Ik verveel me = ik heb niets te doen. (TR: sikilmak)"},
+            {"vraag": "'De concentratie' is ...", "opties": ["een soort drankje", "een schoolvak", "een beloning", "je aandacht bij een taak houden"], "juist": 3, "uitleg": "Je concentreren = met je aandacht bij een ding blijven."}
+          ],
+          "grammatica": [
+            {"vraag": "... meer je scrolt, ... moeilijker wordt het om te stoppen.", "opties": ["Hoe / hoe", "Zo / zo", "Als / dan", "Wat / dat"], "juist": 0, "uitleg": "Hoe + comparatief, hoe + comparatief."},
+            {"vraag": "Welke zin is correct?", "opties": ["Hoe vaker je kijkt, hoe minder leuk gewone dingen voelen.", "Hoe vaker kijk je, hoe minder voelen gewone dingen leuk.", "Hoe je vaker kijkt, hoe gewone dingen minder leuk voelen.", "Vaker hoe je kijkt, minder hoe gewone dingen leuk voelen."], "juist": 0, "uitleg": "In beide delen staat het werkwoord achteraan."},
+            {"vraag": "Experts raden aan ... schermtijd te beperken.", "opties": ["om de", "dat de", "voor de", "als de"], "juist": 0, "uitleg": "aanraden om ... te + infinitief."}
+          ],
+          "lezen": [
+            {"vraag": "Waarom voelt huiswerk steeds saaier?", "opties": ["Huiswerk wordt echt moeilijker.", "Je hersenen wennen aan snelle beloningen.", "Leraren geven meer huiswerk.", "Boeken zijn ouderwets."], "juist": 1, "uitleg": "Snelle beloningen maken langzame activiteiten minder aantrekkelijk."},
+            {"vraag": "Wat gebeurt er volgens de tekst als je je verveelt?", "opties": ["Je wordt boos.", "Je valt in slaap.", "Je brein wordt juist creatief.", "Je gaat meer scrollen."], "juist": 2, "uitleg": "'Juist dan wordt je brein creatief.'"},
+            {"vraag": "Wat betekent 'de naam zegt het al'?", "opties": ["De naam legt zelf al uit wat het is.", "De naam is verkeerd.", "De naam is nieuw.", "De naam is geheim."], "juist": 0, "uitleg": "brainrot = brein + rotten -> 'wegrotten' van je hersenen."}
+          ]
+        },
+        "b2": {
+          "woorden": [
+            {"vraag": "'Afstompen' betekent:", "opties": ["scherper worden", "langzaam dommer of ongevoeliger worden", "wakker worden", "sneller denken"], "juist": 1, "uitleg": "stomp = niet scherp; je geest wordt 'bot'. (TR: korelme)"},
+            {"vraag": "'De zorgen zijn niet ongegrond' betekent:", "opties": ["Er is echt reden voor de zorgen.", "De zorgen zijn overdreven.", "Niemand maakt zich zorgen.", "De zorgen zijn verboden."], "juist": 0, "uitleg": "ongegrond = zonder grond/reden; 'niet ongegrond' = terecht."},
+            {"vraag": "'Veerkrachtig' betekent:", "opties": ["heel zwak", "erg licht", "kan goed herstellen", "onbuigbaar"], "juist": 2, "uitleg": "Als een veer: het komt terug in vorm. (TR: cabuk toparlanan)"}
+          ],
+          "grammatica": [
+            {"vraag": "'Wie zijn schermtijd bewust beperkt, merkt al snel verschil.' 'Wie' betekent hier:", "opties": ["welke persoon? (vraag)", "iedereen die", "niemand die", "de persoon over wie we net spraken"], "juist": 1, "uitleg": "'Wie X doet, ...' = iedereen die X doet."},
+            {"vraag": "Sociale media zijn zo ontworpen ... je blijft kijken.", "opties": ["omdat", "zodat", "dat", "doordat"], "juist": 2, "uitleg": "zo + voltooid deelwoord + dat: gevolg. ('zodat' kan ook, maar na 'zo ontworpen' hoort 'dat')."},
+            {"vraag": "'Uitgeroepen tot woord van het jaar' betekent:", "opties": ["officieel gekozen als", "geschreeuwd naar", "verwijderd als", "vertaald naar"], "juist": 0, "uitleg": "iemand/iets uitroepen tot X = officieel X maken."}
+          ],
+          "lezen": [
+            {"vraag": "Hoe zijn sociale media ontworpen?", "opties": ["zo dat je snel stopt", "zo dat je blijft kijken", "zonder plan", "voor oudere mensen"], "juist": 1, "uitleg": "Elk filmpje geeft een kleine beloning in je brein."},
+            {"vraag": "Wat zien onderzoekers bij intensieve gebruikers?", "opties": ["betere cijfers", "meer vrienden", "kortere aandachtsspanne en slechtere slaap", "meer energie"], "juist": 2, "uitleg": "Twee concrete gevolgen uit de tekst."},
+            {"vraag": "Waarom is paniek volgens deskundigen niet nodig?", "opties": ["Omdat het brein veerkrachtig is.", "Omdat brainrot niet bestaat.", "Omdat telefoons verboden worden.", "Omdat iedereen al gestopt is."], "juist": 0, "uitleg": "Wie minder scrolt, merkt vaak al binnen weken verschil."}
+          ]
+        },
+        "c1": {
+          "woorden": [
+            {"vraag": "'Toegesneden op' betekent:", "opties": ["kapotgemaakt door", "speciaal afgestemd op", "verboden voor", "verstopt voor"], "juist": 1, "uitleg": "toesnijden op = precies passend maken voor. (TR: ozel tasarlanmis)"},
+            {"vraag": "'Overladen worden met prikkels' betekent:", "opties": ["te veel prikkels krijgen", "geen prikkels krijgen", "prikkels uitdelen", "prikkels opslaan"], "juist": 0, "uitleg": "overladen = te vol laden. (TR: asiri yuklenmek)"},
+            {"vraag": "'Doemdenken' is:", "opties": ["diep nadenken", "positief denken", "denken dat alles slecht afloopt", "snel beslissen"], "juist": 2, "uitleg": "doem = ondergang; doemdenken = extreem pessimisme."}
+          ],
+          "grammatica": [
+            {"vraag": "'Het gevolg laat zich raden' betekent:", "opties": ["Het gevolg is voorspelbaar.", "Het gevolg is onbekend.", "Het gevolg is geheim.", "Iemand raadt het gevolg af."], "juist": 0, "uitleg": "'zich laten raden' = makkelijk te raden zijn."},
+            {"vraag": "'Activiteiten die een lange adem vergen' zijn activiteiten die ...", "opties": ["veel zuurstof kosten", "snel klaar zijn", "veel geduld en doorzettingsvermogen vragen", "alleen sporters kunnen doen"], "juist": 2, "uitleg": "'een lange adem' is figuurlijk: lang volhouden; vergen = vereisen."},
+            {"vraag": "'Uitgerekend brain rot werd woord van het jaar.' 'Uitgerekend' drukt uit:", "opties": ["dat het berekend is", "verbazing: juist dit woord!", "dat het te laat was", "dat het logisch was"], "juist": 1, "uitleg": "uitgerekend X = juist X, ironisch/verrassend."}
+          ],
+          "lezen": [
+            {"vraag": "Wat zegt de tekst over blijvende hersenschade?", "opties": ["Die is bewezen.", "Daar is vooralsnog geen sprake van.", "Die komt bij iedereen voor.", "Daar doet niemand onderzoek naar."], "juist": 1, "uitleg": "vooralsnog = tot nu toe; wel is er een aan te leren gewoonte."},
+            {"vraag": "Wat is volgens de slotzin 'het beste medicijn'?", "opties": ["meer sporten", "een nieuwe app", "medicatie", "de verveling omarmen"], "juist": 3, "uitleg": "omarmen = accepteren en verwelkomen."},
+            {"vraag": "Waarom kijkt zelfs de jonge generatie met 'vervreemding' naar het eigen scrollgedrag?", "opties": ["Ze herkennen zichzelf er niet meer in.", "Ze vinden het grappig.", "Ze zijn er trots op.", "Ze begrijpen de technologie niet."], "juist": 0, "uitleg": "vervreemding = het gevoel dat iets vreemd/niet meer eigen is."}
+          ]
+        }
+      }
     },
     {
       "titel": "Vapen: populair maar gevaarlijk",
@@ -96,7 +376,77 @@
       "c1_woorden": "vatbaar voor | yatkin, acik | er snel gevoelig voor zijn | gevoelig voor | Het jonge brein is vatbaar voor verslaving. | Genc beyin bagimliliga yatkin.\nde symptoombestrijding | sorunun kokune inmeyen cozum | alleen het gevolg aanpakken, niet de oorzaak | | Critici noemen het beleid symptoombestrijding. | Elestirmenler politikayi yuzeysel cozum olarak goruyor.\nkantelen | (koklu bicimde) degismek | omslaan, veranderen | veranderen | De sociale norm rond roken is gekanteld. | Sigaraya bakis kokten degisti.",
       "grammatica": "1) Redenen geven: want, omdat, daarom\n• Jongeren vapen graag, want de smaakjes zijn lekker. (hoofdzin + hoofdzin)\n• Vapes zijn verboden voor jongeren, omdat nicotine erg verslavend is. (bijzin: werkwoord naar achteren)\n• Nicotine is verslavend. Daarom zijn de regels streng. (daarom + inversie)\n2) Omdat vs. doordat\n'Omdat' geeft een reden (waarom?), 'doordat' geeft een oorzaak (hoe komt het?).\n• Doordat de handhaving lastig is, zijn vapes nog steeds te koop.",
       "vragen": "1. (A2) Waarom lijken vapes onschuldig?\n2. (B1) Welke twee regels heeft de overheid ingevoerd?\n3. (B2) Waarom blijft handhaving van het verbod lastig?",
-      "antwoorden": "1. Omdat ze er vrolijk uitzien en naar snoep of fruit smaken.\n2. Vapes met een smaakje zijn verboden en verkoop aan jongeren onder de 18 is strafbaar.\n3. Omdat verboden vapes via buitenlandse websites en sociale media nog steeds verkrijgbaar zijn."
+      "antwoorden": "1. Omdat ze er vrolijk uitzien en naar snoep of fruit smaken.\n2. Vapes met een smaakje zijn verboden en verkoop aan jongeren onder de 18 is strafbaar.\n3. Omdat verboden vapes via buitenlandse websites en sociale media nog steeds verkrijgbaar zijn.",
+      "quiz": {
+        "a2": {
+          "woorden": [
+            {"vraag": "Een vape is een ...", "opties": ["snoepje", "elektrische sigaret", "drankje", "telefoon"], "juist": 1, "uitleg": "vape = e-sigaret. (TR: elektronik sigara)"},
+            {"vraag": "'Verslavend' betekent:", "opties": ["je wilt er steeds meer van", "heel duur", "gezond", "moeilijk te vinden"], "juist": 0, "uitleg": "Bij verslaving kun je niet meer stoppen. (TR: bagimlilik yapan)"},
+            {"vraag": "'Verbieden' betekent zeggen dat iets ...", "opties": ["moet", "mag", "niet mag", "leuk is"], "juist": 2, "uitleg": "verbieden <-> toestaan. (TR: yasaklamak)"}
+          ],
+          "grammatica": [
+            {"vraag": "Jongeren vapen graag, ... de smaakjes zijn lekker.", "opties": ["want", "omdat", "daarom", "dus"], "juist": 0, "uitleg": "want + hoofdzin (werkwoord blijft op plaats 2)."},
+            {"vraag": "Nicotine is verslavend. ... zijn de regels streng.", "opties": ["Want", "Omdat", "Daarom", "Doordat"], "juist": 2, "uitleg": "Daarom + inversie: 'Daarom zijn de regels ...'."},
+            {"vraag": "Vapen is verboden onder de 18, omdat nicotine erg verslavend ...", "opties": ["is", "zijn", "wordt is", "hebben"], "juist": 0, "uitleg": "In de bijzin met 'omdat' staat het werkwoord achteraan."}
+          ],
+          "lezen": [
+            {"vraag": "Waarom lijken vapes onschuldig?", "opties": ["Ze zijn goedkoop.", "Ze zien er vrolijk uit en smaken naar snoep.", "Artsen raden ze aan.", "Ze bevatten geen nicotine."], "juist": 1, "uitleg": "Maar ze zijn niet onschuldig: er zit bijna altijd nicotine in."},
+            {"vraag": "Wat zit er in bijna alle vapes?", "opties": ["vitamine", "suiker", "water", "nicotine"], "juist": 3, "uitleg": "Nicotine is heel verslavend."},
+            {"vraag": "Wat is in Nederland verboden?", "opties": ["vapes met een smaakje", "alle sigaretten", "snoep", "energiedrank"], "juist": 0, "uitleg": "Ook verkoop aan jongeren onder de 18 is verboden."}
+          ]
+        },
+        "b1": {
+          "woorden": [
+            {"vraag": "'Onschuldig' betekent:", "opties": ["niet gevaarlijk", "heel sterk", "illegaal", "onzichtbaar"], "juist": 0, "uitleg": "schuld -> onschuldig = zonder kwaad. (TR: masum, zararsiz)"},
+            {"vraag": "'Schadelijk' betekent:", "opties": ["lekker", "slecht voor je gezondheid", "verboden", "duur"], "juist": 1, "uitleg": "schade -> schadelijk. (TR: zararli)"},
+            {"vraag": "'Er moeilijk vanaf komen' betekent:", "opties": ["het moeilijk kunnen kopen", "het moeilijk kunnen vinden", "moeilijk kunnen stoppen", "moeilijk kunnen beginnen"], "juist": 2, "uitleg": "ergens vanaf komen = ervan loskomen, ermee stoppen."}
+          ],
+          "grammatica": [
+            {"vraag": "Welke zin is correct?", "opties": ["Vapes zijn verboden, omdat nicotine is verslavend.", "Vapes zijn verboden, omdat nicotine verslavend is.", "Vapes zijn verboden, omdat is nicotine verslavend.", "Vapes zijn verboden, omdat verslavend nicotine is."], "juist": 1, "uitleg": "Bijzin met omdat: werkwoord helemaal achteraan."},
+            {"vraag": "De overheid heeft ...gegrepen. (ingrijpen, perfectum)", "opties": ["in", "aan", "op", "uit"], "juist": 0, "uitleg": "ingrijpen -> heeft ingegrepen (scheidbaar werkwoord)."},
+            {"vraag": "Wie eenmaal begint, ... er moeilijk vanaf.", "opties": ["komen", "komt", "kwam", "gekomen"], "juist": 1, "uitleg": "'Wie ... begint' is enkelvoud -> komt."}
+          ],
+          "lezen": [
+            {"vraag": "Waarover maken deskundigen zich zorgen?", "opties": ["dat vapes te duur worden", "dat vapen onder jongeren populair is", "dat er te weinig smaakjes zijn", "dat winkels sluiten"], "juist": 1, "uitleg": "Eerste alinea van de B1-tekst."},
+            {"vraag": "Wat weten onderzoekers nog niet precies?", "opties": ["of nicotine verslavend is", "hoe groot de schade op lange termijn is", "of jongeren vapen", "wat een vape kost"], "juist": 1, "uitleg": "De langetermijneffecten zijn nog onduidelijk."},
+            {"vraag": "Hoe komen jongeren nog steeds aan vapes?", "opties": ["via internet of vrienden", "via de apotheek", "via school", "via de sportclub"], "juist": 0, "uitleg": "Ondanks het verbod."}
+          ]
+        },
+        "b2": {
+          "woorden": [
+            {"vraag": "'De aanleiding' is:", "opties": ["het gevolg", "de directe reden om iets te doen", "de oplossing", "de vertraging"], "juist": 1, "uitleg": "aanleiding geven tot = de reden zijn voor. (TR: vesile, neden)"},
+            {"vraag": "'Gevoelig voor' betekent:", "opties": ["er snel last of invloed van hebben", "er bang voor zijn", "er blij mee zijn", "er niets van merken"], "juist": 0, "uitleg": "Jonge hersenen reageren sterker op nicotine. (TR: hassas)"},
+            {"vraag": "'Verkrijgbaar' betekent:", "opties": ["verboden", "gratis", "te koop / te krijgen", "populair"], "juist": 2, "uitleg": "verkrijgen = krijgen; verkrijgbaar = te verkrijgen. (TR: bulunabilir)"}
+          ],
+          "grammatica": [
+            {"vraag": "Kies juist: '... de handhaving lastig is, zijn vapes nog steeds te koop.'", "opties": ["Doordat", "Daarom", "Dus", "Toch"], "juist": 0, "uitleg": "Doordat = oorzaak; daarna bijzin + inversie in de hoofdzin."},
+            {"vraag": "Wat is het verschil tussen 'omdat' en 'doordat'?", "opties": ["Er is geen verschil.", "omdat = reden, doordat = oorzaak", "omdat = oorzaak, doordat = reden", "doordat is spreektaal"], "juist": 1, "uitleg": "'Waarom?' -> omdat; 'Hoe komt het?' -> doordat."},
+            {"vraag": "'Zeker bij jonge hersenen, die daar extra gevoelig ... zijn.'", "opties": ["voor", "aan", "op", "van"], "juist": 0, "uitleg": "gevoelig voor iets (vaste prepositie)."}
+          ],
+          "lezen": [
+            {"vraag": "Wat was de aanleiding om hard in te grijpen?", "opties": ["klachten van winkels", "de populariteit van vapes onder jongeren", "een nieuw onderzoek", "Europese regels"], "juist": 1, "uitleg": "Eerste zin van de B2-tekst."},
+            {"vraag": "Welke smaak is nog toegestaan?", "opties": ["fruit", "snoep", "tabak", "munt"], "juist": 2, "uitleg": "Alle andere smaakjes zijn verboden."},
+            {"vraag": "Wat moet jongeren 'weerbaarder' maken?", "opties": ["voorlichting op scholen", "strengere straffen", "duurdere vapes", "een app"], "juist": 0, "uitleg": "weerbaar = sterk genoeg om nee te zeggen."}
+          ]
+        },
+        "c1": {
+          "woorden": [
+            {"vraag": "'Vatbaar voor' betekent:", "opties": ["beschermd tegen", "er makkelijk door beïnvloed/geraakt worden", "verantwoordelijk voor", "enthousiast over"], "juist": 1, "uitleg": "vatbaar voor verslaving/ziekte/kritiek. (TR: yatkin, acik)"},
+            {"vraag": "'Symptoombestrijding' is beleid dat ...", "opties": ["alleen het gevolg aanpakt, niet de oorzaak", "de oorzaak wegneemt", "alles verbiedt", "niets doet"], "juist": 0, "uitleg": "Symptomen bestrijden zonder de ziekte te genezen."},
+            {"vraag": "'De sociale norm kantelt' betekent:", "opties": ["de norm verdwijnt langzaam", "de norm wordt strenger", "wat normaal gevonden wordt, verandert fundamenteel", "de norm wordt wet"], "juist": 2, "uitleg": "kantelen = omslaan, fundamenteel veranderen."}
+          ],
+          "grammatica": [
+            {"vraag": "'Hoe verleidelijk de vape er ook uitziet, ...' - deze constructie drukt uit:", "opties": ["een vraag", "een toegeving (ook al is het zo verleidelijk)", "een voorwaarde", "een wens"], "juist": 1, "uitleg": "'Hoe X ook ...' = ook al is het nog zo X (concessief)."},
+            {"vraag": "'Achter het uiterlijk gaat een verslavingsproduct schuil.' 'Schuilgaan achter' betekent:", "opties": ["verstopt zitten achter", "beschermen tegen", "wachten op", "vechten tegen"], "juist": 0, "uitleg": "Er zit iets anders achter dan je op het eerste gezicht ziet."},
+            {"vraag": "'Regelgeving sorteert pas effect wanneer ...' - 'effect sorteren' betekent:", "opties": ["effect ordenen", "effect hebben", "effect meten", "effect verwachten"], "juist": 1, "uitleg": "effect sorteren = werken, resultaat hebben (formeel)."}
+          ],
+          "lezen": [
+            {"vraag": "Waarom noemen critici het beleid 'symptoombestrijding'?", "opties": ["Omdat de handhaving tekortschiet en producten verkrijgbaar blijven.", "Omdat het verbod te streng is.", "Omdat vapen gezond zou zijn.", "Omdat scholen niet meewerken."], "juist": 0, "uitleg": "Zolang je het product overal kunt kopen, lost een verbod weinig op."},
+            {"vraag": "Welke les trekt de tekst uit de geschiedenis van de sigaret?", "opties": ["Verboden werken nooit.", "Reclame is het probleem.", "Regels werken pas echt als de sociale norm kantelt.", "Belasting is de oplossing."], "juist": 2, "uitleg": "Roken werd pas minder toen het 'niet meer stoer' was."},
+            {"vraag": "Waar richten voorlichtingscampagnes zich op?", "opties": ["vapen goedkoper maken", "vapen 'niet stoer maar onverstandig' maken", "vapen alleen voor volwassenen promoten", "nieuwe smaakjes testen"], "juist": 1, "uitleg": "Het doel is de sociale norm te veranderen."}
+          ]
+        }
+      }
     }
   ]
 }

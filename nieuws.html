@@ -67,6 +67,22 @@
 
   .footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px; text-align: center; }
   .error { color: #c0392b; background: #fdedec; padding: 15px; border-radius: 6px; }
+
+  /* ===== Quiz ===== */
+  .quiz-box { background: #fbfcfd; border: 1px solid #d5dbdb; border-radius: 8px; padding: 15px 18px; }
+  .quiz-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 4px; }
+  .quiz-tabs button { border: 1px solid #bbb; background: #fff; border-radius: 20px; padding: 6px 16px; cursor: pointer; font-family: inherit; font-size: 14px; }
+  .quiz-tabs button.active { background: #1a5276; color: #fff; border-color: #1a5276; font-weight: bold; }
+  .q-item { padding: 14px 0; border-bottom: 1px dashed #ccc; }
+  .q-item:last-child { border-bottom: none; }
+  .q-vraag { font-weight: bold; margin-bottom: 8px; }
+  .q-opt { display: block; width: 100%; text-align: left; margin: 5px 0; padding: 9px 12px; border: 1px solid #ccc; border-radius: 6px; background: #fff; cursor: pointer; font-family: inherit; font-size: 14px; }
+  .q-opt:hover { background: #eef5fb; }
+  .q-opt.correct { background: #e8f8f5; border-color: #27ae60; font-weight: bold; }
+  .q-opt.wrong { background: #fdedec; border-color: #e74c3c; }
+  .q-opt:disabled { cursor: default; }
+  .q-uitleg { margin-top: 8px; font-size: 13px; color: #555; background: #fef9e7; border-left: 3px solid #f39c12; padding: 6px 10px; border-radius: 0 4px 4px 0; }
+  .q-score { text-align: center; font-weight: bold; color: #1a5276; margin-top: 12px; font-size: 16px; }
 </style>
 </head>
 <body>
@@ -208,14 +224,87 @@ function render() {
     <div class="questions">${nl2br(item.vragen)}</div>
     <details class="answers"><summary>&#9989; Antwoorden (klik om te tonen)</summary>
       <div class="answer-body">${nl2br(item.antwoorden)}</div>
-    </details>`;
+    </details>
+    ${buildQuizSection(item)}`;
   window.scrollTo(0, 0);
+}
+
+// ===== Quiz =====
+// Questions live inside each item in haberler.json under "quiz":
+// quiz -> level (a2/b1/b2/c1) -> category (woorden/grammatica/lezen) -> [questions]
+// Each question: { vraag, opties: [..], juist: indexOfCorrectOption, uitleg }
+const QUIZ_LEVELS = ["a2", "b1", "b2", "c1"];
+const QUIZ_CATS = { woorden: "&#128218; Woorden", grammatica: "&#128483;&#65039; Grammatica", lezen: "&#128214; Lezen" };
+let quizState = { level: null, cat: null, answered: {}, score: 0 };
+
+function buildQuizSection(item) {
+  if (!item.quiz) return "";
+  return `<h2>&#127891; Quiz</h2><div class="quiz-box" id="quizArea">${buildQuizInner(item)}</div>`;
+}
+
+function buildQuizInner(item) {
+  const levels = QUIZ_LEVELS.filter(l => item.quiz[l]);
+  if (!levels.length) return "";
+  if (!levels.includes(quizState.level)) quizState.level = levels[0];
+  const cats = Object.keys(QUIZ_CATS).filter(c => item.quiz[quizState.level][c]);
+  if (!cats.includes(quizState.cat)) quizState.cat = cats[0];
+  const questions = item.quiz[quizState.level][quizState.cat] || [];
+
+  const levelTabs = levels.map(l =>
+    `<button class="${l === quizState.level ? 'active' : ''}" onclick="setQuiz('${l}', null)">${l.toUpperCase()}</button>`).join("");
+  const catTabs = cats.map(c =>
+    `<button class="${c === quizState.cat ? 'active' : ''}" onclick="setQuiz('${quizState.level}','${c}')">${QUIZ_CATS[c]}</button>`).join("");
+
+  const qHtml = questions.map((q, qi) => {
+    const opts = q.opties.map((o, oi) =>
+      `<button class="q-opt" id="q${qi}o${oi}" onclick="answerQuiz(${qi},${oi})">${String.fromCharCode(97 + oi)}) ${o}</button>`).join("");
+    return `<div class="q-item"><div class="q-vraag">${qi + 1}. ${q.vraag}</div>${opts}
+      <div class="q-uitleg" id="q${qi}u" style="display:none;"></div></div>`;
+  }).join("");
+
+  return `<div class="quiz-tabs">${levelTabs}</div>
+    <div class="quiz-tabs">${catTabs}</div>
+    ${qHtml}
+    <div class="q-score" id="quizScore">Score: 0 / ${questions.length}</div>`;
+}
+
+// Switch level/category: reset answers and re-render only the quiz area.
+function setQuiz(level, cat) {
+  quizState = { level: level, cat: cat, answered: {}, score: 0 };
+  document.getElementById("quizArea").innerHTML = buildQuizInner(DATA.items[currentIndex]);
+}
+
+// Handle an answer click: color the options, show explanation, update score.
+function answerQuiz(qi, oi) {
+  if (quizState.answered[qi] !== undefined) return; // already answered
+  const item = DATA.items[currentIndex];
+  const q = item.quiz[quizState.level][quizState.cat][qi];
+  quizState.answered[qi] = oi;
+  if (oi === q.juist) quizState.score++;
+
+  q.opties.forEach((_, k) => {
+    const btn = document.getElementById("q" + qi + "o" + k);
+    btn.disabled = true;
+    if (k === q.juist) btn.classList.add("correct");
+    else if (k === oi) btn.classList.add("wrong");
+  });
+  if (q.uitleg) {
+    const u = document.getElementById("q" + qi + "u");
+    u.innerHTML = "&#128161; " + q.uitleg;
+    u.style.display = "block";
+  }
+  const total = item.quiz[quizState.level][quizState.cat].length;
+  document.getElementById("quizScore").textContent =
+    "Score: " + quizState.score + " / " + total +
+    (Object.keys(quizState.answered).length === total ? (quizState.score === total ? "  -  Perfect! 🎉" : "  -  Klaar!") : "");
 }
 
 // ===== Navigation =====
 function show(index) {
   const n = DATA.items.length;
   currentIndex = ((index % n) + n) % n;
+  // Reset the quiz when we move to another news item
+  quizState = { level: null, cat: null, answered: {}, score: 0 };
   render();
 }
 
