@@ -447,6 +447,896 @@
           ]
         }
       }
+    },
+    {
+      "titel": "Duinen: de natuurlijke bescherming van Nederland",
+      "bron": "Het Klokhuis",
+      "video_url": "https://www.youtube.com/watch?v=VWAIhW9igRE",
+      "video_titel": "Het Klokhuis - Duinen",
+      "afbeelding_url": "https://i.ytimg.com/vi/VWAIhW9igRE/hqdefault.jpg",
+      "a1": "Aan de zee liggen duinen. Duinen zijn bergen van zand. Ze zijn heel belangrijk.\n\nDe duinen houden het water tegen. Zo blijft het land droog. De duinen beschermen ons.\n\nIn de duinen groeit gras. Dat gras houdt het zand vast. Loop niet door de planten!",
+      "a2": "Langs de Nederlandse kust liggen duinen: heuvels van zand. Ze zijn niet alleen mooi, maar ook heel nuttig. De duinen beschermen het lage land tegen de zee.\n\nIn de duinen groeit helmgras. De wortels van dit gras houden het zand goed vast. Zonder planten waait het zand gewoon weg.\n\nEr is nog iets bijzonders: onder de duinen wordt drinkwater gemaakt. Regenwater zakt door het zand en wordt zo heel schoon.",
+      "b1": "Duinen zien eruit als gewone zandheuvels, maar ze vormen de natuurlijke <strong>bescherming</strong> van Nederland tegen de zee. Samen met de dijken houden ze het lage land droog.\n\nHet geheim van de duinen is helmgras. De lange wortels <strong>houden</strong> het zand <strong>vast</strong>, waardoor de duinen niet wegwaaien. Daarom mag je vaak niet buiten de paden lopen: het duinlandschap is <strong>kwetsbaar</strong>.\n\nDe duinen doen nog meer. Er leven bijzondere planten en dieren, en waterbedrijven gebruiken het zand als natuurlijk filter voor ons drinkwater.",
+      "b2": "De duinen vormen een <strong>onmisbare</strong> schakel in de Nederlandse kustverdediging. Waar dijken door mensen zijn ontworpen, is de duinenrij een natuurlijke barrière die al eeuwenlang de zee <strong>tegenhoudt</strong>.\n\nDat systeem is echter kwetsbaar. Betreding en droogte kunnen de begroeiing <strong>aantasten</strong>, en zonder helmgras verstuift het zand. Beheerders <strong>herstellen</strong> daarom zwakke plekken en leggen paden aan om bezoekers te sturen.\n\nDaarnaast vervullen de duinen een tweede functie: waterbedrijven laten er water in de bodem zakken, dat door het zand op natuurlijke wijze wordt <strong>gezuiverd</strong> tot drinkwater voor miljoenen mensen.",
+      "c1": "Wie over het strand naar de duinen kijkt, ziet in feite de oudste kustverdediging van Nederland - een die zichzelf, mits met rust gelaten, voortdurend <strong>vernieuwt</strong>. Wind en zee voeren zand aan, helmgras legt het vast, en zo groeit de barrière <strong>gestaag</strong> mee met de elementen.\n\nJuist die natuurlijke dynamiek maakt het systeem gevoelig voor verstoring. Intensieve recreatie en langdurige droogte kunnen de vegetatie zodanig <strong>aantasten</strong> dat verstuiving optreedt en de zeewering aan kracht <strong>inboet</strong>. Duinbeheerders laveren daarom voortdurend tussen toegankelijkheid en bescherming.\n\nDat de duinen daarnaast als natuurlijk waterfilter <strong>fungeren</strong> - een aanzienlijk deel van het Nederlandse drinkwater passeert dit zandpakket - onderstreept hoe <strong>veelzijdig</strong> dit landschap is: waterkering, natuurgebied en waterfabriek ineen.",
+      "woordenschat": "het duin | zn | heuvel van zand aan de kust | De duinen beschermen het land. | kumul\nhet helmgras | zn | gras dat op duinen groeit | Helmgras houdt het zand vast. | kumul otu\nvasthouden | ww | niet loslaten | De wortels houden het zand vast. | tutmak\nbeschermen | ww | veilig houden, verdedigen | Duinen beschermen ons tegen de zee. | korumak\nde kust | zn | het land aan de zee | Langs de kust liggen duinen. | kiyi, sahil\nhet drinkwater | zn | water dat je kunt drinken | Onder de duinen wordt drinkwater gemaakt. | icme suyu\nkwetsbaar | bn | snel kapot te maken | Het duinlandschap is kwetsbaar. | hassas, kirilgan",
+      "b1_woorden": "de bescherming | koruma | het veilig houden | | Duinen vormen de bescherming tegen de zee. | Kumullar denize karsi korumayi olusturur.\nvasthouden | tutmak | niet loslaten | | Het gras houdt het zand vast. | Ot kumu tutar.\nkwetsbaar | hassas, kirilgan | snel beschadigd | zwak | De natuur hier is kwetsbaar. | Buradaki doga hassastir.",
+      "b2_woorden": "onmisbaar | vazgecilmez | je kunt niet zonder | heel belangrijk | Duinen zijn onmisbaar voor de kust. | Kumullar kiyi icin vazgecilmez.\naantasten | zarar vermek | beschadigen | kapotmaken | Droogte tast de planten aan. | Kuraklik bitkilere zarar verir.\nzuiveren | aritmak | schoon maken | filteren | Het zand zuivert het water. | Kum suyu aritir.",
+      "c1_woorden": "inboeten aan | yitirmek, kaybetmek | minder worden van | verliezen | De zeewering boet aan kracht in. | Kiyi savunmasi guc kaybediyor.\nfungeren als | islev gormek | werken als | dienen als | De duinen fungeren als waterfilter. | Kumullar su filtresi islevi goruyor.\nlaveren tussen | arasinda denge kurmak | een middenweg zoeken tussen | balanceren | Beheerders laveren tussen natuur en recreatie. | Yoneticiler doga ile rekreasyon arasinda denge kuruyor.",
+      "grammatica": "1) 'Er' als plaats (= daar)\n• In de duinen leven veel dieren. -> Er leven veel dieren.\n• Er groeit helmgras op het zand.\n2) 'Er' + onbepaald onderwerp\nAls het onderwerp onbepaald is (een, geen, veel ...), begint de zin vaak met 'er'.\n• Er ligt een pad door de duinen.\n• Er zijn strenge regels in dit gebied.\nZonder 'er' klinkt de zin vreemd: 'Een pad ligt door de duinen.'",
+      "vragen": "1. (A2) Waarom is helmgras zo belangrijk voor de duinen?\n2. (B1) Waarom mag je vaak niet buiten de paden lopen?\n3. (B2) Welke tweede functie hebben de duinen naast kustbescherming?",
+      "antwoorden": "1. De wortels houden het zand vast, zodat het niet wegwaait.\n2. Omdat het duinlandschap kwetsbaar is; de planten mogen niet beschadigd raken.\n3. Ze werken als natuurlijk waterfilter: er wordt drinkwater mee gemaakt.",
+      "quiz": {
+        "a2": {
+          "woorden": [
+            {"vraag": "Wat is een duin?", "opties": ["een heuvel van zand", "een soort dijk van steen", "een diepe put", "een strandstoel"], "juist": 0, "uitleg": "Duinen zijn zandheuvels aan de kust. (TR: kumul)"},
+            {"vraag": "'De kust' is ...", "opties": ["het midden van het land", "het land aan de zee", "een grote rivier", "een eiland"], "juist": 1, "uitleg": "kust = waar het land de zee raakt. (TR: kiyi)"},
+            {"vraag": "'Drinkwater' is water dat ...", "opties": ["vies is", "uit zee komt", "je kunt drinken", "warm is"], "juist": 2, "uitleg": "Onder de duinen wordt drinkwater gemaakt."}
+          ],
+          "grammatica": [
+            {"vraag": "... liggen hoge duinen aan de kust.", "opties": ["Het", "Zij", "Er", "Dat"], "juist": 2, "uitleg": "Onbepaald onderwerp (hoge duinen) -> de zin begint met 'er'."},
+            {"vraag": "Er ... veel konijnen in de duinen.", "opties": ["woont", "wonen", "gewoond", "want"], "juist": 1, "uitleg": "'Veel konijnen' is meervoud -> wonen."},
+            {"vraag": "... groeit gras op het zand.", "opties": ["Er", "Hij", "Jij", "Wie"], "juist": 0, "uitleg": "Onbepaald onderwerp (gras) -> er + werkwoord."}
+          ],
+          "lezen": [
+            {"vraag": "Wat houden de duinen tegen?", "opties": ["de wind", "het water van de zee", "de zon", "de vogels"], "juist": 1, "uitleg": "Zo blijft het lage land droog."},
+            {"vraag": "Wat gebeurt er zonder planten in de duinen?", "opties": ["Het zand waait weg.", "Het zand wordt hard.", "Er komt meer water.", "Niets."], "juist": 0, "uitleg": "De wortels van helmgras houden het zand vast."},
+            {"vraag": "Wat wordt er onder de duinen gemaakt?", "opties": ["elektriciteit", "zout", "drinkwater", "gas"], "juist": 2, "uitleg": "Regenwater zakt door het zand en wordt schoon."}
+          ]
+        },
+        "b1": {
+          "woorden": [
+            {"vraag": "'De bescherming' hoort bij het werkwoord ...", "opties": ["beschermen", "bespreken", "beschrijven", "beslissen"], "juist": 0, "uitleg": "beschermen -> de bescherming. (TR: koruma)"},
+            {"vraag": "'Kwetsbaar' betekent:", "opties": ["heel sterk", "snel te beschadigen", "onzichtbaar", "waardevol"], "juist": 1, "uitleg": "kwetsen = pijn doen/beschadigen -> kwetsbaar."},
+            {"vraag": "'Vasthouden' is het tegenovergestelde van ...", "opties": ["pakken", "grijpen", "houden", "loslaten"], "juist": 3, "uitleg": "vasthouden <-> loslaten."}
+          ],
+          "grammatica": [
+            {"vraag": "Welke zin is correct?", "opties": ["Leven er veel dieren in de duinen.", "Er leven veel dieren in de duinen.", "Er veel dieren leven in de duinen.", "Veel dieren er leven in de duinen."], "juist": 1, "uitleg": "Er + werkwoord + onbepaald onderwerp."},
+            {"vraag": "Maak de zin natuurlijk: 'Een pad ligt door de duinen.'", "opties": ["Er ligt een pad door de duinen.", "Het ligt een pad door de duinen.", "Een pad er ligt door de duinen.", "Door de duinen een pad ligt."], "juist": 0, "uitleg": "Onbepaald onderwerp -> begin met 'er'."},
+            {"vraag": "... zijn strenge regels in dit natuurgebied.", "opties": ["Het", "Dat", "Er", "Dit"], "juist": 2, "uitleg": "'Er zijn' = bestaan, aanwezig zijn."}
+          ],
+          "lezen": [
+            {"vraag": "Wat is 'het geheim van de duinen'?", "opties": ["het helmgras", "de dijken", "de konijnen", "het strand"], "juist": 0, "uitleg": "De lange wortels houden het zand vast."},
+            {"vraag": "Samen met wat houden de duinen het land droog?", "opties": ["de bomen", "de dijken", "de molens", "de sluizen"], "juist": 1, "uitleg": "In de tekst: 'Samen met de dijken ...'."},
+            {"vraag": "Wie gebruikt het duinzand als filter?", "opties": ["boeren", "vissers", "waterbedrijven", "gemeenten"], "juist": 2, "uitleg": "Voor het maken van drinkwater."}
+          ]
+        },
+        "b2": {
+          "woorden": [
+            {"vraag": "'Onmisbaar' betekent:", "opties": ["je kunt er niet zonder", "makkelijk te vervangen", "onzichtbaar", "verboden"], "juist": 0, "uitleg": "missen -> onmisbaar = niet te missen. (TR: vazgecilmez)"},
+            {"vraag": "'De begroeiing aantasten' betekent de planten ...", "opties": ["water geven", "beschadigen", "planten", "tellen"], "juist": 1, "uitleg": "aantasten = schade toebrengen. (TR: zarar vermek)"},
+            {"vraag": "'Zuiveren' betekent:", "opties": ["zoet maken", "verwarmen", "schoon maken", "mengen"], "juist": 2, "uitleg": "zuiver = schoon, puur. (TR: aritmak)"}
+          ],
+          "grammatica": [
+            {"vraag": "'Waar dijken door mensen zijn ontworpen, is de duinenrij natuurlijk.' 'Waar' drukt hier uit:", "opties": ["een plaats", "een contrast (terwijl)", "een vraag", "een reden"], "juist": 1, "uitleg": "Formeel 'waar' = terwijl/daarentegen (contrast)."},
+            {"vraag": "'Het water wordt door het zand gezuiverd.' Dit is ...", "opties": ["een passieve zin", "een vraag", "een imperatief", "een indirecte rede"], "juist": 0, "uitleg": "worden + voltooid deelwoord = passief."},
+            {"vraag": "'Verstuiven' betekent:", "opties": ["nat worden", "als stof wegwaaien", "bevriezen", "hard worden"], "juist": 1, "uitleg": "stuiven = door de lucht vliegen (van zand/stof)."}
+          ],
+          "lezen": [
+            {"vraag": "Waardoor kan de begroeiing beschadigd raken?", "opties": ["door betreding en droogte", "door te veel regen", "door de dijken", "door konijnen"], "juist": 0, "uitleg": "betreding = erover lopen."},
+            {"vraag": "Waarom leggen beheerders paden aan?", "opties": ["voor de sport", "om bezoekers te sturen", "voor auto's", "tegen de wind"], "juist": 1, "uitleg": "Zo blijven mensen van de kwetsbare delen af."},
+            {"vraag": "Voor hoeveel mensen leveren de duinen drinkwater?", "opties": ["voor miljoenen mensen", "voor een dorp", "alleen voor boeren", "dat staat niet in de tekst"], "juist": 0, "uitleg": "'... tot drinkwater voor miljoenen mensen.'"}
+          ]
+        },
+        "c1": {
+          "woorden": [
+            {"vraag": "'Aan kracht inboeten' betekent:", "opties": ["sterker worden", "kracht verliezen", "kracht meten", "kracht sparen"], "juist": 1, "uitleg": "inboeten aan = verliezen van. (TR: yitirmek)"},
+            {"vraag": "'Fungeren als' betekent:", "opties": ["lijken op", "vechten tegen", "dienstdoen als", "veranderen in"], "juist": 2, "uitleg": "functie -> fungeren = de functie vervullen van."},
+            {"vraag": "'Laveren tussen A en B' betekent:", "opties": ["voortdurend balanceren tussen A en B", "kiezen voor A", "A en B verbieden", "A en B negeren"], "juist": 0, "uitleg": "Zoals een zeilboot tegen de wind in zigzagt."}
+          ],
+          "grammatica": [
+            {"vraag": "'... een die zichzelf, mits met rust gelaten, vernieuwt.' 'Mits' betekent:", "opties": ["tenzij", "hoewel", "op voorwaarde dat", "omdat"], "juist": 2, "uitleg": "mits = alleen als, op voorwaarde dat."},
+            {"vraag": "'Zodanig aantasten dat verstuiving optreedt' - 'zodanig ... dat' drukt uit:", "opties": ["een gevolg", "een wens", "een twijfel", "een tijdstip"], "juist": 0, "uitleg": "zo erg ... dat (gevolgconstructie)."},
+            {"vraag": "'Waterkering, natuurgebied en waterfabriek ineen' - 'ineen' betekent:", "opties": ["na elkaar", "tegelijk in één ding", "kapot", "los van elkaar"], "juist": 1, "uitleg": "alles-in-één."}
+          ],
+          "lezen": [
+            {"vraag": "Wat maakt de duinen volgens de tekst 'de oudste kustverdediging'?", "opties": ["Ze zijn door de Romeinen gebouwd.", "Ze vernieuwen zichzelf op natuurlijke wijze.", "Ze zijn van beton.", "Ze zijn het hoogst."], "juist": 1, "uitleg": "Wind en zee voeren zand aan; helmgras legt het vast."},
+            {"vraag": "Tussen welke twee belangen laveren duinbeheerders?", "opties": ["toegankelijkheid en bescherming", "zout en zoet water", "zomer en winter", "strand en zee"], "juist": 0, "uitleg": "Mensen toelaten én de natuur beschermen."},
+            {"vraag": "Wat onderstreept de veelzijdigheid van de duinen?", "opties": ["hun hoogte", "hun ouderdom", "hun rol als waterfilter naast waterkering en natuur", "hun populariteit bij toeristen"], "juist": 2, "uitleg": "Drie functies in één landschap."}
+          ]
+        }
+      }
+    },
+    {
+      "titel": "Appels: van boomgaard tot fruitschaal",
+      "bron": "Het Klokhuis",
+      "video_url": "https://www.youtube.com/watch?v=9qlO3S0c_Dc",
+      "video_titel": "Het Klokhuis - Appels",
+      "afbeelding_url": "https://i.ytimg.com/vi/9qlO3S0c_Dc/hqdefault.jpg",
+      "a1": "De appel groeit aan een boom. Veel bomen samen heten een boomgaard. In Nederland zijn veel boomgaarden.\n\nIn de herfst zijn de appels rijp. De boer plukt ze dan. Dat is veel werk.\n\nAppels zijn gezond en lekker. Er zijn rode en groene appels. Welke vind jij het lekkerst?",
+      "a2": "Nederland is een echt appelland. Vooral in de Betuwe staan veel boomgaarden. Een bekende Nederlandse appel is de Elstar.\n\nIn september en oktober worden de appels geplukt. Dat gebeurt voorzichtig met de hand, want een appel met een deuk kun je niet meer goed verkopen.\n\nDaarna gaan de appels naar een koelcel. Daar blijven ze maandenlang vers. Zo kun je het hele jaar Nederlandse appels eten.",
+      "b1": "Hoe komt die appel eigenlijk op je fruitschaal? In de aflevering volgen we de appel van de boomgaard tot de winkel.\n\nIn de herfst zijn de appels <strong>rijp</strong>. Ze worden met de hand <strong>geplukt</strong>, want machines zouden het fruit beschadigen. Daarna worden de appels <strong>gesorteerd</strong> op grootte en kleur.\n\nHet slimste deel komt daarna: de appels gaan naar een speciale koelcel met weinig zuurstof. Daardoor 'slaapt' het fruit en blijft het bijna een jaar goed. Zo eet je in juni nog steeds een knapperige Elstar.",
+      "b2": "Achter een simpele appel schuilt een verrassend <strong>geavanceerd</strong> proces. Nederlandse telers, vooral in de Betuwe, hebben het <strong>oogsten</strong> en bewaren van fruit tot een specialisme ontwikkeld.\n\nPlukken gebeurt nog altijd met de hand, omdat elke <strong>beschadiging</strong> de appel onverkoopbaar maakt. Vervolgens verdwijnt de oogst in <strong>zuurstofarme</strong> koelcellen, waar het rijpingsproces vrijwel stilvalt. Dankzij deze bewaartechniek zijn 'verse' Hollandse appels het hele jaar <strong>verkrijgbaar</strong>.\n\nDe sector staat wel voor uitdagingen: personeelstekort in de plukperiode en een klimaat dat steeds vaker voor verrassingen zorgt.",
+      "c1": "De appel oogt als het eenvoudigste product uit de supermarkt, maar belichaamt in werkelijkheid een eeuw aan landbouwkundig <strong>vernuft</strong>. Van veredelde rassen als de Elstar tot uiterst nauwkeurige sorteermachines: elke schakel in de keten is <strong>geoptimaliseerd</strong>.\n\nHet meest ingenieus is de bewaring. In cellen waarin de zuurstof tot een minimum is teruggebracht, komt de stofwisseling van het fruit <strong>nagenoeg</strong> tot stilstand, waardoor een appel die in september is geplukt, in mei nog als vers wordt ervaren. Critici merken <strong>fijntjes</strong> op dat 'vers' daarmee een rekbaar begrip is geworden.\n\nTegelijk <strong>vergt</strong> de teelt steeds meer van de fruitteler: late nachtvorst, hagel en hete zomers maken de oogst onzekerder, terwijl de marges dun blijven. De toekomst van de Nederlandse boomgaard hangt dan ook af van innovatie én van de bereidheid van de consument om daarvoor te betalen.",
+      "woordenschat": "de boomgaard | zn | stuk land met fruitbomen | In de Betuwe staan veel boomgaarden. | meyve bahcesi\nplukken | ww | fruit van de boom halen | De appels worden in de herfst geplukt. | toplamak\nrijp | bn | klaar om te eten | Deze appel is nog niet rijp. | olgun\nde oogst | zn | alles wat de boer van het land haalt | De oogst was dit jaar goed. | hasat\nbewaren | ww | goed houden voor later | Appels kun je maandenlang bewaren. | saklamak\nde koelcel | zn | koude ruimte voor eten | De appels liggen in de koelcel. | sogutma deposu\nsorteren | ww | verdelen in groepen | De appels worden op grootte gesorteerd. | ayirmak, siniflandirmak",
+      "b1_woorden": "rijp | olgun | klaar om te eten | | In oktober zijn de appels rijp. | Ekimde elmalar olgunlasir.\nplukken | toplamak | van de boom halen | pakken | Wij hebben zelf appels geplukt. | Kendimiz elma topladik.\nsorteren | ayirmak | in groepen verdelen | verdelen | De appels worden gesorteerd op kleur. | Elmalar renge gore ayrilir.",
+      "b2_woorden": "oogsten | hasat etmek | fruit of groente van het land halen | binnenhalen | In september wordt er geoogst. | Eylulde hasat yapilir.\nde beschadiging | hasar | een kapotte plek | de schade | Elke beschadiging maakt de appel onverkoopbaar. | Her hasar elmayi satilamaz yapar.\nverkrijgbaar | bulunabilir | te koop | te krijgen | Elstars zijn het hele jaar verkrijgbaar. | Elstar butun yil bulunabilir.",
+      "c1_woorden": "het vernuft | ustalik, zeka | slimheid, inventiviteit | de slimheid | Achter de appel schuilt veel vernuft. | Elmanin arkasinda buyuk ustalik var.\nnagenoeg | hemen hemen | bijna helemaal | bijna | De stofwisseling valt nagenoeg stil. | Metabolizma hemen hemen durur.\nvergen | gerektirmek | vragen, eisen | vereisen | De teelt vergt veel van de boer. | Yetistiricilik ciftciden cok sey ister.",
+      "grammatica": "1) Het perfectum: hebben/zijn + voltooid deelwoord\n• Wij hebben vandaag appels gekocht.\n• De appel is van de boom gevallen.\n2) Hebben of zijn?\nDe meeste werkwoorden krijgen 'hebben'. 'Zijn' gebruik je bij beweging naar een doel of bij verandering.\n• Hij is naar de boomgaard gegaan. (beweging)\n• De appels zijn rijp geworden. (verandering)\n3) Regelmatige deelwoorden: ge- + stam + t/d ('t kofschip)\n• plukken -> geplukt, sorteren -> gesorteerd\n• Let op: geen ge- bij be-, ver-, ont-: bewaren -> bewaard",
+      "vragen": "1. (A2) Waar staan in Nederland veel boomgaarden?\n2. (B1) Waarom worden appels met de hand geplukt?\n3. (B2) Hoe blijven appels bijna een jaar lang goed?",
+      "antwoorden": "1. In de Betuwe.\n2. Omdat machines het fruit zouden beschadigen; een beschadigde appel kun je niet meer verkopen.\n3. Ze liggen in speciale koelcellen met heel weinig zuurstof, waardoor het rijpingsproces bijna stilstaat.",
+      "quiz": {
+        "a2": {
+          "woorden": [
+            {"vraag": "Een stuk land met veel fruitbomen heet een ...", "opties": ["bos", "boomgaard", "tuin", "park"], "juist": 1, "uitleg": "boom + gaard (tuin) = boomgaard. (TR: meyve bahcesi)"},
+            {"vraag": "'Rijp' betekent:", "opties": ["klaar om te eten", "rot", "groen", "zuur"], "juist": 0, "uitleg": "Een rijpe appel kun je plukken en eten. (TR: olgun)"},
+            {"vraag": "'Plukken' betekent fruit ...", "opties": ["wassen", "eten", "van de boom halen", "verkopen"], "juist": 2, "uitleg": "De boer plukt de appels in de herfst. (TR: toplamak)"}
+          ],
+          "grammatica": [
+            {"vraag": "Wij ... gisteren appels gekocht.", "opties": ["zijn", "hebben", "waren", "worden"], "juist": 1, "uitleg": "kopen -> hebben gekocht."},
+            {"vraag": "De appel ... van de boom gevallen.", "opties": ["heeft", "had", "is", "wordt"], "juist": 2, "uitleg": "vallen = verandering/beweging -> zijn gevallen."},
+            {"vraag": "Hij ... naar de winkel gegaan.", "opties": ["is", "heeft", "zal", "was geweest"], "juist": 0, "uitleg": "gaan -> zijn gegaan (beweging)."}
+          ],
+          "lezen": [
+            {"vraag": "In welke streek staan veel boomgaarden?", "opties": ["de Veluwe", "de Betuwe", "Zeeland", "Friesland"], "juist": 1, "uitleg": "De Betuwe is het fruitgebied van Nederland."},
+            {"vraag": "Wanneer worden de appels geplukt?", "opties": ["in maart en april", "in juni en juli", "in september en oktober", "in december"], "juist": 2, "uitleg": "In de herfst is het fruit rijp."},
+            {"vraag": "Waarom gaan de appels naar een koelcel?", "opties": ["om te wassen", "om maandenlang vers te blijven", "om te rijpen", "om te verkopen"], "juist": 1, "uitleg": "Zo eet je het hele jaar Nederlandse appels."}
+          ]
+        },
+        "b1": {
+          "woorden": [
+            {"vraag": "'De oogst' is ...", "opties": ["alles wat de boer van het land haalt", "een machine", "een seizoen", "een soort appel"], "juist": 0, "uitleg": "oogsten (ww) -> de oogst (zn). (TR: hasat)"},
+            {"vraag": "'Sorteren op grootte' betekent:", "opties": ["de grootste weggooien", "in groepen verdelen van klein naar groot", "alles even groot maken", "de grootte meten en opschrijven"], "juist": 1, "uitleg": "sorteren = in groepen verdelen. (TR: ayirmak)"},
+            {"vraag": "'Knapperig' zegt iets over ...", "opties": ["de kleur", "de prijs", "het geluid en gevoel bij het bijten", "de vorm"], "juist": 2, "uitleg": "Een knapperige appel is stevig en 'knapt' als je bijt."}
+          ],
+          "grammatica": [
+            {"vraag": "Wat is het voltooid deelwoord van 'plukken'?", "opties": ["geplukt", "geplukd", "geplokken", "plukte"], "juist": 0, "uitleg": "'t kofschip: k -> t: geplukt."},
+            {"vraag": "Wat is het voltooid deelwoord van 'bewaren'?", "opties": ["gebewaard", "bewaard", "gebewaart", "bewaart"], "juist": 1, "uitleg": "Werkwoorden met be- krijgen geen ge-: bewaard."},
+            {"vraag": "De appels ... dit jaar vroeg rijp geworden.", "opties": ["hebben", "zijn", "waren geweest", "hadden"], "juist": 1, "uitleg": "worden = verandering -> zijn geworden."}
+          ],
+          "lezen": [
+            {"vraag": "Waarom plukken machines de appels niet?", "opties": ["Machines zijn te duur.", "Machines zouden het fruit beschadigen.", "Machines zijn te langzaam.", "Dat is verboden."], "juist": 1, "uitleg": "Daarom gebeurt het met de hand."},
+            {"vraag": "Wat is er bijzonder aan de koelcel?", "opties": ["Er zit weinig zuurstof in.", "Hij is heel groot.", "Hij is onder de grond.", "Hij is van glas."], "juist": 0, "uitleg": "Daardoor 'slaapt' het fruit."},
+            {"vraag": "Waarop worden de appels gesorteerd?", "opties": ["op prijs en smaak", "op grootte en kleur", "op gewicht en geur", "op ras en leeftijd"], "juist": 1, "uitleg": "Staat letterlijk in de tekst."}
+          ]
+        },
+        "b2": {
+          "woorden": [
+            {"vraag": "'Geavanceerd' betekent:", "opties": ["ouderwets", "technisch ver ontwikkeld", "eenvoudig", "buitenlands"], "juist": 1, "uitleg": "geavanceerd = modern en slim gemaakt."},
+            {"vraag": "'Onverkoopbaar' betekent:", "opties": ["niet te verkopen", "heel duur", "snel uitverkocht", "zonder prijs"], "juist": 0, "uitleg": "on- + verkoopbaar = kan niet verkocht worden."},
+            {"vraag": "'Zuurstofarm' betekent:", "opties": ["met veel zuurstof", "met weinig zuurstof", "zonder lucht", "met zure lucht"], "juist": 1, "uitleg": "-arm = weinig (vgl. waterarm, kalorie-arm)."}
+          ],
+          "grammatica": [
+            {"vraag": "'Machines zouden het fruit beschadigen.' 'Zouden' drukt hier uit:", "opties": ["een wens", "een hypothetische situatie", "een bevel", "verleden tijd"], "juist": 1, "uitleg": "Als je machines zou gebruiken (maar dat doet men niet)."},
+            {"vraag": "'... koelcellen, waar het rijpingsproces stilvalt.' 'Waar' verwijst naar:", "opties": ["de koelcellen", "de appels", "de telers", "de oogst"], "juist": 0, "uitleg": "Relatief bijwoord van plaats: in die cellen."},
+            {"vraag": "'Vervolgens' betekent:", "opties": ["daarna", "daarom", "bovendien", "toch"], "juist": 0, "uitleg": "volgorde: eerst plukken, vervolgens bewaren."}
+          ],
+          "lezen": [
+            {"vraag": "Welke twee uitdagingen noemt de tekst voor de sector?", "opties": ["personeelstekort en klimaatverrassingen", "lage prijzen en import", "ziektes en insecten", "regels en belasting"], "juist": 0, "uitleg": "Laatste alinea van de B2-tekst."},
+            {"vraag": "Wat gebeurt er in de zuurstofarme koelcel?", "opties": ["Het rijpingsproces valt vrijwel stil.", "De appels rijpen sneller.", "De appels worden gewassen.", "De appels krijgen meer smaak."], "juist": 0, "uitleg": "Daardoor blijven ze bijna een jaar goed."},
+            {"vraag": "Wat hebben Nederlandse telers 'tot een specialisme ontwikkeld'?", "opties": ["het verkopen van fruit", "het oogsten en bewaren van fruit", "het maken van appelsap", "het planten van bomen"], "juist": 1, "uitleg": "Eerste alinea van de B2-tekst."}
+          ]
+        },
+        "c1": {
+          "woorden": [
+            {"vraag": "'Het vernuft' betekent:", "opties": ["de traditie", "de slimheid en inventiviteit", "de snelheid", "de kwaliteit"], "juist": 1, "uitleg": "vernuftig = slim bedacht. (TR: ustalik)"},
+            {"vraag": "'Nagenoeg' betekent:", "opties": ["bijna helemaal", "helemaal niet", "ongeveer de helft", "zeker weten"], "juist": 0, "uitleg": "nagenoeg tot stilstand = bijna helemaal stil."},
+            {"vraag": "'Een rekbaar begrip' is een begrip dat ...", "opties": ["heel precies is", "je breed kunt uitleggen", "verboden is", "nieuw is"], "juist": 1, "uitleg": "rekken = uitrekken; de betekenis is 'oprekbaar'."}
+          ],
+          "grammatica": [
+            {"vraag": "'Critici merken fijntjes op dat ...' - 'fijntjes' geeft aan dat de opmerking ... is.", "opties": ["subtiel en een tikje ironisch", "heel boos", "onbelangrijk", "wetenschappelijk"], "juist": 0, "uitleg": "fijntjes opmerken = met een subtiele steek."},
+            {"vraag": "'De appel belichaamt een eeuw aan vernuft.' 'Belichamen' betekent:", "opties": ["verbergen", "de concrete vorm zijn van", "verkopen", "veranderen"], "juist": 1, "uitleg": "iets belichamen = er de belichaming/uitdrukking van zijn."},
+            {"vraag": "'De toekomst hangt dan ook af van innovatie.' 'Dan ook' drukt uit:", "opties": ["een logisch gevolg van het voorgaande", "twijfel", "een tegenstelling", "een tijdstip"], "juist": 0, "uitleg": "dan ook = daarom, logischerwijs."}
+          ],
+          "lezen": [
+            {"vraag": "Waarom is 'vers' volgens critici een rekbaar begrip geworden?", "opties": ["Omdat appels van ver komen.", "Omdat een appel van september in mei nog 'vers' heet.", "Omdat appels sneller rotten.", "Omdat de smaak verandert."], "juist": 1, "uitleg": "Door de bewaartechniek is 'vers' relatief."},
+            {"vraag": "Welke risico's maken de oogst onzekerder?", "opties": ["late nachtvorst, hagel en hete zomers", "insecten en vogels", "te veel regen", "concurrentie uit het buitenland"], "juist": 0, "uitleg": "Drie klimaatrisico's uit de laatste alinea."},
+            {"vraag": "Waarvan hangt de toekomst van de boomgaard volgens de tekst af?", "opties": ["alleen van subsidie", "van innovatie en de betalingsbereidheid van de consument", "van het weer alleen", "van grotere machines"], "juist": 1, "uitleg": "Innovatie kost geld; iemand moet dat betalen."}
+          ]
+        }
+      }
+    },
+    {
+      "titel": "Veilig fietsen: zo kom je heelhuids aan",
+      "bron": "Het Klokhuis",
+      "video_url": "https://www.youtube.com/watch?v=uCbnvfWyd1Y",
+      "video_titel": "Het Klokhuis - Veilig fietsen",
+      "afbeelding_url": "https://i.ytimg.com/vi/uCbnvfWyd1Y/hqdefault.jpg",
+      "a1": "In Nederland fietst bijna iedereen. Fietsen is leuk en gezond. Maar het moet wel veilig.\n\nDoe je licht aan in het donker. Steek je hand uit als je afslaat. Kijk goed om je heen.\n\nZet je telefoon weg op de fiets. Dat is de regel. Zo blijf je veilig.",
+      "a2": "Nederland is hét fietsland van de wereld. Er zijn zelfs meer fietsen dan mensen. Maar fietsen moet wel veilig gebeuren.\n\nDaarom zijn er regels. Je moet 's avonds licht voeren, anders krijg je een boete. Ook mag je tijdens het fietsen je telefoon niet vasthouden.\n\nLet extra goed op bij vrachtwagens. De chauffeur ziet jou niet altijd: je zit dan in de dode hoek. Blijf dus altijd achter een vrachtwagen die wil afslaan.",
+      "b1": "Met meer dan 22 miljoen fietsen is fietsen in Nederland de gewoonste zaak van de wereld. Toch gebeuren er nog veel ongelukken, en daarom besteedt Het Klokhuis aandacht aan veilig fietsen.\n\nEen paar regels zijn <strong>verplicht</strong>: licht aan in het donker en je telefoon niet in je hand - daar staat een <strong>boete</strong> op. Andere dingen zijn simpelweg verstandig: steek je hand uit als je afslaat, en houd rekening met de <strong>dode hoek</strong> van vrachtwagens.\n\nSteeds meer kinderen dragen tegenwoordig een helm. Verplicht is dat niet, maar bij een val <strong>beschermt</strong> een helm je hoofd wel degelijk.",
+      "b2": "Hoewel Nederland over uitstekende fietsinfrastructuur beschikt, is het aantal fietsongelukken de laatste jaren <strong>toegenomen</strong>. Vooral <strong>afleiding</strong> door de smartphone en de opkomst van snelle e-bikes spelen daarbij een rol.\n\nFietsers gelden als <strong>kwetsbare</strong> verkeersdeelnemers: bij een botsing met een auto delven zij vrijwel altijd het onderspit. Daarom verbiedt de wet het vasthouden van een telefoon op de fiets en <strong>handhaaft</strong> de politie daar actief op.\n\nDeskundigen pleiten daarnaast voor het dragen van een fietshelm, met name bij kinderen en ouderen. Een wettelijke plicht ligt echter gevoelig in een land waar de fiets synoniem staat voor vrijheid.",
+      "c1": "Fietsen is in Nederland zo'n <strong>vanzelfsprekendheid</strong> dat de risico's gemakkelijk uit beeld raken. <strong>Paradoxaal</strong> genoeg maakt juist die nonchalance het fietsland kwetsbaar: wie zonder licht, met telefoon in de hand en zonder helm door het donker slingert, vertrouwt vooral op geluk.\n\nDe cijfers stemmen tot nadenken. Onder de verkeersslachtoffers vormen fietsers een <strong>aanzienlijk</strong> - en groeiend - aandeel, mede door de vergrijzing en de opmars van de e-bike, die hogere snelheden binnen ieders bereik brengt.\n\nToch blijft een helmplicht in Nederland gevoelig liggen; critici vrezen dat verplichting het fietsgebruik zou <strong>ontmoedigen</strong>, met alle gezondheidsgevolgen van dien. Voorlopig zet de overheid daarom in op voorlichting en betere infrastructuur - en op de eigen <strong>verantwoordelijkheid</strong> van de fietser.",
+      "woordenschat": "de boete | zn | geld dat je moet betalen als straf | Zonder licht krijg je een boete. | para cezasi\nde dode hoek | zn | plek die de chauffeur niet kan zien | Sta nooit in de dode hoek van een vrachtwagen. | kor nokta\nverplicht | bn | het moet volgens de regels | Fietslicht is verplicht in het donker. | zorunlu\nafslaan | ww | een andere weg in gaan | Steek je hand uit als je afslaat. | donus yapmak\nuitsteken | ww | naar buiten houden | Ze steekt haar hand uit. | (el) uzatmak\nde helm | zn | harde bescherming voor je hoofd | Een helm beschermt je hoofd. | kask\nhet ongeluk | zn | iets ergs dat per ongeluk gebeurt | Er gebeuren veel ongelukken op de weg. | kaza",
+      "b1_woorden": "verplicht | zorunlu | het moet van de wet | | Licht voeren is verplicht. | Isik yakmak zorunlu.\nde boete | para cezasi | straf die je betaalt | de straf | Hij kreeg een boete van 140 euro. | 140 euro ceza aldi.\nde dode hoek | kor nokta | wat de chauffeur niet ziet | | Fietsers zitten vaak in de dode hoek. | Bisikletciler cogu kez kor noktada kalir.",
+      "b2_woorden": "de afleiding | dikkat dagitici sey | iets wat je aandacht wegneemt | | De telefoon is een grote afleiding. | Telefon buyuk bir dikkat dagitici.\nhandhaven | (kurali) uygulamak, denetlemek | controleren dat regels worden gevolgd | controleren | De politie handhaaft het telefoonverbod. | Polis telefon yasagini denetliyor.\nhet onderspit delven | yenik dusmek | verliezen (in een strijd of botsing) | verliezen | De fietser delft het onderspit bij een botsing. | Carpismada bisikletci yenik duser.",
+      "c1_woorden": "de vanzelfsprekendheid | dogal karsilanan sey | iets waar niemand over nadenkt | de gewoonte | Fietsen is hier een vanzelfsprekendheid. | Bisiklet burada dogal karsilanir.\nontmoedigen | cesaretini kirmak, caydirmak | iemand de zin ontnemen | afschrikken | Een helmplicht zou fietsers kunnen ontmoedigen. | Kask zorunlulugu caydirici olabilir.\nmet alle gevolgen van dien | dogacak tum sonuclariyla | met alle gevolgen die daarbij horen | | Minder fietsen, met alle gezondheidsgevolgen van dien. | Daha az bisiklet, dogacak tum saglik sonuclariyla.",
+      "grammatica": "1) De imperatief (gebiedende wijs): de stam van het werkwoord\n• Doe je licht aan!\n• Kijk goed om je heen!\n• Steek je hand uit als je afslaat.\n2) Zachter of vriendelijker maken\n• Met 'maar', 'even' of 'eens': Kijk even goed. Kom maar mee.\n3) Negatief advies: niet / geen\n• Gebruik je telefoon niet op de fiets.\n• Neem geen risico in het verkeer.",
+      "vragen": "1. (A2) Wat gebeurt er als je 's avonds zonder licht fietst?\n2. (B1) Is een fietshelm verplicht in Nederland?\n3. (B2) Waarom is het aantal fietsongelukken toegenomen?",
+      "antwoorden": "1. Dan krijg je een boete.\n2. Nee, niet verplicht, maar bij een val beschermt een helm je hoofd wel.\n3. Vooral door afleiding door de smartphone en de opkomst van snelle e-bikes.",
+      "quiz": {
+        "a2": {
+          "woorden": [
+            {"vraag": "Wat is een boete?", "opties": ["een cadeau", "geld dat je als straf betaalt", "een fietsonderdeel", "een verkeersbord"], "juist": 1, "uitleg": "Zonder licht fietsen = boete betalen. (TR: para cezasi)"},
+            {"vraag": "'Afslaan' betekent:", "opties": ["stoppen", "vallen", "een andere weg in gaan", "sneller fietsen"], "juist": 2, "uitleg": "Links of rechts afslaan. (TR: donus yapmak)"},
+            {"vraag": "Een helm draag je op je ...", "opties": ["hoofd", "hand", "rug", "knie"], "juist": 0, "uitleg": "De helm beschermt je hoofd bij een val. (TR: kask)"}
+          ],
+          "grammatica": [
+            {"vraag": "Welke zin is een goede imperatief?", "opties": ["Jij doet je licht aan!", "Doe je licht aan!", "Je licht aandoen!", "Aandoen je licht!"], "juist": 1, "uitleg": "Imperatief = stam vooraan, zonder 'jij'."},
+            {"vraag": "... goed om je heen! (kijken)", "opties": ["Kijkt", "Kijken", "Kijk", "Gekeken"], "juist": 2, "uitleg": "De stam van kijken is 'kijk'."},
+            {"vraag": "Gebruik je telefoon ... op de fiets.", "opties": ["geen", "niet", "nooit geen", "zonder"], "juist": 1, "uitleg": "'Niet' bij een werkwoord/bepaald object; 'geen' bij onbepaald zn."}
+          ],
+          "lezen": [
+            {"vraag": "Wat is er bijzonder aan Nederland als fietsland?", "opties": ["Er zijn meer fietsen dan mensen.", "Fietsen is er gratis.", "Iedereen draagt een helm.", "Er zijn geen auto's."], "juist": 0, "uitleg": "Meer dan 22 miljoen fietsen!"},
+            {"vraag": "Wat mag je niet doen tijdens het fietsen?", "opties": ["zingen", "je telefoon vasthouden", "praten", "bellen met een koptelefoon"], "juist": 1, "uitleg": "Daar krijg je een boete voor."},
+            {"vraag": "Waar moet je blijven als een vrachtwagen wil afslaan?", "opties": ["ernaast", "ervoor", "erachter", "eronder"], "juist": 2, "uitleg": "Anders zit je in de dode hoek."}
+          ]
+        },
+        "b1": {
+          "woorden": [
+            {"vraag": "'Verplicht' betekent:", "opties": ["het mag", "het moet volgens de regels", "het is verboden", "het is gratis"], "juist": 1, "uitleg": "de plicht = wat je moet doen. (TR: zorunlu)"},
+            {"vraag": "In de 'dode hoek' van een vrachtwagen ...", "opties": ["kan de chauffeur je niet zien", "is het donker", "mag je niet parkeren", "staat een spiegel"], "juist": 0, "uitleg": "Levensgevaarlijk voor fietsers bij het afslaan."},
+            {"vraag": "'Wel degelijk' betekent:", "opties": ["misschien", "echt wel, zeker", "een beetje", "helaas niet"], "juist": 1, "uitleg": "Benadrukt dat iets echt waar is."}
+          ],
+          "grammatica": [
+            {"vraag": "Maak vriendelijker: 'Kom binnen!'", "opties": ["Kom maar binnen.", "Binnenkomen!", "Jij komt binnen.", "Kom binnen jij!"], "juist": 0, "uitleg": "'maar' maakt de imperatief zachter."},
+            {"vraag": "... je hand uit als je afslaat. (uitsteken)", "opties": ["Steekt", "Steek", "Uitsteek", "Gestoken"], "juist": 1, "uitleg": "Scheidbaar werkwoord: Steek ... uit."},
+            {"vraag": "Welke zin geeft negatief advies?", "opties": ["Neem geen risico in het verkeer.", "Neem risico in het verkeer.", "Risico nemen is leuk.", "Je neemt risico."], "juist": 0, "uitleg": "geen + onbepaald zelfstandig naamwoord."}
+          ],
+          "lezen": [
+            {"vraag": "Welke twee dingen zijn verplicht?", "opties": ["helm en bel", "licht in het donker en geen telefoon in je hand", "reflecterende kleding en helm", "verzekering en slot"], "juist": 1, "uitleg": "Daar staat een boete op."},
+            {"vraag": "Wat doen steeds meer kinderen?", "opties": ["een helm dragen", "sneller fietsen", "de bus nemen", "op de stoep fietsen"], "juist": 0, "uitleg": "Niet verplicht, wel verstandig."},
+            {"vraag": "'De gewoonste zaak van de wereld' betekent:", "opties": ["iets heel bijzonders", "iets heel normaals", "iets saais", "iets ouderwets"], "juist": 1, "uitleg": "Voor Nederlanders is fietsen doodnormaal."}
+          ]
+        },
+        "b2": {
+          "woorden": [
+            {"vraag": "'Afleiding' is:", "opties": ["iets wat je aandacht wegneemt", "een omweg", "een fietspad", "een straf"], "juist": 0, "uitleg": "De smartphone leidt fietsers af. (TR: dikkat dagitici)"},
+            {"vraag": "'Het onderspit delven' betekent:", "opties": ["winnen", "de verliezende partij zijn", "graven", "vallen"], "juist": 1, "uitleg": "Bij een botsing met een auto verliest de fietser."},
+            {"vraag": "'Handhaven' betekent hier:", "opties": ["controleren dat regels worden nageleefd", "de hand uitsteken", "vasthouden", "toestaan"], "juist": 0, "uitleg": "De politie deelt boetes uit aan overtreders."}
+          ],
+          "grammatica": [
+            {"vraag": "'Hoewel Nederland goede fietspaden heeft, ...' - 'hoewel' drukt uit:", "opties": ["een reden", "een tegenstelling", "een doel", "een tijdstip"], "juist": 1, "uitleg": "hoewel = ondanks het feit dat."},
+            {"vraag": "'Deskundigen pleiten voor een fietshelm.' 'Pleiten voor' betekent:", "opties": ["argumenteren dat iets er moet komen", "protesteren tegen", "twijfelen aan", "betalen voor"], "juist": 0, "uitleg": "pleiten voor = openlijk aanbevelen."},
+            {"vraag": "'De fiets staat synoniem voor vrijheid' betekent:", "opties": ["De fiets betekent hetzelfde als vrijheid.", "De fiets is duur.", "Fietsen is verplicht.", "Vrijheid is belangrijker dan fietsen."], "juist": 0, "uitleg": "synoniem staan voor = hét symbool zijn van."}
+          ],
+          "lezen": [
+            {"vraag": "Welke twee ontwikkelingen vergroten het aantal ongelukken?", "opties": ["smartphonegebruik en snelle e-bikes", "slechte wegen en regen", "drukte en toerisme", "jonge fietsers en oude fietsen"], "juist": 0, "uitleg": "Eerste alinea van de B2-tekst."},
+            {"vraag": "Waarom heten fietsers 'kwetsbare verkeersdeelnemers'?", "opties": ["Ze rijden langzaam.", "Bij een botsing zijn zij bijna altijd het slachtoffer.", "Ze hebben geen verzekering.", "Ze kennen de regels niet."], "juist": 1, "uitleg": "Geen bescherming zoals een auto die heeft."},
+            {"vraag": "Waarom ligt een helmplicht gevoelig?", "opties": ["Helmen zijn te duur.", "De fiets staat in Nederland voor vrijheid.", "Helmen werken niet.", "De wet is te ingewikkeld."], "juist": 1, "uitleg": "Verplichting botst met dat vrijheidsgevoel."}
+          ]
+        },
+        "c1": {
+          "woorden": [
+            {"vraag": "'Vanzelfsprekendheid' betekent:", "opties": ["iets wat iedereen normaal vindt", "iets verplichts", "iets nieuws", "iets moeilijks"], "juist": 0, "uitleg": "vanzelf spreken = geen uitleg nodig hebben."},
+            {"vraag": "'Ontmoedigen' is het tegenovergestelde van:", "opties": ["verbieden", "aanmoedigen", "vertragen", "beschermen"], "juist": 1, "uitleg": "moed geven <-> moed ontnemen."},
+            {"vraag": "'De opmars van de e-bike' betekent:", "opties": ["de sterke opkomst", "het verbod", "de prijsstijging", "de verdwijning"], "juist": 0, "uitleg": "opmars = gestage groei/verovering (militaire metafoor)."}
+          ],
+          "grammatica": [
+            {"vraag": "'Paradoxaal genoeg maakt juist die nonchalance het fietsland kwetsbaar.' De paradox is:", "opties": ["dat ontspannenheid juist gevaar oplevert", "dat fietsen gezond is", "dat Nederland plat is", "dat e-bikes snel zijn"], "juist": 0, "uitleg": "Wat normaal en relaxed voelt, blijkt riskant."},
+            {"vraag": "'De cijfers stemmen tot nadenken' betekent:", "opties": ["De cijfers zijn onduidelijk.", "De cijfers zijn geheim.", "De cijfers geven reden om na te denken.", "De cijfers kloppen niet."], "juist": 2, "uitleg": "stemmen tot = aanzetten tot."},
+            {"vraag": "'Binnen ieders bereik brengen' betekent:", "opties": ["voor iedereen beschikbaar maken", "verbieden voor iedereen", "duurder maken", "dichtbij parkeren"], "juist": 0, "uitleg": "bereik = wat je kunt pakken/bereiken."}
+          ],
+          "lezen": [
+            {"vraag": "Op wie of wat vertrouwt de fietser 'zonder licht, met telefoon, zonder helm'?", "opties": ["op geluk", "op de politie", "op de infrastructuur", "op andere fietsers"], "juist": 0, "uitleg": "Een ironische observatie van de auteur."},
+            {"vraag": "Welke twee factoren vergroten het aandeel fietsslachtoffers?", "opties": ["vergrijzing en de opmars van de e-bike", "regen en wind", "toerisme en drukte", "slechte remmen en wegdek"], "juist": 0, "uitleg": "Ouderen + hogere snelheden = meer risico."},
+            {"vraag": "Waar zet de overheid voorlopig op in?", "opties": ["een helmplicht", "voorlichting en betere infrastructuur", "minder fietspaden", "een verbod op e-bikes"], "juist": 1, "uitleg": "Plus de eigen verantwoordelijkheid van de fietser."}
+          ]
+        }
+      }
+    },
+    {
+      "titel": "Hittegolf: Nederland zucht onder de warmte",
+      "bron": "NOS Jeugdjournaal",
+      "video_url": "https://www.youtube.com/watch?v=7nmQ-J-xeKs",
+      "video_titel": "Hitte records en waterpret: dit deden jullie vandaag - NOS Jeugdjournaal",
+      "afbeelding_url": "https://i.ytimg.com/vi/7nmQ-J-xeKs/hqdefault.jpg",
+      "a1": "Het is heel warm in Nederland. Dit heet een hittegolf. De zon schijnt elke dag.\n\nVeel kinderen gaan zwemmen. Anderen eten een ijsje. Iedereen zoekt de schaduw.\n\nDrink veel water. Blijf in de middag binnen. Zo blijf je gezond.",
+      "a2": "Nederland heeft een hittegolf. Dat betekent: minstens vijf dagen achter elkaar 25 graden of warmer, en drie dagen zelfs 30 graden of meer.\n\nIn het Jeugdjournaal laten kinderen zien wat ze doen tegen de warmte: zwemmen, waterijsjes eten en spelen met water.\n\nMaar hitte is niet alleen leuk. Het KNMI geeft soms code oranje: pas dan goed op. Drink veel water en blijf in de schaduw, vooral in de middag.",
+      "b1": "Wanneer is warm weer officieel een hittegolf? In Nederland geldt een duidelijke regel: het moet <strong>minstens</strong> vijf dagen 25 graden of warmer zijn, waarvan drie dagen boven de 30 graden.\n\nTijdens zo'n periode geeft het KNMI vaak een <strong>waarschuwing</strong> af, bijvoorbeeld code oranje. Ouderen en kleine kinderen hebben het meest last van de hitte; voor hen is <strong>afkoelen</strong> extra belangrijk.\n\nHet Jeugdjournaal laat ook de vrolijke kant zien: volle zwembaden, waterpret en lange rijen bij de ijssalon. Toch is het advies serieus: drink genoeg, <strong>smeer je in</strong> en zoek de schaduw op.",
+      "b2": "Door klimaatverandering komen hittegolven in Nederland steeds <strong>frequenter</strong> voor. Wat vroeger een zeldzame zomerse uitschieter was, lijkt inmiddels bijna jaarlijks terug te keren, inclusief <strong>tropische</strong> nachten waarin het nauwelijks afkoelt.\n\nDe gevolgen reiken verder dan zweten alleen. <strong>Kwetsbare</strong> groepen - ouderen, chronisch zieken, jonge kinderen - lopen gezondheidsrisico's, en de zorgsector slaat tijdens extreme hitte regelmatig alarm. Gemeenten stellen daarom hitteplannen op, met extra aandacht voor eenzame ouderen.\n\nOok de inrichting van steden staat ter discussie: meer groen en water moeten voorkomen dat versteende wijken in de zomer <strong>onleefbaar</strong> heet worden.",
+      "c1": "De beelden van spelende kinderen in fonteinen <strong>verhullen</strong> een serieuzere werkelijkheid: extreme hitte is in Nederland geen incident meer, maar een <strong>structureel</strong> verschijnsel dat om aanpassing vraagt.\n\nStedenbouwkundigen spreken van het hitte-eilandeffect: versteende binnensteden houden warmte vast, waardoor de temperatuur er 's nachts aanzienlijk hoger ligt dan in het omringende buitengebied. Wie in een slecht geïsoleerde flat woont, ervaart een hittegolf wezenlijk anders dan wie een schaduwrijke tuin <strong>tot zijn beschikking</strong> heeft - hitte legt zo ook sociale verschillen <strong>bloot</strong>.\n\nHet antwoord ligt volgens deskundigen in vergroening, waterberging en <strong>hittebestendig</strong> bouwen. Tot die tijd blijft het devies bij elke zomerpiek hetzelfde: drink, smeer, en kijk om naar wie kwetsbaar is.",
+      "woordenschat": "de hittegolf | zn | periode van minstens vijf hete dagen | Nederland heeft een hittegolf. | sicak hava dalgasi\nminstens | bw | niet minder dan | Het is minstens 25 graden. | en az\nde schaduw | zn | plek zonder direct zonlicht | Zoek de schaduw op! | golge\nafkoelen | ww | kouder worden | 's Nachts koelt het af. | serinlemek\nde waarschuwing | zn | bericht dat er gevaar is | Het KNMI geeft een waarschuwing. | uyari\nzich insmeren | ww | zonnebrandcreme opdoen | Smeer je goed in! | kremlenmek\nhet zwembad | zn | plek waar je kunt zwemmen | Het zwembad is vol. | yuzme havuzu",
+      "b1_woorden": "minstens | en az | niet minder dan | op zijn minst | Het duurt minstens vijf dagen. | En az bes gun surer.\nde waarschuwing | uyari | bericht over gevaar | het alarm | Code oranje is een waarschuwing. | Turuncu kod bir uyaridir.\nafkoelen | serinlemek | kouder worden | verkoelen | In het water kun je lekker afkoelen. | Suda guzelce serinleyebilirsin.",
+      "b2_woorden": "frequent | sik | vaak voorkomend | vaak | Hittegolven komen frequenter voor. | Sicak dalgalari daha sik yasaniyor.\nkwetsbaar | savunmasiz, hassas | snel in gevaar | zwak | Ouderen zijn kwetsbaar bij hitte. | Yaslilar sicakta savunmasizdir.\nonleefbaar | yasanmaz | te slecht om in te leven | | Zonder groen wordt de stad onleefbaar heet. | Yesilsiz sehir yasanmaz derecede isinir.",
+      "c1_woorden": "verhullen | gizlemek, ortmek | verbergen, aan het zicht onttrekken | verbergen | De vrolijke beelden verhullen de ernst. | Neseli goruntuler ciddiyeti gizliyor.\nblootleggen | gozler onune sermek | zichtbaar maken | tonen | Hitte legt sociale verschillen bloot. | Sicaklik sosyal farklari gozler onune seriyor.\nhet devies | ilke, dustur | de leus, het motto | het motto | Het devies is: veel drinken. | Dustur su: bol su icmek.",
+      "grammatica": "1) De toekomst met 'gaan' + infinitief (plannen)\n• Wij gaan morgen zwemmen.\n• Volgende week gaat het weer afkoelen.\n2) De toekomst met 'zullen' (voorspelling, belofte)\n• Het zal morgen 35 graden worden.\n• Ik zal genoeg water drinken, beloofd!\n3) Presens + tijdwoord (heel gewoon in het Nederlands!)\n• Morgen wordt het heet.\n• Volgende week begint de hittegolf.",
+      "vragen": "1. (A2) Wanneer is warm weer officieel een hittegolf?\n2. (B1) Wie hebben het meest last van de hitte?\n3. (B2) Wat moet voorkomen dat steden onleefbaar heet worden?",
+      "antwoorden": "1. Minstens vijf dagen 25 graden of warmer, waarvan drie dagen boven de 30 graden.\n2. Ouderen en kleine kinderen.\n3. Meer groen en water in de stad.",
+      "quiz": {
+        "a2": {
+          "woorden": [
+            {"vraag": "'De schaduw' is een plek ...", "opties": ["in de zon", "zonder direct zonlicht", "in het water", "binnen"], "juist": 1, "uitleg": "In de schaduw is het koeler. (TR: golge)"},
+            {"vraag": "'Minstens vijf dagen' betekent:", "opties": ["precies vijf dagen", "hoogstens vijf dagen", "vijf dagen of meer", "minder dan vijf dagen"], "juist": 2, "uitleg": "minstens = niet minder dan. (TR: en az)"},
+            {"vraag": "'Afkoelen' betekent:", "opties": ["kouder worden", "warmer worden", "nat worden", "moe worden"], "juist": 0, "uitleg": "In het zwembad kun je afkoelen. (TR: serinlemek)"}
+          ],
+          "grammatica": [
+            {"vraag": "Wij ... morgen zwemmen.", "opties": ["gaan", "zullen gaan zwemmen", "geweest", "hebben"], "juist": 0, "uitleg": "Plan voor de toekomst: gaan + infinitief."},
+            {"vraag": "Morgen ... het heel warm.", "opties": ["wordt", "worden", "geworden", "werd"], "juist": 0, "uitleg": "Presens + tijdwoord is een normale toekomstvorm."},
+            {"vraag": "Het ... morgen 35 graden worden.", "opties": ["gaat", "zal", "is", "heeft"], "juist": 1, "uitleg": "Voorspelling: zullen + infinitief."}
+          ],
+          "lezen": [
+            {"vraag": "Wat doen kinderen tegen de warmte?", "opties": ["huiswerk maken", "zwemmen en waterijsjes eten", "binnen tv kijken", "sporten in de zon"], "juist": 1, "uitleg": "De vrolijke kant van de hittegolf."},
+            {"vraag": "Wie geeft code oranje?", "opties": ["de politie", "de school", "het KNMI", "het Jeugdjournaal"], "juist": 2, "uitleg": "Het KNMI is het weerinstituut van Nederland."},
+            {"vraag": "Wat moet je veel doen tijdens een hittegolf?", "opties": ["eten", "water drinken", "slapen", "rennen"], "juist": 1, "uitleg": "En in de schaduw blijven, vooral 's middags."}
+          ]
+        },
+        "b1": {
+          "woorden": [
+            {"vraag": "'Een waarschuwing afgeven' betekent:", "opties": ["officieel laten weten dat er gevaar is", "een cadeau geven", "een boete geven", "een les geven"], "juist": 0, "uitleg": "Bijvoorbeeld code oranje bij extreem weer."},
+            {"vraag": "'Je insmeren' doe je met ...", "opties": ["water", "zeep", "zonnebrandcreme", "modder"], "juist": 2, "uitleg": "Tegen verbranding door de zon. (TR: kremlenmek)"},
+            {"vraag": "'Er het meest last van hebben' betekent:", "opties": ["er het meest door gehinderd worden", "het leukst vinden", "er niets van merken", "het best begrijpen"], "juist": 0, "uitleg": "last hebben van = hinder ondervinden van."}
+          ],
+          "grammatica": [
+            {"vraag": "Welke zin gaat over een plan?", "opties": ["We gaan vanmiddag naar het zwembad.", "We zwommen gisteren.", "We hebben gezwommen.", "We zwemmen graag."], "juist": 0, "uitleg": "gaan + infinitief = plan/voornemen."},
+            {"vraag": "'Volgende week begint de hittegolf.' Dit is ...", "opties": ["verleden tijd", "presens met toekomstbetekenis", "imperatief", "passief"], "juist": 1, "uitleg": "Presens + tijdwoord verwijst naar de toekomst."},
+            {"vraag": "Ik ... genoeg drinken, dat beloof ik.", "opties": ["zal", "ga naar", "wordt", "ben"], "juist": 0, "uitleg": "Belofte: zullen."}
+          ],
+          "lezen": [
+            {"vraag": "Wat is de officiële regel voor een hittegolf?", "opties": ["vijf dagen 25+ waarvan drie dagen 30+", "drie dagen 25+", "een week 30+", "tien dagen zon"], "juist": 0, "uitleg": "De definitie geldt voor De Bilt (KNMI)."},
+            {"vraag": "Voor wie is afkoelen extra belangrijk?", "opties": ["voor sporters", "voor ouderen en kleine kinderen", "voor scholieren", "voor dieren"], "juist": 1, "uitleg": "Zij hebben het meest last van de hitte."},
+            {"vraag": "Welke 'vrolijke kant' laat het Jeugdjournaal zien?", "opties": ["volle zwembaden en waterpret", "lege straten", "regenbuien", "wintersport"], "juist": 0, "uitleg": "Plus lange rijen bij de ijssalon."}
+          ]
+        },
+        "b2": {
+          "woorden": [
+            {"vraag": "'Frequenter' betekent:", "opties": ["heftiger", "vaker", "langer", "warmer"], "juist": 1, "uitleg": "frequent = vaak voorkomend. (TR: sik)"},
+            {"vraag": "Een 'tropische nacht' is een nacht waarin ...", "opties": ["het nauwelijks afkoelt", "het regent", "iedereen buiten slaapt", "de zon niet ondergaat"], "juist": 0, "uitleg": "Officieel: minimum 20 graden of hoger."},
+            {"vraag": "'Alarm slaan' betekent:", "opties": ["een wekker zetten", "luid waarschuwen voor een probleem", "de politie bellen", "in paniek raken"], "juist": 1, "uitleg": "De zorgsector waarschuwt voor gezondheidsrisico's."}
+          ],
+          "grammatica": [
+            {"vraag": "'Wat vroeger zeldzaam was, lijkt nu jaarlijks terug te keren.' 'Wat' is hier:", "opties": ["een vraagwoord", "een relatief pronomen zonder antecedent", "een uitroep", "een voegwoord"], "juist": 1, "uitleg": "'Wat' = 'datgene wat'."},
+            {"vraag": "'De gevolgen reiken verder dan zweten alleen' betekent:", "opties": ["Er zijn meer en ernstigere gevolgen.", "Zweten is het ergste gevolg.", "Er zijn geen gevolgen.", "De gevolgen zijn onbekend."], "juist": 0, "uitleg": "reiken verder dan = meer omvatten dan."},
+            {"vraag": "'Ter discussie staan' betekent:", "opties": ["besproken en betwijfeld worden", "verboden zijn", "vaststaan", "populair zijn"], "juist": 0, "uitleg": "Er wordt over gediscussieerd of het anders moet."}
+          ],
+          "lezen": [
+            {"vraag": "Waardoor komen hittegolven vaker voor?", "opties": ["door klimaatverandering", "door toeval", "door de zon", "door de steden"], "juist": 0, "uitleg": "Eerste zin van de B2-tekst."},
+            {"vraag": "Wat stellen gemeenten op?", "opties": ["zwemregels", "hitteplannen", "vakantieplannen", "bouwplannen"], "juist": 1, "uitleg": "Met extra aandacht voor eenzame ouderen."},
+            {"vraag": "Wat moet voorkomen dat wijken onleefbaar heet worden?", "opties": ["meer groen en water", "meer airco's", "minder mensen", "hogere gebouwen"], "juist": 0, "uitleg": "De inrichting van steden staat ter discussie."}
+          ]
+        },
+        "c1": {
+          "woorden": [
+            {"vraag": "'Verhullen' betekent:", "opties": ["verbergen", "vertellen", "verergeren", "verzachten"], "juist": 0, "uitleg": "De vrolijke beelden verbergen de ernst. (TR: gizlemek)"},
+            {"vraag": "'Sociale verschillen blootleggen' betekent ze ...", "opties": ["zichtbaar maken", "oplossen", "vergroten", "ontkennen"], "juist": 0, "uitleg": "bloot = onbedekt -> blootleggen = tonen."},
+            {"vraag": "'Het devies' is:", "opties": ["het motto, de leus", "het bedrag", "de omweg", "het apparaat"], "juist": 0, "uitleg": "Het devies luidt: drink, smeer, kijk om."}
+          ],
+          "grammatica": [
+            {"vraag": "'Wie in een flat woont, ervaart hitte anders dan wie een tuin heeft.' Deze constructie vergelijkt:", "opties": ["twee groepen mensen via 'wie'-zinnen", "twee gebouwen", "twee seizoenen", "twee landen"], "juist": 0, "uitleg": "'Wie X doet' = iedereen die X doet."},
+            {"vraag": "'Tot zijn beschikking hebben' betekent:", "opties": ["kunnen gebruiken", "moeten delen", "verkopen", "schoonmaken"], "juist": 0, "uitleg": "beschikken over = de beschikking hebben over."},
+            {"vraag": "'Kijk om naar wie kwetsbaar is' - 'omkijken naar' betekent:", "opties": ["zorgen voor, aandacht geven aan", "achterom kijken", "negeren", "zoeken naar"], "juist": 0, "uitleg": "Figuurlijk: je bekommeren om iemand."}
+          ],
+          "lezen": [
+            {"vraag": "Wat is het 'hitte-eilandeffect'?", "opties": ["Versteende steden houden warmte vast en blijven 's nachts heter.", "Eilanden zijn warmer dan het vasteland.", "Hitte komt van zee.", "Parken worden het warmst."], "juist": 0, "uitleg": "Daardoor is de stad 's nachts warmer dan het buitengebied."},
+            {"vraag": "Hoe legt hitte sociale verschillen bloot?", "opties": ["Wie slecht woont, lijdt meer onder de hitte dan wie een koele tuin heeft.", "Rijke mensen zweten niet.", "Arme wijken hebben meer zwembaden.", "Iedereen ervaart hitte hetzelfde."], "juist": 0, "uitleg": "Woonsituatie bepaalt hoe zwaar een hittegolf valt."},
+            {"vraag": "Waarin ligt volgens deskundigen het antwoord?", "opties": ["vergroening, waterberging en hittebestendig bouwen", "meer airconditioning", "minder toerisme", "kortere zomers"], "juist": 0, "uitleg": "Structurele aanpassing van de gebouwde omgeving."}
+          ]
+        }
+      }
+    },
+    {
+      "titel": "De politie: veel meer dan boeven vangen",
+      "bron": "Het Klokhuis",
+      "video_url": "https://www.youtube.com/watch?v=ygPUo21VwwE",
+      "video_titel": "Een Lekker Lange video over de politie! - Het Klokhuis",
+      "afbeelding_url": "https://i.ytimg.com/vi/ygPUo21VwwE/hqdefault.jpg",
+      "a1": "De politie helpt mensen. Is er een probleem? Bel dan 112.\n\nDe agent draagt een uniform. Hij rijdt in een auto met blauw licht. Soms rijdt hij op een paard.\n\nDe politie werkt dag en nacht. Ook 's nachts helpt de politie. Dat is belangrijk werk.",
+      "a2": "Wat doet de politie eigenlijk de hele dag? Veel meer dan boeven vangen! Agenten helpen bij ongelukken, zoeken vermiste mensen en letten op het verkeer.\n\nIn elke buurt werkt een wijkagent. Die kent de mensen en de problemen in de wijk. Bij een noodgeval bel je 112, maar voor andere vragen bel je 0900-8844.\n\nDe politie gebruikt ook dieren: honden zoeken met hun neus, en bij grote evenementen houden paarden de menigte rustig.",
+      "b1": "In de Lekker Lange video van Het Klokhuis zien we hoe breed het politiewerk is. Agenten regelen het verkeer, helpen bij een <strong>noodgeval</strong> en doen onderzoek naar misdrijven.\n\nWie slachtoffer is van een misdrijf, kan bij de politie <strong>aangifte doen</strong>. De politie start dan een onderzoek. Voor spoed bel je 112; is er geen haast, dan bel je 0900-8844.\n\nOok dieren worden voor het politiewerk <strong>opgeleid</strong>. Speurhonden vinden met hun neus drugs, geld of vermiste personen. Politiepaarden blijven zelfs rustig bij vuurwerk en grote groepen mensen.",
+      "b2": "Het politiewerk rust op drie pijlers: de openbare orde <strong>handhaven</strong>, strafbare feiten <strong>opsporen</strong> en hulp verlenen aan wie dat nodig heeft. In de praktijk loopt dat door elkaar: een dienst kan beginnen met een verkeersongeval en eindigen met de aanhouding van een <strong>verdachte</strong>.\n\nDe wijkagent vormt de schakel tussen politie en buurt. Door zichtbaar aanwezig te zijn en de mensen te kennen, kan hij problemen vaak <strong>voorkomen</strong> in plaats van achteraf oplossen - preventie boven repressie.\n\nDe organisatie kampt, net als veel sectoren, met personeelstekorten. Daarom investeert de politie flink in werving en in de <strong>opleiding</strong> van nieuwe agenten.",
+      "c1": "De politie beschikt als enige organisatie in Nederland over het <strong>geweldsmonopolie</strong>: zij mag, binnen strikte grenzen, geweld gebruiken om de rechtsorde te beschermen. Die uitzonderlijke bevoegdheid schept een even uitzonderlijke verantwoordelijkheid - elk optreden moet <strong>proportioneel</strong> zijn en achteraf te verantwoorden.\n\nDe verhouding tussen politie en samenleving is daarmee per definitie delicaat. Vertrouwen is het werkkapitaal van de agent: zonder medewerking van burgers komt geen opsporing van de grond. Juist daarom wegen incidenten rond etnisch profileren of buitensporig geweld zo zwaar; zij <strong>tasten</strong> dat vertrouwen <strong>aan</strong>.\n\nTegelijk verandert het vak <strong>ingrijpend</strong>: criminaliteit verplaatst zich naar het digitale domein, en de agent van nu heeft naast handboeien ook digitale <strong>expertise</strong> nodig. De wijkagent krijgt er zo een virtuele wijk bij.",
+      "woordenschat": "de agent | zn | iemand die bij de politie werkt | De agent helpt de kinderen. | polis memuru\nhet noodgeval | zn | situatie waarin snel hulp nodig is | Bij een noodgeval bel je 112. | acil durum\naangifte doen | uitdr | officieel bij de politie melden | Hij deed aangifte van diefstal. | sikayette bulunmak\nde speurhond | zn | politiehond die zoekt met zijn neus | De speurhond vond het geld. | iz surme kopegi\nhet misdrijf | zn | iets ernstigs dat strafbaar is | Diefstal is een misdrijf. | suc\nde wijkagent | zn | agent die een buurt goed kent | Onze wijkagent kent iedereen. | mahalle polisi\naanhouden | ww | arresteren | De politie hield de verdachte aan. | gozaltina almak",
+      "b1_woorden": "het noodgeval | acil durum | een situatie met direct gevaar | | Bel 112 alleen bij een noodgeval. | 112'yi sadece acil durumda ara.\naangifte doen | sikayette bulunmak | een misdrijf officieel melden | melden | Ze deed aangifte van de diefstal. | Hirsizlik icin sikayette bulundu.\nopleiden | egitmek | leren voor een beroep | trainen | Speurhonden worden speciaal opgeleid. | Iz kopekleri ozel egitilir.",
+      "b2_woorden": "handhaven | (duzeni) korumak, uygulamak | zorgen dat regels worden gevolgd | bewaken | De politie handhaaft de openbare orde. | Polis kamu duzenini korur.\nopsporen | iz surup bulmak | zoeken en vinden | vinden | De politie spoort de dader op. | Polis faili bulur.\nde verdachte | supheli | iemand die misschien de dader is | | De verdachte werd aangehouden. | Supheli gozaltina alindi.",
+      "c1_woorden": "het geweldsmonopolie | guc kullanma tekeli | alleen de staat mag geweld gebruiken | | De politie heeft het geweldsmonopolie. | Guc kullanma tekeli polistedir.\nproportioneel | orantili | in verhouding tot de situatie | passend | Het geweld moet proportioneel zijn. | Guc orantili olmali.\nbuitensporig | asiri, olcusuz | veel te veel | overdreven | Buitensporig geweld schaadt het vertrouwen. | Asiri guc guveni zedeler.",
+      "grammatica": "1) Inversie: tijd of plaats vooraan -> onderwerp na het werkwoord\n• 's Nachts werkt de politie ook.\n• In elke buurt werkt een wijkagent.\nFout: ''s Nachts de politie werkt ook.'\n2) Vraag zonder vraagwoord: werkwoord eerst\n• Is er een probleem? Bel dan 112.\n3) Voorwaarde vooraan -> 'dan' + inversie\n• Is er geen haast, dan bel je 0900-8844.",
+      "vragen": "1. (A2) Welk nummer bel je bij een noodgeval?\n2. (B1) Wat kun je doen als je slachtoffer bent van een misdrijf?\n3. (B2) Op welke drie pijlers rust het politiewerk?",
+      "antwoorden": "1. 112 (zonder spoed: 0900-8844).\n2. Aangifte doen bij de politie; die start dan een onderzoek.\n3. De openbare orde handhaven, strafbare feiten opsporen en hulp verlenen.",
+      "quiz": {
+        "a2": {
+          "woorden": [
+            {"vraag": "Wie werkt bij de politie?", "opties": ["de agent", "de machinist", "de teler", "de beheerder"], "juist": 0, "uitleg": "de agent = politieman/politievrouw. (TR: polis memuru)"},
+            {"vraag": "Een 'noodgeval' is ...", "opties": ["een feest", "een situatie waarin snel hulp nodig is", "een vergadering", "een oefening"], "juist": 1, "uitleg": "Bij een noodgeval bel je 112. (TR: acil durum)"},
+            {"vraag": "'Aanhouden' betekent hier:", "opties": ["arresteren", "stoppen met werken", "doorgaan", "vasthouden aan een touw"], "juist": 0, "uitleg": "De politie houdt een verdachte aan. (TR: gozaltina almak)"}
+          ],
+          "grammatica": [
+            {"vraag": "Kies de juiste zin:", "opties": ["'s Nachts de politie werkt ook.", "'s Nachts werkt de politie ook.", "'s Nachts de politie ook werkt.", "Werkt 's nachts ook de politie ook."], "juist": 1, "uitleg": "Tijd vooraan -> inversie: werkwoord voor het onderwerp."},
+            {"vraag": "In elke buurt ... een wijkagent.", "opties": ["werkt", "een wijkagent werkt", "werken", "gewerkt"], "juist": 0, "uitleg": "Plaats vooraan -> daarna het werkwoord."},
+            {"vraag": "... er een probleem? Bel dan 112.", "opties": ["Is", "Zijn", "Heeft", "Wordt"], "juist": 0, "uitleg": "Ja/nee-vraag: werkwoord eerst. 'Er is een probleem' -> 'Is er ...?'"}
+          ],
+          "lezen": [
+            {"vraag": "Wat doet de politie nog meer dan boeven vangen?", "opties": ["helpen bij ongelukken en vermiste mensen zoeken", "brood bakken", "les geven", "treinen besturen"], "juist": 0, "uitleg": "En op het verkeer letten."},
+            {"vraag": "Welk nummer bel je als er GEEN spoed is?", "opties": ["112", "0900-8844", "911", "144"], "juist": 1, "uitleg": "112 is alleen voor noodgevallen."},
+            {"vraag": "Wat doen politiepaarden bij grote evenementen?", "opties": ["de menigte rustig houden", "snoep uitdelen", "hard rennen", "mensen vervoeren"], "juist": 0, "uitleg": "Paarden maken indruk en houden overzicht."}
+          ]
+        },
+        "b1": {
+          "woorden": [
+            {"vraag": "'Aangifte doen' betekent:", "opties": ["een misdrijf officieel melden bij de politie", "belasting betalen", "je aanmelden voor een cursus", "iemand beschuldigen op straat"], "juist": 0, "uitleg": "Daarna start de politie een onderzoek."},
+            {"vraag": "Een 'misdrijf' is ...", "opties": ["een klein foutje", "iets ernstigs dat strafbaar is", "een ongeluk", "een ruzie"], "juist": 1, "uitleg": "Bijvoorbeeld diefstal of inbraak. (TR: suc)"},
+            {"vraag": "Een 'speurhond' zoekt vooral met zijn ...", "opties": ["ogen", "oren", "neus", "poten"], "juist": 2, "uitleg": "speuren = zoeken naar sporen."}
+          ],
+          "grammatica": [
+            {"vraag": "'Is er geen haast, ... bel je 0900-8844.'", "opties": ["dan", "want", "of", "maar"], "juist": 0, "uitleg": "Voorwaarde vooraan -> dan + inversie."},
+            {"vraag": "Zet 'gisteren' vooraan: 'De politie hield gisteren een verdachte aan.'", "opties": ["Gisteren hield de politie een verdachte aan.", "Gisteren de politie hield een verdachte aan.", "Gisteren de politie een verdachte aanhield.", "Hield gisteren de politie een verdachte aan."], "juist": 0, "uitleg": "Tijd vooraan -> werkwoord op plaats 2."},
+            {"vraag": "Welke zin is fout?", "opties": ["In onze wijk werkt een aardige wijkagent.", "'s Ochtends controleert de politie het verkeer.", "Bij een noodgeval je belt 112.", "Werkt de politie ook 's nachts?"], "juist": 2, "uitleg": "Correct is: 'Bij een noodgeval bel je 112.' (inversie)"}
+          ],
+          "lezen": [
+            {"vraag": "Wat gebeurt er nadat je aangifte hebt gedaan?", "opties": ["De politie start een onderzoek.", "Je krijgt meteen je spullen terug.", "Je moet een boete betalen.", "Er gebeurt niets."], "juist": 0, "uitleg": "Aangifte is de officiële start."},
+            {"vraag": "Wat kunnen speurhonden vinden?", "opties": ["drugs, geld en vermiste personen", "alleen drugs", "alleen mensen", "gestolen auto's"], "juist": 0, "uitleg": "Alles met hun getrainde neus."},
+            {"vraag": "Waarbij blijven politiepaarden rustig?", "opties": ["bij vuurwerk en grote groepen", "bij regen", "bij muziek", "bij honden"], "juist": 0, "uitleg": "Daarvoor zijn ze speciaal opgeleid."}
+          ]
+        },
+        "b2": {
+          "woorden": [
+            {"vraag": "'De openbare orde handhaven' betekent:", "opties": ["zorgen dat het op straat rustig en veilig blijft", "gebouwen schoonmaken", "verkiezingen organiseren", "wetten maken"], "juist": 0, "uitleg": "Een van de drie pijlers van politiewerk."},
+            {"vraag": "'Opsporen' betekent:", "opties": ["zoeken tot je iets of iemand vindt", "opsluiten", "straffen", "verhoren"], "juist": 0, "uitleg": "sporen volgen -> opsporen. (TR: iz surup bulmak)"},
+            {"vraag": "Een 'verdachte' is iemand die ...", "opties": ["misschien de dader is", "zeker de dader is", "het slachtoffer is", "getuige was"], "juist": 0, "uitleg": "Pas de rechter beslist over schuld."}
+          ],
+          "grammatica": [
+            {"vraag": "'Preventie boven repressie' betekent:", "opties": ["liever voorkomen dan achteraf straffen", "eerst straffen, dan praten", "meer agenten aannemen", "strengere wetten maken"], "juist": 0, "uitleg": "voorkomen (preventie) > bestrijden (repressie)."},
+            {"vraag": "'Een dienst kan beginnen met X en eindigen met Y' illustreert:", "opties": ["hoe afwisselend het werk is", "hoe saai het werk is", "hoe kort een dienst is", "hoe gevaarlijk paarden zijn"], "juist": 0, "uitleg": "De drie taken lopen in de praktijk door elkaar."},
+            {"vraag": "'De wijkagent vormt de schakel tussen politie en buurt.' 'Schakel' betekent hier:", "opties": ["de verbinding", "de baas", "het probleem", "de regel"], "juist": 0, "uitleg": "Als een schakel in een ketting."}
+          ],
+          "lezen": [
+            {"vraag": "Hoe kan de wijkagent problemen voorkomen?", "opties": ["door zichtbaar aanwezig te zijn en mensen te kennen", "door strenger te straffen", "door meer boetes uit te delen", "door camera's op te hangen"], "juist": 0, "uitleg": "Preventie werkt via contact en vertrouwen."},
+            {"vraag": "Waarmee kampt de politieorganisatie?", "opties": ["personeelstekorten", "te veel agenten", "te weinig auto's", "te veel regels"], "juist": 0, "uitleg": "Net als veel andere sectoren."},
+            {"vraag": "Waarin investeert de politie daarom?", "opties": ["werving en opleiding", "nieuwe uniformen", "snellere auto's", "meer paarden"], "juist": 0, "uitleg": "Nieuwe agenten vinden én opleiden."}
+          ]
+        },
+        "c1": {
+          "woorden": [
+            {"vraag": "'Het geweldsmonopolie' betekent dat ...", "opties": ["alleen de staat (politie) geweld mag gebruiken", "iedereen zich mag verdedigen", "geweld altijd verboden is", "de politie nooit geweld gebruikt"], "juist": 0, "uitleg": "Binnen strikte wettelijke grenzen."},
+            {"vraag": "'Proportioneel optreden' is optreden dat ...", "opties": ["in verhouding staat tot de situatie", "zo hard mogelijk is", "altijd hetzelfde is", "door de rechter wordt gedaan"], "juist": 0, "uitleg": "Niet meer geweld dan nodig."},
+            {"vraag": "'Buitensporig' betekent:", "opties": ["veel te veel, over de grens", "buiten op straat", "sportief", "onverwacht"], "juist": 0, "uitleg": "buiten het spoor = over de grens. (TR: asiri)"}
+          ],
+          "grammatica": [
+            {"vraag": "'Vertrouwen is het werkkapitaal van de agent.' Dit is ...", "opties": ["een metafoor", "een vraag", "een citaat", "een definitie uit de wet"], "juist": 0, "uitleg": "Vertrouwen wordt vergeleken met kapitaal waarmee je 'werkt'."},
+            {"vraag": "'Zonder medewerking komt geen opsporing van de grond.' 'Van de grond komen' betekent:", "opties": ["echt beginnen, slagen", "opstijgen", "vallen", "verdwijnen"], "juist": 0, "uitleg": "iets komt van de grond = het lukt/start."},
+            {"vraag": "'De wijkagent krijgt er een virtuele wijk bij.' Dit betekent:", "opties": ["Hij moet nu ook online criminaliteit in de gaten houden.", "Hij verhuist naar een andere wijk.", "Hij werkt alleen nog thuis.", "Zijn wijk wordt groter op de kaart."], "juist": 0, "uitleg": "Criminaliteit verplaatst zich naar het digitale domein."}
+          ],
+          "lezen": [
+            {"vraag": "Waarom schept het geweldsmonopolie een bijzondere verantwoordelijkheid?", "opties": ["Elk optreden moet proportioneel en verantwoordbaar zijn.", "Agenten mogen alles.", "Niemand controleert de politie.", "Geweld is altijd fout."], "juist": 0, "uitleg": "Uitzonderlijke bevoegdheid vraagt om verantwoording."},
+            {"vraag": "Waarom wegen incidenten als etnisch profileren zo zwaar?", "opties": ["Ze tasten het vertrouwen aan dat de politie nodig heeft.", "Ze kosten veel geld.", "Ze halen de krant niet.", "Ze zijn zeldzaam."], "juist": 0, "uitleg": "Zonder vertrouwen geen medewerking van burgers."},
+            {"vraag": "Hoe verandert het politievak?", "opties": ["Criminaliteit wordt digitaal; agenten hebben ook digitale expertise nodig.", "Er komen alleen maar meer paarden.", "Het werk wordt eenvoudiger.", "Agenten werken korter."], "juist": 0, "uitleg": "Naast handboeien ook digitale kennis."}
+          ]
+        }
+      }
+    },
+    {
+      "titel": "Molens: de krachtpatsers van vroeger",
+      "bron": "Het Klokhuis",
+      "video_url": "https://www.youtube.com/watch?v=YKz7r63O4i8",
+      "video_titel": "Welke soorten molens zijn er? - Het Klokhuis",
+      "afbeelding_url": "https://i.ytimg.com/vi/YKz7r63O4i8/hqdefault.jpg",
+      "a1": "Nederland heeft veel molens. Een molen draait door de wind. De wieken gaan rond.\n\nSommige molens malen graan. Daar wordt meel van gemaakt. Andere molens pompen water weg.\n\nDe molens van Kinderdijk zijn beroemd. Toeristen komen er graag. Molens horen bij Nederland.",
+      "a2": "Molens zijn een symbool van Nederland. Vroeger waren het echte machines. Ze werkten op de kracht van de wind.\n\nEr zijn verschillende soorten molens. Een korenmolen maalt graan tot meel. Een zaagmolen zaagt hout. En een poldermolen pompt water uit de polder.\n\nDe beroemdste molens staan in Kinderdijk. Daar staan negentien oude molens bij elkaar. Ze zijn zelfs werelderfgoed van UNESCO.",
+      "b1": "Hoeveel soorten molens zijn er eigenlijk? Meer dan je denkt. In de video legt Het Klokhuis uit dat elke molen zijn eigen taak had.\n\nDe korenmolen <strong>maalt</strong> graan tot meel voor brood. De zaagmolen zaagde boomstammen tot planken voor schepen en huizen. Maar de belangrijkste was misschien de poldermolen: die pompte water weg en hield zo het land <strong>droog</strong>.\n\nDe bekendste plek is Kinderdijk, waar negentien molens uit de achttiende eeuw bij elkaar staan. Nergens ter wereld vind je zoveel oude molens zo dicht bij elkaar - niet voor niets zijn ze <strong>werelderfgoed</strong>.",
+      "b2": "Vóór de stoommachine waren molens de <strong>krachtcentrales</strong> van Nederland. Wind en water leverden de energie voor het malen van graan, het zagen van hout en het persen van olie - en, <strong>cruciaal</strong> voor een land onder zeeniveau, voor het wegpompen van water.\n\nDe Zaanstreek groeide in de Gouden Eeuw uit tot een van de eerste industriegebieden ter wereld, met honderden <strong>vernuftige</strong> industriemolens. Tegelijk hielden poldermolens elders het land letterlijk boven water.\n\nVan de duizenden molens van toen zijn er nog ruim duizend over. Vrijwilligers houden ze <strong>draaiende</strong>, want een molen die stilstaat, gaat kapot. Zo blijft uniek erfgoed levend.",
+      "c1": "De molen is uitgegroeid tot hét <strong>toonbeeld</strong> van Nederland, maar die romantiek verhult zijn oorspronkelijke rol: de molen was botweg de motor van de vroegmoderne economie. Zonder wind- en waterkracht geen scheepsbouw, geen polders, geen Gouden Eeuw.\n\nTechnisch gezien waren de molens <strong>ingenieus</strong>: met houten tandwielen en verstelbare wieken werd windkracht omgezet in precies de beweging die het werk vereiste - malen, zagen, pompen of persen. Molenaars 'spraken' bovendien met hun molen: de stand van de wieken <strong>gold</strong> als bericht aan de omgeving, van feest tot rouw.\n\nToen stoom en elektriciteit het werk overnamen, raakten duizenden molens <strong>in verval</strong>. Dat er nog ruim duizend bestaan, is te danken aan een leger vrijwilligers dat dit erfgoed <strong>koestert</strong> - en aan het inzicht dat een land zijn geschiedenis het best bewaart door haar te laten draaien.",
+      "woordenschat": "de molen | zn | gebouw dat werkt op windkracht | Nederland telt ruim duizend molens. | degirmen\nde wiek | zn | de 'arm' van de molen die draait | De wieken draaien in de wind. | degirmen kanadi\nmalen | ww | fijnmaken tot poeder | De molen maalt graan tot meel. | ogutmek\nhet meel | zn | gemalen graan, voor brood | Van meel bak je brood. | un\nde polder | zn | laag land, drooggemaakt en omringd door dijken | De polder ligt onder zeeniveau. | polder (denizden kazanilmis arazi)\npompen | ww | water verplaatsen met kracht | De molen pompt het water weg. | pompalamak\nhet erfgoed | zn | waardevolle dingen uit het verleden | Deze molens zijn werelderfgoed. | (kulturel) miras",
+      "b1_woorden": "malen | ogutmek | fijnmaken | | De korenmolen maalt het graan. | Tahil degirmeni bugdayi ogutur.\ndrooghouden | kuru tutmak | zorgen dat er geen water komt | | Poldermolens hielden het land droog. | Polder degirmenleri karayi kuru tuttu.\nhet werelderfgoed | dunya mirasi | beschermd erfgoed van UNESCO | | Kinderdijk is werelderfgoed. | Kinderdijk dunya mirasidir.",
+      "b2_woorden": "de krachtcentrale | guc santrali | plek waar energie wordt gemaakt | de energiebron | Molens waren de krachtcentrales van toen. | Degirmenler o zamanin guc santralleriydi.\nvernuftig | ustaca tasarlanmis | slim bedacht | slim | Een vernuftig systeem van tandwielen. | Ustaca tasarlanmis disli sistemi.\ndraaiende houden | calisir durumda tutmak | laten blijven werken | in bedrijf houden | Vrijwilligers houden de molens draaiende. | Gonulluler degirmenleri calisir tutuyor.",
+      "c1_woorden": "het toonbeeld | simge, timsal | het perfecte voorbeeld | het symbool | De molen is het toonbeeld van Nederland. | Degirmen Hollanda'nin simgesidir.\nin verval raken | curumeye yuz tutmak | langzaam kapotgaan | vervallen | Veel molens raakten in verval. | Cok degirmen curumeye yuz tuttu.\nkoesteren | ozenle korumak, bagrina basmak | met liefde bewaren | zuinig zijn op | Vrijwilligers koesteren dit erfgoed. | Gonulluler bu mirasi ozenle koruyor.",
+      "grammatica": "1) De superlatief (overtreffende trap): de/het + stam + -ste\n• beroemd -> De beroemdste molens staan in Kinderdijk.\n• belangrijk -> De belangrijkste molen was de poldermolen.\n• Onregelmatig: goed -> best, veel -> meest, graag -> liefst\n2) Drie niveaus vergelijken\n• oud - ouder dan - de oudste / het oudst\n3) 'Nergens ... zo ... als'\n• Nergens ter wereld staan zoveel molens zo dicht bij elkaar als in Kinderdijk.",
+      "vragen": "1. (A2) Welke drie soorten molens noemt de tekst?\n2. (B1) Waarom was de poldermolen misschien de belangrijkste?\n3. (B2) Waarom houden vrijwilligers de molens draaiende?",
+      "antwoorden": "1. De korenmolen (maalt graan), de zaagmolen (zaagt hout) en de poldermolen (pompt water).\n2. Omdat die het water wegpompte en zo het land droog hield.\n3. Omdat een molen die stilstaat kapotgaat; zo blijft het erfgoed levend.",
+      "quiz": {
+        "a2": {
+          "woorden": [
+            {"vraag": "Wat zijn de wieken van een molen?", "opties": ["de deuren", "de draaiende 'armen'", "de stenen", "de trap"], "juist": 1, "uitleg": "De wind duwt tegen de wieken. (TR: degirmen kanadi)"},
+            {"vraag": "'Malen' betekent:", "opties": ["fijnmaken tot poeder", "schilderen", "draaien", "bakken"], "juist": 0, "uitleg": "Graan malen -> meel. (TR: ogutmek)"},
+            {"vraag": "Wat is een polder?", "opties": ["een hoge berg", "laag land achter dijken", "een soort molen", "een rivier"], "juist": 1, "uitleg": "Vaak drooggemaakt land onder zeeniveau."}
+          ],
+          "grammatica": [
+            {"vraag": "Kinderdijk heeft de ... molens van Nederland. (beroemd)", "opties": ["beroemdste", "beroemder", "meest beroemd", "beroemd"], "juist": 0, "uitleg": "Superlatief: beroemd + -ste."},
+            {"vraag": "goed -> de superlatief is:", "opties": ["goedste", "beter", "best", "meest goed"], "juist": 2, "uitleg": "Onregelmatig: goed - beter - best."},
+            {"vraag": "Deze molen is ... dan die molen. (oud)", "opties": ["oudste", "ouder", "het oudst", "meer oud"], "juist": 1, "uitleg": "Vergelijken met 'dan': comparatief ouder."}
+          ],
+          "lezen": [
+            {"vraag": "Waardoor draait een molen?", "opties": ["door de wind", "door benzine", "door elektriciteit", "door water uit de kraan"], "juist": 0, "uitleg": "Molens werken op windkracht."},
+            {"vraag": "Hoeveel oude molens staan er in Kinderdijk?", "opties": ["negen", "negentien", "negentig", "duizend"], "juist": 1, "uitleg": "Negentien molens uit de achttiende eeuw."},
+            {"vraag": "Wat maalt een korenmolen?", "opties": ["hout", "koffie", "graan", "olie"], "juist": 2, "uitleg": "Graan wordt meel, en van meel bak je brood."}
+          ]
+        },
+        "b1": {
+          "woorden": [
+            {"vraag": "'Het erfgoed' is ...", "opties": ["waardevols uit het verleden", "een soort molen", "een testament", "oud geld"], "juist": 0, "uitleg": "erven + goed = wat we van vroeger 'geërfd' hebben."},
+            {"vraag": "Een 'zaagmolen' maakte van boomstammen ...", "opties": ["meel", "planken", "papier", "olie"], "juist": 1, "uitleg": "Voor schepen en huizen."},
+            {"vraag": "'Niet voor niets' betekent:", "opties": ["met een goede reden", "gratis", "zonder reden", "helaas"], "juist": 0, "uitleg": "Er is een logische reden voor."}
+          ],
+          "grammatica": [
+            {"vraag": "Welke zin is correct?", "opties": ["Dit is de oudste molen van het land.", "Dit is de ouderste molen van het land.", "Dit is de meest oude molen van het land.", "Dit is de oudst molen van het land."], "juist": 0, "uitleg": "oud -> oudste (superlatief + -e voor het zelfstandig naamwoord)."},
+            {"vraag": "Ik kom hier ... in de zomer. (graag - superlatief)", "opties": ["liever", "het liefst", "graagst", "meest graag"], "juist": 1, "uitleg": "graag - liever - het liefst."},
+            {"vraag": "'Nergens vind je zoveel molens ... in Kinderdijk.'", "opties": ["als", "dan", "zoals", "of"], "juist": 0, "uitleg": "zo ... als (gelijke vergelijking)."}
+          ],
+          "lezen": [
+            {"vraag": "Wat deed de poldermolen?", "opties": ["water wegpompen", "graan malen", "hout zagen", "olie persen"], "juist": 0, "uitleg": "Zo bleef het lage land droog."},
+            {"vraag": "Uit welke eeuw komen de molens van Kinderdijk?", "opties": ["de achttiende eeuw", "de twintigste eeuw", "de middeleeuwen", "de negentiende eeuw"], "juist": 0, "uitleg": "Staat in de B1-tekst."},
+            {"vraag": "Wat is er uniek aan Kinderdijk?", "opties": ["Nergens staan zoveel oude molens zo dicht bij elkaar.", "De molens zijn er het grootst.", "De molens draaien er het snelst.", "Er wonen molenaars."], "juist": 0, "uitleg": "Daarom is het werelderfgoed."}
+          ]
+        },
+        "b2": {
+          "woorden": [
+            {"vraag": "'Molens waren de krachtcentrales van Nederland' is ...", "opties": ["een vergelijking: ze leverden alle energie", "letterlijk waar: ze maakten stroom", "een grap", "een fout in de tekst"], "juist": 0, "uitleg": "Vóór de stoommachine kwam energie van wind en water."},
+            {"vraag": "'Vernuftig' betekent:", "opties": ["slim bedacht", "heel groot", "ouderwets", "duur"], "juist": 0, "uitleg": "vgl. het vernuft = inventiviteit."},
+            {"vraag": "'Het land boven water houden' betekent hier:", "opties": ["letterlijk: droog houden", "financieel redden", "beroemd maken", "verdedigen tegen vijanden"], "juist": 0, "uitleg": "Bij de poldermolens is het letterlijk bedoeld."}
+          ],
+          "grammatica": [
+            {"vraag": "'Een molen die stilstaat, gaat kapot.' 'Die' verwijst naar:", "opties": ["een molen", "de vrijwilligers", "het erfgoed", "de wind"], "juist": 0, "uitleg": "Relatieve bijzin bij 'een molen' (de-woord -> die)."},
+            {"vraag": "'De Zaanstreek groeide uit tot een industriegebied.' 'Uitgroeien tot' betekent:", "opties": ["langzaam worden", "stoppen met groeien", "verhuizen naar", "kleiner worden"], "juist": 0, "uitleg": "zich ontwikkelen tot."},
+            {"vraag": "'Tegelijk hielden poldermolens het land boven water.' 'Tegelijk' betekent:", "opties": ["op hetzelfde moment / daarnaast", "daarna", "daarom", "eindelijk"], "juist": 0, "uitleg": "Twee ontwikkelingen naast elkaar."}
+          ],
+          "lezen": [
+            {"vraag": "Wat gebeurde er in de Zaanstreek in de Gouden Eeuw?", "opties": ["Het groeide uit tot een vroeg industriegebied met honderden molens.", "Alle molens verdwenen.", "Er kwam een universiteit.", "De zee overstroomde het gebied."], "juist": 0, "uitleg": "Industriemolens zaagden, maalden en persten er."},
+            {"vraag": "Hoeveel molens zijn er nu nog ongeveer?", "opties": ["ruim duizend", "ongeveer honderd", "tienduizend", "negentien"], "juist": 0, "uitleg": "Van de duizenden van vroeger."},
+            {"vraag": "Waarom mag een molen niet stilstaan?", "opties": ["Dan gaat hij kapot.", "Dan valt hij om.", "Dat is verboden.", "Dan komen er geen toeristen."], "juist": 0, "uitleg": "Daarom houden vrijwilligers ze draaiende."}
+          ]
+        },
+        "c1": {
+          "woorden": [
+            {"vraag": "'Het toonbeeld van Nederland' betekent:", "opties": ["het perfecte symbool", "het grootste probleem", "de mooiste foto", "het oudste gebouw"], "juist": 0, "uitleg": "toonbeeld = schoolvoorbeeld, icoon."},
+            {"vraag": "'In verval raken' betekent:", "opties": ["langzaam kapotgaan", "beroemd worden", "verkocht worden", "omvallen"], "juist": 0, "uitleg": "het verval = de langzame achteruitgang."},
+            {"vraag": "'Erfgoed koesteren' betekent het ...", "opties": ["met liefde beschermen", "verkopen", "verbouwen", "vergeten"], "juist": 0, "uitleg": "koesteren = warm houden, zuinig op zijn."}
+          ],
+          "grammatica": [
+            {"vraag": "'De molen was botweg de motor van de economie.' 'Botweg' betekent:", "opties": ["simpelweg, zonder omwegen gezegd", "helaas", "waarschijnlijk", "vroeger"], "juist": 0, "uitleg": "bot = direct; botweg = gewoon simpel gezegd."},
+            {"vraag": "'De stand van de wieken gold als bericht.' 'Gelden als' betekent:", "opties": ["beschouwd worden als", "verboden zijn als", "betalen voor", "lijken op"], "juist": 0, "uitleg": "Het werd gezien/gebruikt als bericht."},
+            {"vraag": "'... door haar te laten draaien.' Waar verwijst 'haar' naar?", "opties": ["de geschiedenis", "de molen", "de vrijwilliger", "de wind"], "juist": 0, "uitleg": "'de geschiedenis' is vrouwelijk -> haar."}
+          ],
+          "lezen": [
+            {"vraag": "Wat 'verhult' de romantiek rond molens volgens de tekst?", "opties": ["dat molens de motor van de economie waren", "dat molens lelijk zijn", "dat molens duur zijn", "dat molens gevaarlijk waren"], "juist": 0, "uitleg": "Achter het romantische beeld zit harde economie."},
+            {"vraag": "Hoe 'spraken' molenaars met hun molen?", "opties": ["De stand van de wieken was een bericht aan de omgeving.", "Ze riepen door de wieken.", "Met vlaggen op het dak.", "Met een bel."], "juist": 0, "uitleg": "Bijvoorbeeld een feest- of rouwstand."},
+            {"vraag": "Waardoor raakten duizenden molens in verval?", "opties": ["Stoom en elektriciteit namen het werk over.", "Er was geen hout meer.", "De wind ging liggen.", "Ze werden verboden."], "juist": 0, "uitleg": "Nieuwe energiebronnen maakten molens overbodig."}
+          ]
+        }
+      }
+    },
+    {
+      "titel": "De Biesbosch: wilde natuur midden in Nederland",
+      "bron": "Het Klokhuis",
+      "video_url": "https://www.youtube.com/watch?v=Xg_txZDyLTc",
+      "video_titel": "Het Klokhuis - Nationaal Park de Biesbosch",
+      "afbeelding_url": "https://i.ytimg.com/vi/Xg_txZDyLTc/hqdefault.jpg",
+      "a1": "De Biesbosch is een groot natuurgebied. Er is veel water. Je kunt er varen.\n\nIn de Biesbosch leven bevers. Een bever bouwt een dam. Hij knaagt aan bomen.\n\nVeel mensen bezoeken het park. Ze varen in een kano. De natuur is daar prachtig.",
+      "a2": "Nationaal Park de Biesbosch is een van de grootste natuurgebieden van Nederland. Het is een bijzonder gebied: zoet water met eilandjes, kreken en rivieren.\n\nHet beroemdste dier van de Biesbosch is de bever. Dat is het grootste knaagdier van Europa. Bevers bouwen dammen en burchten van takken.\n\nJe kunt de Biesbosch het best per boot of kano ontdekken. Met een beetje geluk zie je een ijsvogel of zelfs een zeearend.",
+      "b1": "Nationaal Park de Biesbosch is een doolhof van kreken en eilandjes dat je het best per kano kunt <strong>verkennen</strong>. Het is een van de weinige zoetwatergetijdengebieden van Europa: het water stijgt en daalt er een beetje met het getij mee.\n\nDe ster van het gebied is de bever, het grootste <strong>knaagdier</strong> van Europa. Bevers waren in Nederland uitgestorven, maar zijn in 1988 opnieuw <strong>uitgezet</strong> in de Biesbosch. Dat werd een groot succes: inmiddels leven er honderden.\n\nWie stil is en goed kijkt, ziet misschien een beverburcht, een ijsvogel die voorbijflitst, of een zeearend die boven het water cirkelt.",
+      "b2": "De Biesbosch dankt zijn bestaan aan een ramp: de Sint-Elisabethsvloed van 1421 veranderde vruchtbaar polderland in een binnenzee, waaruit later een uniek <strong>getijdenlandschap</strong> ontstond.\n\nTegenwoordig is het gebied vooral bekend om de succesvolle <strong>herintroductie</strong> van de bever. De dieren die er in 1988 werden uitgezet, bleken uitstekend te <strong>gedijen</strong>; hun nakomelingen hebben zich inmiddels over grote delen van Nederland verspreid.\n\nDe Biesbosch vervult daarnaast een moderne functie: bij extreem hoogwater dient het gebied als <strong>waterberging</strong>. Natuur en waterveiligheid gaan hier hand in hand - een aanpak die internationaal aandacht trekt.",
+      "c1": "Weinig Nederlandse landschappen hebben zo'n dramatische <strong>ontstaansgeschiedenis</strong> als de Biesbosch: een middeleeuwse stormvloed die duizenden levens eiste, legde de basis voor wat nu een van de waardevolste natuurgebieden van het land is. Ramp en rijkdom zijn hier onlosmakelijk <strong>verweven</strong>.\n\nDie dubbelheid keert terug in het hedendaagse beheer. De Biesbosch is geen ongerepte wildernis, maar een zorgvuldig <strong>gereguleerd</strong> systeem waarin recreatie, natuurontwikkeling en waterveiligheid voortdurend tegen elkaar worden afgewogen. De terugkeer van de bever - ooit door de mens <strong>uitgeroeid</strong>, later door diezelfde mens teruggebracht - illustreert dat treffend.\n\nZo bezien is de Biesbosch vooral een les in bescheidenheid: de natuur blijkt verrassend <strong>veerkrachtig</strong>, mits de mens haar de ruimte gunt.",
+      "woordenschat": "het natuurgebied | zn | beschermd stuk natuur | De Biesbosch is een groot natuurgebied. | doga koruma alani\nde bever | zn | groot knaagdier dat dammen bouwt | De bever knaagt aan een boom. | kunduz\nhet knaagdier | zn | dier met sterke voortanden | Een muis is ook een knaagdier. | kemirgen\nde kreek | zn | smal, ondiep water | We varen door een stille kreek. | dere, koy\nvaren | ww | reizen over water | Je kunt er met een kano varen. | tekneyle gitmek\nhet getij | zn | het stijgen en dalen van het water | Het getij verandert twee keer per dag. | gelgit\nuitsterven | ww | als soort helemaal verdwijnen | De bever was hier bijna uitgestorven. | soyu tukenmek",
+      "b1_woorden": "verkennen | kesfetmek | ontdekken, bekijken | ontdekken | We verkennen het gebied per kano. | Bolgeyi kanoyla kesfediyoruz.\nuitzetten | dogaya salmak | dieren in de natuur loslaten | loslaten | In 1988 werden bevers uitgezet. | 1988'de kunduzlar dogaya salindi.\nhet knaagdier | kemirgen | dier dat knaagt | | De bever is het grootste knaagdier van Europa. | Kunduz Avrupa'nin en buyuk kemirgeni.",
+      "b2_woorden": "de herintroductie | yeniden dogaya kazandirma | het terugbrengen van een soort | het terugbrengen | De herintroductie van de bever slaagde. | Kunduzun geri kazandirilmasi basarili oldu.\ngedijen | serpilmek, iyi gelismek | goed groeien en leven | floreren | De bevers gedijen in de Biesbosch. | Kunduzlar Biesbosch'ta serpiliyor.\nde waterberging | su tutma alani | plek waar extra water tijdelijk heen kan | | Het gebied dient als waterberging. | Bolge su tutma alani islevi goruyor.",
+      "c1_woorden": "verweven | ic ice gecmis | onlosmakelijk verbonden | verbonden | Ramp en rijkdom zijn hier verweven. | Felaket ve zenginlik burada ic ice.\nuitroeien | kokunu kurutmak | een soort helemaal doden | uitmoorden | De bever werd ooit uitgeroeid. | Kunduzun soyu bir zamanlar kurutuldu.\niemand de ruimte gunnen | birine alan tanimak | iemand vrijheid en plek geven | | De mens moet de natuur de ruimte gunnen. | Insan dogaya alan tanimali.",
+      "grammatica": "1) Die of dat?\nde-woorden -> die; het-woorden -> dat.\n• De bever is een dier dat dammen bouwt. (het dier)\n• De kano die daar ligt, is van ons. (de kano)\n2) Waar(+prepositie) bij dingen en plaatsen\n• Het gebied waar bevers leven, is beschermd.\n• De boot waarmee we varen, is fluisterstil.\n3) Bij mensen: prepositie + wie\n• De gids met wie we varen, weet alles over bevers.",
+      "vragen": "1. (A2) Wat is het beroemdste dier van de Biesbosch?\n2. (B1) Wat gebeurde er in 1988?\n3. (B2) Welke moderne functie heeft de Biesbosch bij extreem hoogwater?",
+      "antwoorden": "1. De bever, het grootste knaagdier van Europa.\n2. Bevers werden opnieuw uitgezet in de Biesbosch, nadat ze in Nederland waren uitgestorven.\n3. Het gebied dient als waterberging.",
+      "quiz": {
+        "a2": {
+          "woorden": [
+            {"vraag": "Wat bouwt een bever?", "opties": ["een nest in een boom", "dammen en burchten", "een hol in het zand", "niets"], "juist": 1, "uitleg": "Van takken die hij zelf afknaagt. (TR: kunduz)"},
+            {"vraag": "'Varen' doe je met ...", "opties": ["een fiets", "een boot of kano", "een auto", "een trein"], "juist": 1, "uitleg": "varen = reizen over water."},
+            {"vraag": "Een 'knaagdier' heeft sterke ...", "opties": ["voortanden", "poten", "oren", "vleugels"], "juist": 0, "uitleg": "knagen = bijten met de voortanden. (TR: kemirgen)"}
+          ],
+          "grammatica": [
+            {"vraag": "De bever is een dier ... dammen bouwt.", "opties": ["die", "dat", "wat", "waar"], "juist": 1, "uitleg": "het dier -> dat."},
+            {"vraag": "De kano ... daar ligt, is van ons.", "opties": ["dat", "wie", "die", "waar"], "juist": 2, "uitleg": "de kano -> die."},
+            {"vraag": "Het park ... wij wandelen, is groot.", "opties": ["waar", "die", "wie", "dat wij"], "juist": 0, "uitleg": "Plaats -> waar: het park waar wij wandelen."}
+          ],
+          "lezen": [
+            {"vraag": "Wat voor water heeft de Biesbosch?", "opties": ["zout water", "zoet water", "warm water", "geen water"], "juist": 1, "uitleg": "Een zoetwatergebied met kreken en rivieren."},
+            {"vraag": "Hoe kun je de Biesbosch het best ontdekken?", "opties": ["per boot of kano", "met de auto", "te paard", "met de trein"], "juist": 0, "uitleg": "Het is een doolhof van water."},
+            {"vraag": "Welke bijzondere vogel kun je er zien?", "opties": ["een pinguin", "een zeearend", "een papegaai", "een struisvogel"], "juist": 1, "uitleg": "En met geluk ook een ijsvogel."}
+          ]
+        },
+        "b1": {
+          "woorden": [
+            {"vraag": "'Verkennen' betekent:", "opties": ["ontdekken en bekijken", "verkopen", "herkennen", "verhuizen"], "juist": 0, "uitleg": "Een gebied verkennen = het gaan ontdekken."},
+            {"vraag": "'Dieren uitzetten' betekent ze ...", "opties": ["in de natuur loslaten", "buiten de deur zetten", "verkopen", "vangen"], "juist": 0, "uitleg": "Zo kwam de bever terug in Nederland."},
+            {"vraag": "Een 'doolhof' is een plek waar je ...", "opties": ["makkelijk verdwaalt", "goed kunt slapen", "moet betalen", "niet mag komen"], "juist": 0, "uitleg": "dolen = ronddwalen zonder de weg te weten."}
+          ],
+          "grammatica": [
+            {"vraag": "Welke zin is correct?", "opties": ["Het gebied dat wij bezoeken, is beschermd.", "Het gebied die wij bezoeken, is beschermd.", "Het gebied wie wij bezoeken, is beschermd.", "Het gebied waar wij bezoeken, is beschermd."], "juist": 0, "uitleg": "het gebied -> dat (lijdend voorwerp in de bijzin)."},
+            {"vraag": "De boot ... we varen, is fluisterstil.", "opties": ["waarmee", "met die", "met dat", "wie"], "juist": 0, "uitleg": "prepositie + ding -> waar + mee = waarmee."},
+            {"vraag": "De gids ... wie we varen, kent elk eilandje.", "opties": ["met", "waar", "dat", "die"], "juist": 0, "uitleg": "Bij personen: met wie."}
+          ],
+          "lezen": [
+            {"vraag": "Wat is een zoetwatergetijdengebied?", "opties": ["zoet water waar het getij het waterpeil beweegt", "een zoutwatermeer", "een gebied zonder water", "een zwembad"], "juist": 0, "uitleg": "Het water stijgt en daalt een beetje mee met eb en vloed."},
+            {"vraag": "Hoeveel bevers leven er inmiddels?", "opties": ["honderden", "twee", "tientallen", "miljoenen"], "juist": 0, "uitleg": "De herintroductie van 1988 werd een groot succes."},
+            {"vraag": "Wat moet je doen om dieren te zien?", "opties": ["stil zijn en goed kijken", "hard roepen", "eten meenemen", "snel varen"], "juist": 0, "uitleg": "'Wie stil is en goed kijkt, ziet misschien ...'"}
+          ]
+        },
+        "b2": {
+          "woorden": [
+            {"vraag": "'Herintroductie' betekent:", "opties": ["het opnieuw terugbrengen van een soort", "een tweede kennismaking", "een nieuw boek", "het verplaatsen van dieren naar een dierentuin"], "juist": 0, "uitleg": "her- (opnieuw) + introductie."},
+            {"vraag": "'Gedijen' betekent:", "opties": ["goed groeien en floreren", "langzaam verdwijnen", "vechten", "slapen"], "juist": 0, "uitleg": "De bevers gedijen = het gaat uitstekend met ze."},
+            {"vraag": "'Hand in hand gaan' betekent hier:", "opties": ["goed samengaan", "wandelen", "elkaar tegenwerken", "verliefd zijn"], "juist": 0, "uitleg": "Natuur en waterveiligheid versterken elkaar."}
+          ],
+          "grammatica": [
+            {"vraag": "'... een binnenzee, waaruit later een landschap ontstond.' 'Waaruit' verwijst naar:", "opties": ["de binnenzee", "de ramp", "het polderland", "de bever"], "juist": 0, "uitleg": "uit die binnenzee -> waaruit."},
+            {"vraag": "'De dieren die er werden uitgezet, bleken te gedijen.' 'Bleken' betekent:", "opties": ["het werd duidelijk dat", "ze probeerden", "ze weigerden", "ze stopten"], "juist": 0, "uitleg": "blijken = zo blijkt uit de feiten."},
+            {"vraag": "'De Biesbosch dankt zijn bestaan aan een ramp.' Dit betekent:", "opties": ["Zonder de ramp zou de Biesbosch niet bestaan.", "De Biesbosch is dankbaar.", "De ramp verwoestte de Biesbosch.", "De Biesbosch veroorzaakte de ramp."], "juist": 0, "uitleg": "danken aan = het gevolg zijn van."}
+          ],
+          "lezen": [
+            {"vraag": "Wat veroorzaakte de Sint-Elisabethsvloed van 1421?", "opties": ["Vruchtbaar polderland veranderde in een binnenzee.", "De bever stierf uit.", "Er kwam een nieuwe rivier.", "De dijken werden hoger."], "juist": 0, "uitleg": "Uit die binnenzee ontstond later de Biesbosch."},
+            {"vraag": "Waarheen hebben de bevers zich verspreid?", "opties": ["over grote delen van Nederland", "alleen binnen het park", "naar Belgie", "naar de dierentuin"], "juist": 0, "uitleg": "De nakomelingen van de uitgezette dieren."},
+            {"vraag": "Waarom trekt de aanpak internationaal aandacht?", "opties": ["Natuur en waterveiligheid gaan er hand in hand.", "Het park is het grootst ter wereld.", "De kano's zijn er gratis.", "Er leven zeldzame vissen."], "juist": 0, "uitleg": "Waterberging én natuurgebied tegelijk."}
+          ]
+        },
+        "c1": {
+          "woorden": [
+            {"vraag": "'Onlosmakelijk verweven' betekent:", "opties": ["niet van elkaar te scheiden", "los van elkaar", "in de war", "geweven van stof"], "juist": 0, "uitleg": "verweven = als draden door elkaar heen."},
+            {"vraag": "'Uitroeien' betekent:", "opties": ["een soort volledig laten verdwijnen", "verplaatsen", "temmen", "voeren"], "juist": 0, "uitleg": "De bever werd ooit door jacht uitgeroeid."},
+            {"vraag": "'Ongerepte wildernis' is natuur ...", "opties": ["waar de mens nooit iets heeft veranderd", "met veel toeristen", "zonder dieren", "die pas is aangelegd"], "juist": 0, "uitleg": "ongerept = onaangeraakt."}
+          ],
+          "grammatica": [
+            {"vraag": "'... mits de mens haar de ruimte gunt.' 'Mits' betekent:", "opties": ["op voorwaarde dat", "tenzij", "hoewel", "zodra"], "juist": 0, "uitleg": "Alleen als de mens ruimte geeft."},
+            {"vraag": "'Die dubbelheid keert terug in het beheer.' 'Dubbelheid' verwijst naar:", "opties": ["de combinatie van ramp en rijkdom", "twee parken", "twee soorten bevers", "eb en vloed"], "juist": 0, "uitleg": "Het thema uit de eerste alinea."},
+            {"vraag": "'Zo bezien' betekent:", "opties": ["vanuit dit perspectief", "zo gezellig", "op het eerste gezicht", "tenslotte"], "juist": 0, "uitleg": "bezien = bekijken; zo bezien = zo bekeken."}
+          ],
+          "lezen": [
+            {"vraag": "Waarom is de Biesbosch 'geen ongerepte wildernis'?", "opties": ["Het is een zorgvuldig gereguleerd systeem.", "Er is geen natuur meer.", "Het is een pretpark.", "Alles is er aangeplant."], "juist": 0, "uitleg": "Recreatie, natuur en veiligheid worden afgewogen."},
+            {"vraag": "Wat illustreert de geschiedenis van de bever?", "opties": ["De mens roeide hem uit en bracht hem ook weer terug.", "Bevers zijn gevaarlijk.", "De natuur heeft geen hulp nodig.", "Dieren horen in een park."], "juist": 0, "uitleg": "De dubbele rol van de mens in de natuur."},
+            {"vraag": "Wat is de 'les in bescheidenheid'?", "opties": ["De natuur is veerkrachtig als de mens haar ruimte geeft.", "De mens kan alles beheersen.", "Natuurgebieden zijn duur.", "Rampen zijn te voorkomen."], "juist": 0, "uitleg": "De slotzin van de C1-tekst."}
+          ]
+        }
+      }
+    },
+    {
+      "titel": "Beeldmanipulatie: geloof niet alles wat je ziet",
+      "bron": "Het Klokhuis",
+      "video_url": "https://www.youtube.com/watch?v=tB7rWwJIRQk",
+      "video_titel": "Het Klokhuis - Beeldmanipulatie",
+      "afbeelding_url": "https://i.ytimg.com/vi/tB7rWwJIRQk/hqdefault.jpg",
+      "a1": "Een foto kan liegen. Soms is een foto veranderd. Dat heet beeldmanipulatie.\n\nMensen maken een foto mooier. Ze maken de lucht blauwer. Of ze halen iets weg.\n\nKijk dus goed naar foto's. Vraag je af: is dit echt? Geloof niet alles.",
+      "a2": "Foto's laten niet altijd de waarheid zien. Met de computer kun je een beeld makkelijk veranderen. Dat noemen we beeldmanipulatie.\n\nSoms is dat onschuldig, zoals een filter over je vakantiefoto. Maar soms wil iemand je met een nepfoto iets laten geloven. Dat is gevaarlijk.\n\nHet Klokhuis laat zien hoe je manipulatie kunt herkennen. Kijk goed naar schaduwen en randen. En vraag je altijd af: wie heeft deze foto gemaakt, en waarom?",
+      "b1": "Fotografen en ontwerpers <strong>bewerken</strong> beelden al zolang de fotografie bestaat. Vroeger gebeurde dat in de donkere kamer, nu met de computer - en het gaat steeds makkelijker en sneller.\n\nBeeldmanipulatie is niet altijd erg. Een reclamefoto wordt bijna altijd mooier gemaakt. Het wordt een probleem als iemand je bewust iets wil laten geloven wat niet waar is, bijvoorbeeld in het nieuws of in de politiek.\n\nDaarom is het belangrijk om <strong>kritisch</strong> te kijken. Experts zeggen dat je altijd naar de <strong>bron</strong> moet vragen: wie heeft dit beeld gemaakt en met welk doel? En klopt het verhaal ook ergens anders?",
+      "b2": "Beeldmanipulatie is zo oud als de fotografie zelf - machthebbers lieten politieke rivalen al uit foto's <strong>verwijderen</strong> lang voordat Photoshop bestond. Nieuw is vooral de schaal en snelheid waarmee bewerkte beelden zich tegenwoordig verspreiden.\n\nOnderzoekers maken onderscheid tussen onschuldige bewerking en <strong>doelbewuste</strong> misleiding. Bij dat laatste wordt een beeld - of alleen de <strong>context</strong> ervan - zo aangepast dat de kijker een onjuiste conclusie trekt. Een echte foto bij een verkeerd verhaal is vaak al genoeg.\n\nHet advies van mediawijsheidsexperts: <strong>verifieer</strong> voordat je deelt. Zoek de oorspronkelijke bron, gebruik omgekeerd afbeeldingen zoeken en wees extra alert bij beelden die sterke emoties oproepen.",
+      "c1": "Nu beelden met één klik overtuigend te vervalsen zijn, staat een oud journalistiek principe onder druk: 'de camera liegt niet'. Die zekerheid is definitief voorbij, en dat <strong>ondermijnt</strong> meer dan alleen het nieuws - het raakt aan de vraag wat we überhaupt nog als bewijs accepteren.\n\nTechnologiebedrijven en onderzoekers werken aan middelen om <strong>authenticiteit</strong> aantoonbaar te maken, van digitale watermerken tot herkomstcertificaten. Critici spreken van een <strong>wapenwedloop</strong>: elke detectiemethode lokt geavanceerdere vervalsingen uit.\n\nDe duurzaamste verdediging ligt daarom vermoedelijk niet in techniek, maar in houding: een gezond <strong>wantrouwen</strong> dat beelden pas gelooft na controle van de bron - zonder door te slaan naar het cynisme waarin niets meer waar kan zijn. Precies die balans maakt mediawijsheid tot een <strong>kernvaardigheid</strong> van deze eeuw.",
+      "woordenschat": "bewerken | ww | veranderen met een programma | Deze foto is duidelijk bewerkt. | duzenlemek\nde bron | zn | waar iets vandaan komt | Controleer altijd de bron. | kaynak\nkritisch | bn | niet zomaar alles geloven | Kijk kritisch naar het nieuws. | elestirel\nmisleiden | ww | iemand bewust iets verkeerds laten geloven | Nepfoto's kunnen mensen misleiden. | yaniltmak\nherkennen | ww | zien wat of wie iets is | Manipulatie kun je leren herkennen. | tanimak, fark etmek\nde schaduw | zn | donkere plek zonder licht | Klopt de schaduw op de foto? | golge\ndelen | ww | doorsturen naar anderen | Denk na voordat je iets deelt. | paylasmak",
+      "b1_woorden": "bewerken | duzenlemek | veranderen, aanpassen | veranderen | Reclamefoto's worden altijd bewerkt. | Reklam fotograflari hep duzenlenir.\nkritisch | elestirel | met vragen kijken, niet zomaar geloven | | Wees kritisch op wat je online ziet. | Internette gorduklerine elestirel bak.\nde bron | kaynak | waar informatie vandaan komt | de herkomst | Wat is de bron van dit bericht? | Bu haberin kaynagi ne?",
+      "b2_woorden": "doelbewust | kasitli, bilincli | met opzet, expres | opzettelijk | Dit is doelbewuste misleiding. | Bu kasitli bir yaniltma.\nde context | baglam | de omgeving waarin iets staat | het verband | De foto is echt, maar de context klopt niet. | Fotograf gercek ama baglam yanlis.\nverifiëren | dogrulamak | controleren of iets waar is | controleren | Verifieer het bericht voordat je het deelt. | Paylasmadan once haberi dogrula.",
+      "c1_woorden": "ondermijnen | temelini sarsmak | langzaam kapotmaken van binnenuit | aantasten | Nepbeelden ondermijnen het vertrouwen. | Sahte goruntuler guvenin temelini sarsiyor.\nde wapenwedloop | silahlanma yarisi | strijd waarin beide partijen steeds sterker worden | | Detectie en vervalsing: een wapenwedloop. | Tespit ve sahtecilik: bir silahlanma yarisi.\ndoorslaan naar | asiriya kacmak | te ver gaan in een richting | te ver gaan | Sla niet door naar totaal cynisme. | Tam sinizme kacma.",
+      "grammatica": "1) Indirecte rede met 'dat'\n• Direct: 'De foto is bewerkt.' -> Indirect: Experts zeggen dat de foto bewerkt is.\nIn de bijzin gaat het werkwoord naar achteren.\n2) Ja/nee-vraag -> 'of'\n• 'Is deze foto echt?' -> Ze vraagt of de foto echt is.\n3) Vraagwoord blijft staan\n• 'Wie heeft dit gemaakt?' -> Hij wil weten wie dit heeft gemaakt.\n• 'Waarom deel je dit?' -> Ze vraagt waarom ik dit deel.",
+      "vragen": "1. (A2) Wat is beeldmanipulatie?\n2. (B1) Wanneer wordt beeldmanipulatie een probleem?\n3. (B2) Welke drie adviezen geven mediawijsheidsexperts?",
+      "antwoorden": "1. Het veranderen van een foto of beeld, bijvoorbeeld met de computer.\n2. Als iemand je bewust iets wil laten geloven wat niet waar is.\n3. Verifieer voordat je deelt, zoek de oorspronkelijke bron, en wees extra alert bij beelden die sterke emoties oproepen.",
+      "quiz": {
+        "a2": {
+          "woorden": [
+            {"vraag": "'Bewerken' betekent een foto ...", "opties": ["veranderen", "printen", "verwijderen", "maken"], "juist": 0, "uitleg": "Bijvoorbeeld met een filter of programma. (TR: duzenlemek)"},
+            {"vraag": "'De bron' van een foto is ...", "opties": ["waar de foto vandaan komt", "de kleur", "de grootte", "de prijs"], "juist": 0, "uitleg": "Wie heeft hem gemaakt en gepubliceerd? (TR: kaynak)"},
+            {"vraag": "'Misleiden' betekent:", "opties": ["iemand iets verkeerds laten geloven", "iemand de weg wijzen", "iemand helpen", "iemand fotograferen"], "juist": 0, "uitleg": "mis + leiden = de verkeerde kant op leiden. (TR: yaniltmak)"}
+          ],
+          "grammatica": [
+            {"vraag": "Ze zegt ... de foto nep is.", "opties": ["dat", "of", "wie", "want"], "juist": 0, "uitleg": "Indirecte rede: zeggen dat + bijzin."},
+            {"vraag": "Hij vraagt ... de foto echt is.", "opties": ["of", "dat", "wat", "waarom dat"], "juist": 0, "uitleg": "Ja/nee-vraag wordt 'of'."},
+            {"vraag": "Welke zin is correct?", "opties": ["Ze vraagt wie deze foto heeft gemaakt.", "Ze vraagt wie heeft deze foto gemaakt.", "Ze vraagt dat wie deze foto maakte.", "Ze vraagt of wie de foto maakte."], "juist": 0, "uitleg": "Vraagwoord + bijzin: werkwoord naar achteren."}
+          ],
+          "lezen": [
+            {"vraag": "Wat is een voorbeeld van onschuldige manipulatie?", "opties": ["een filter over je vakantiefoto", "een nepfoto in het nieuws", "een politieke leugen", "een gestolen foto"], "juist": 0, "uitleg": "Niet elke bewerking is gevaarlijk."},
+            {"vraag": "Waar moet je goed naar kijken?", "opties": ["schaduwen en randen", "de kleur van de lucht", "het aantal likes", "de datum"], "juist": 0, "uitleg": "Daar zie je manipulatie vaak aan."},
+            {"vraag": "Welke vraag moet je jezelf stellen?", "opties": ["Wie heeft dit gemaakt en waarom?", "Hoeveel kost deze foto?", "Hoe oud is de fotograaf?", "Welke camera is gebruikt?"], "juist": 0, "uitleg": "De bron en het doel zijn het belangrijkst."}
+          ]
+        },
+        "b1": {
+          "woorden": [
+            {"vraag": "'Kritisch kijken' betekent:", "opties": ["niet zomaar alles geloven", "negatief zijn over alles", "boos kijken", "snel kijken"], "juist": 0, "uitleg": "Vragen stellen bij wat je ziet."},
+            {"vraag": "De 'donkere kamer' was vroeger de plek waar ...", "opties": ["foto's werden ontwikkeld", "mensen sliepen", "films werden gekeken", "camera's stonden"], "juist": 0, "uitleg": "Ook toen werd er al gemanipuleerd."},
+            {"vraag": "'Bewust' betekent hier:", "opties": ["met opzet, expres", "per ongeluk", "wakker", "voorzichtig"], "juist": 0, "uitleg": "Iemand wil je expres misleiden."}
+          ],
+          "grammatica": [
+            {"vraag": "Maak indirect: 'Klopt dit verhaal?'", "opties": ["Ze vraagt of dit verhaal klopt.", "Ze vraagt dat dit verhaal klopt.", "Ze vraagt klopt dit verhaal.", "Ze vraagt of klopt dit verhaal."], "juist": 0, "uitleg": "of + bijzin met werkwoord achteraan."},
+            {"vraag": "Experts zeggen dat je naar de bron ...", "opties": ["moet vragen", "vraagt moeten", "moeten vraagt", "vragen moeten"], "juist": 0, "uitleg": "In de bijzin: ... dat je naar de bron moet vragen."},
+            {"vraag": "Hij wil weten ... de foto vandaan komt.", "opties": ["waar", "dat", "of", "wie"], "juist": 0, "uitleg": "Vraagwoord 'waar' blijft in de indirecte vraag."}
+          ],
+          "lezen": [
+            {"vraag": "Hoe lang bestaat beeldbewerking al?", "opties": ["zolang de fotografie bestaat", "sinds de computer", "sinds tien jaar", "sinds de smartphone"], "juist": 0, "uitleg": "Vroeger in de donkere kamer, nu digitaal."},
+            {"vraag": "Wat gebeurt er bijna altijd met reclamefoto's?", "opties": ["Ze worden mooier gemaakt.", "Ze worden verboden.", "Ze zijn altijd echt.", "Ze worden gecontroleerd."], "juist": 0, "uitleg": "Dat geldt als 'niet altijd erg'."},
+            {"vraag": "Waar wordt manipulatie echt een probleem?", "opties": ["in nieuws en politiek", "in vakantiefoto's", "in kunst", "in films"], "juist": 0, "uitleg": "Daar kan misleiding grote gevolgen hebben."}
+          ]
+        },
+        "b2": {
+          "woorden": [
+            {"vraag": "'Doelbewuste misleiding' is misleiding ...", "opties": ["met opzet", "per ongeluk", "zonder gevolgen", "voor de grap"], "juist": 0, "uitleg": "doelbewust = met een doel, expres."},
+            {"vraag": "'De context aanpassen' betekent:", "opties": ["het verhaal rond het beeld veranderen", "de kleuren veranderen", "de foto vergroten", "de fotograaf noemen"], "juist": 0, "uitleg": "Een echte foto bij een verkeerd verhaal misleidt ook."},
+            {"vraag": "'Verifiëren' betekent:", "opties": ["controleren of iets waar is", "vertalen", "verspreiden", "verwijderen"], "juist": 0, "uitleg": "Verifieer voordat je deelt. (TR: dogrulamak)"}
+          ],
+          "grammatica": [
+            {"vraag": "'Machthebbers lieten rivalen uit foto's verwijderen.' 'Laten + infinitief' betekent:", "opties": ["iemand anders de handeling laten uitvoeren", "iets verbieden", "iets toestaan", "iets vergeten"], "juist": 0, "uitleg": "Ze deden het niet zelf; anderen deden het voor hen."},
+            {"vraag": "'Nieuw is vooral de schaal en snelheid ...' Deze woordvolgorde (met 'nieuw' vooraan) benadrukt:", "opties": ["wat er precies nieuw is", "een vraag", "een bevel", "twijfel"], "juist": 0, "uitleg": "Inversie met het naamwoordelijk deel vooraan geeft nadruk."},
+            {"vraag": "'Beelden die sterke emoties oproepen' - 'oproepen' betekent hier:", "opties": ["veroorzaken, opwekken", "telefoneren", "verzamelen", "onderdrukken"], "juist": 0, "uitleg": "Zulke beelden verspreiden zich het snelst."}
+          ],
+          "lezen": [
+            {"vraag": "Wat is er 'nieuw' aan beeldmanipulatie?", "opties": ["de schaal en snelheid van verspreiding", "de techniek zelf", "het bestaan van foto's", "de wetgeving"], "juist": 0, "uitleg": "Manipulatie zelf is zo oud als de fotografie."},
+            {"vraag": "Wat is vaak al genoeg om te misleiden?", "opties": ["een echte foto bij een verkeerd verhaal", "een dure camera", "een oude foto", "een grappig onderschrift"], "juist": 0, "uitleg": "Context-manipulatie is de simpelste vorm."},
+            {"vraag": "Welk hulpmiddel noemt de tekst om beelden te checken?", "opties": ["omgekeerd afbeeldingen zoeken", "een vergrootglas", "een fotoboek", "een nieuwe app kopen"], "juist": 0, "uitleg": "Zo vind je de oorspronkelijke bron."}
+          ]
+        },
+        "c1": {
+          "woorden": [
+            {"vraag": "'Ondermijnen' betekent:", "opties": ["van binnenuit verzwakken", "versterken", "uitleggen", "vergroten"], "juist": 0, "uitleg": "Als het graven van een mijn onder een muur."},
+            {"vraag": "'Authenticiteit' betekent:", "opties": ["echtheid", "schoonheid", "snelheid", "populariteit"], "juist": 0, "uitleg": "authentiek = echt, origineel."},
+            {"vraag": "Een 'kernvaardigheid' is ...", "opties": ["een essentiële vaardigheid", "een moeilijke vaardigheid", "een oude vaardigheid", "een sportieve vaardigheid"], "juist": 0, "uitleg": "kern = het centrale, belangrijkste deel."}
+          ],
+          "grammatica": [
+            {"vraag": "'Elke detectiemethode lokt geavanceerdere vervalsingen uit.' 'Uitlokken' betekent:", "opties": ["als reactie veroorzaken", "verbieden", "voorkomen", "belonen"], "juist": 0, "uitleg": "Daarom is het een wapenwedloop."},
+            {"vraag": "'Het raakt aan de vraag wat we als bewijs accepteren.' 'Raken aan' betekent:", "opties": ["te maken hebben met, aansnijden", "aanraken met de hand", "beschadigen", "beantwoorden"], "juist": 0, "uitleg": "Het onderwerp komt bij die diepere vraag."},
+            {"vraag": "'Zonder door te slaan naar het cynisme waarin niets meer waar kan zijn.' De auteur waarschuwt voor:", "opties": ["totaal wantrouwen als ander uiterste", "te veel vertrouwen", "nieuwe camera's", "strenge wetten"], "juist": 0, "uitleg": "De balans tussen naïviteit en cynisme."}
+          ],
+          "lezen": [
+            {"vraag": "Welk journalistiek principe staat onder druk?", "opties": ["'De camera liegt niet.'", "'Hoor en wederhoor.'", "'De lezer heeft altijd gelijk.'", "'Snelheid boven alles.'"], "juist": 0, "uitleg": "Beelden zijn niet langer vanzelf bewijs."},
+            {"vraag": "Waaraan werken technologiebedrijven?", "opties": ["digitale watermerken en herkomstcertificaten", "betere filters", "snellere camera's", "nieuwe sociale media"], "juist": 0, "uitleg": "Om echtheid aantoonbaar te maken."},
+            {"vraag": "Waar ligt volgens de tekst de duurzaamste verdediging?", "opties": ["in de houding van de kijker", "in strengere straffen", "in betere techniek", "in een verbod op AI"], "juist": 0, "uitleg": "Gezond wantrouwen plus bronnencontrole."}
+          ]
+        }
+      }
+    },
+    {
+      "titel": "Redden op het water: vrijwilligers als helden",
+      "bron": "Het Klokhuis",
+      "video_url": "https://www.youtube.com/watch?v=aM5YT0AApy8",
+      "video_titel": "Het Klokhuis - Redden op het water",
+      "afbeelding_url": "https://i.ytimg.com/vi/aM5YT0AApy8/hqdefault.jpg",
+      "a1": "Soms is iemand in nood op zee. Dan komt de reddingsboot. Die vaart heel snel.\n\nDe redders zijn vrijwilligers. Ze werken niet voor geld. Ze helpen graag mensen.\n\nGa je zwemmen in zee? Let goed op de vlag. Zwem nooit te ver.",
+      "a2": "Als iemand op zee in nood is, komt de KNRM in actie. Dat is de reddingsmaatschappij van Nederland. De redders varen met snelle boten uit, bij elk weer.\n\nBijzonder: bijna alle redders zijn vrijwilligers. Ze hebben gewoon een baan, maar als de pieper gaat, laten ze alles vallen.\n\nOok op het strand wordt aan veiligheid gewerkt. Lifeguards letten op de zwemmers. Zwem tussen de vlaggen, dan word je goed gezien.",
+      "b1": "Wat gebeurt er als iemand op zee <strong>in nood</strong> raakt? In de aflevering zien we hoe de KNRM, de Koninklijke Nederlandse Redding Maatschappij, mensen van het water redt.\n\nHet bijzondere aan de KNRM: de redders zijn bijna allemaal <strong>vrijwilligers</strong>. Als hun pieper gaat, stoppen ze direct met wat ze doen en <strong>varen</strong> ze binnen enkele minuten <strong>uit</strong> - dag en nacht, zomer en winter.\n\nVeel reddingen zijn nodig door sterke <strong>stroming</strong>. Vooral muien zijn gevaarlijk: plekken waar het water snel terug naar zee stroomt. Raak je in een mui, zwem dan niet tegen de stroom in, maar opzij.",
+      "b2": "Wie op de Noordzee of het IJsselmeer in de problemen komt, kan rekenen op de KNRM. Al twee eeuwen lang <strong>schieten</strong> reddingsboten <strong>te hulp</strong> - bemand door vrijwilligers die er hun bed, verjaardag of werkdag voor laten staan.\n\nDie vrijwilligheid betekent allerminst amateurisme. De bemanningen trainen regelmatig, de boten behoren tot de modernste ter wereld en elke redding wordt <strong>geëvalueerd</strong>. Snelheid is cruciaal: in koud water ligt <strong>onderkoeling</strong> al na korte tijd op de loer.\n\nDe KNRM wordt volledig door donateurs <strong>gefinancierd</strong> en is daar trots op: 'Redders aan de wal' maken het werk op zee mogelijk.",
+      "c1": "Er schuilt iets typisch Nederlands in de KNRM: een organisatie die al sinds 1824 mensenlevens redt, vrijwel volledig draait op vrijwilligers en donaties, en daar geen enkele ophef over maakt. <strong>Belangeloze</strong> inzet als vanzelfsprekendheid.\n\nAchter die nuchterheid gaat een hoogprofessionele operatie schuil. Reddingstations langs de hele kust garanderen dat binnen enkele minuten kan worden uitgevaren, en de bemanningen trainen op uiteenlopende scenario's. Tegelijk verandert het werk: de pleziervaart groeit, badgasten <strong>overschatten</strong> zichzelf geregeld, en klimaatverandering maakt het weer <strong>grilliger</strong>.\n\nDe grootste uitdaging is echter menselijk: ook de KNRM moet <strong>een beroep blijven doen op</strong> een samenleving waarin vrijwilligerswerk niet meer vanzelf spreekt. Wie de reddingsboot ziet uitvaren, ziet dus meer dan een boot - hij ziet een sociaal contract dat elke generatie opnieuw moet worden <strong>bekrachtigd</strong>.",
+      "woordenschat": "in nood | uitdr | in een gevaarlijke situatie | Het schip is in nood. | tehlikede, zor durumda\nde reddingsboot | zn | snelle boot die mensen redt | De reddingsboot vaart uit. | kurtarma botu\nde vrijwilliger | zn | iemand die onbetaald werkt | De redders zijn vrijwilligers. | gonullu\nuitvaren | ww | met de boot vertrekken | Ze varen binnen vijf minuten uit. | denize acilmak\nde stroming | zn | bewegend water in een richting | Pas op voor sterke stroming! | akinti\nverdrinken | ww | doodgaan in het water | Zonder hulp kun je verdrinken. | bogulmak\nde pieper | zn | klein apparaat dat een alarm geeft | De pieper van de redder ging af. | cagri cihazi",
+      "b1_woorden": "in nood | zor durumda | in gevaar | in gevaar | Zwemmers in nood bellen om hulp. | Zor durumdaki yuzuculer yardim ister.\nde vrijwilliger | gonullu | werkt zonder salaris | | Bijna alle redders zijn vrijwilligers. | Kurtaricilarin neredeyse hepsi gonullu.\nde stroming | akinti | water dat snel beweegt | | De stroming trok hem mee. | Akinti onu surukledi.",
+      "b2_woorden": "te hulp schieten | yardimina kosmak | snel gaan helpen | helpen | De KNRM schiet drenkelingen te hulp. | KNRM bogulanlarin yardimina kosar.\nde onderkoeling | hipotermi | te lage lichaamstemperatuur | | In koud water dreigt onderkoeling. | Soguk suda hipotermi tehlikesi var.\nop de loer liggen | pusuda beklemek | als gevaar dichtbij zijn | dreigen | Gevaar ligt op de loer. | Tehlike pusuda bekliyor.",
+      "c1_woorden": "belangeloos | cikar gozetmeyen | zonder er iets voor terug te willen | onbaatzuchtig | Belangeloze inzet voor een ander. | Cikar gozetmeyen bir cabayla baskasi icin.\nzichzelf overschatten | kendini fazla buyuk gormek | denken dat je meer kunt dan je kunt | | Zwemmers overschatten zichzelf geregeld. | Yuzuculer siklikla kendilerini fazla buyuk goruyor.\nbekrachtigen | tasdik etmek, pekistirmek | officieel bevestigen | bevestigen | Dat contract moet elke generatie bekrachtigen. | Bu sozlesmeyi her nesil pekistirmeli.",
+      "grammatica": "1) Toen: één moment of periode in het verleden\n• Toen de pieper ging, liet hij alles vallen.\n• Toen ik klein was, zwom ik elke zomer in zee.\n2) Als: herhaling, voorwaarde of toekomst\n• Als de pieper gaat, varen de redders uit. (elke keer)\n• Als je in een mui raakt, zwem dan opzij. (voorwaarde)\n3) Wanneer: in vragen, of formeel voor 'als'\n• Wanneer ga je zwemmen?\n• Ik weet niet wanneer de boot terugkomt.",
+      "vragen": "1. (A2) Wat doen de redders van de KNRM als hun pieper gaat?\n2. (B1) Wat moet je doen als je in een mui terechtkomt?\n3. (B2) Hoe wordt de KNRM gefinancierd?",
+      "antwoorden": "1. Ze laten alles vallen en varen zo snel mogelijk uit.\n2. Niet tegen de stroom in zwemmen, maar opzij zwemmen.\n3. Volledig door donateurs, de 'redders aan de wal'.",
+      "quiz": {
+        "a2": {
+          "woorden": [
+            {"vraag": "Een vrijwilliger werkt ...", "opties": ["zonder salaris", "alleen 's nachts", "voor veel geld", "op kantoor"], "juist": 0, "uitleg": "vrij + willig = uit vrije wil. (TR: gonullu)"},
+            {"vraag": "'In nood zijn' betekent:", "opties": ["in gevaar zijn", "op vakantie zijn", "aan het werk zijn", "in de buurt zijn"], "juist": 0, "uitleg": "Een schip in nood heeft hulp nodig."},
+            {"vraag": "'De stroming' is ...", "opties": ["water dat snel in één richting beweegt", "een soort vis", "een warme plek in zee", "een golf"], "juist": 0, "uitleg": "Sterke stroming kan je meetrekken. (TR: akinti)"}
+          ],
+          "grammatica": [
+            {"vraag": "... ik klein was, zwom ik elke dag.", "opties": ["Toen", "Als", "Wanneer", "Dat"], "juist": 0, "uitleg": "Verleden periode -> toen."},
+            {"vraag": "... de pieper gaat, varen de redders uit.", "opties": ["Als", "Toen", "Of", "Dat"], "juist": 0, "uitleg": "Herhaling (elke keer) -> als."},
+            {"vraag": "... ga je naar het strand?", "opties": ["Wanneer", "Toen", "Als", "Dat"], "juist": 0, "uitleg": "In een vraag gebruik je 'wanneer'."}
+          ],
+          "lezen": [
+            {"vraag": "Wat is de KNRM?", "opties": ["de reddingsmaatschappij van Nederland", "een zwemclub", "de kustwacht van Belgie", "een bootverhuur"], "juist": 0, "uitleg": "Koninklijke Nederlandse Redding Maatschappij."},
+            {"vraag": "Waar moet je zwemmen op het strand?", "opties": ["tussen de vlaggen", "ver van het strand", "bij de rotsen", "waar niemand is"], "juist": 0, "uitleg": "Daar letten de lifeguards op je."},
+            {"vraag": "Wanneer varen de redders uit?", "opties": ["bij elk weer", "alleen bij mooi weer", "alleen overdag", "alleen in de zomer"], "juist": 0, "uitleg": "Dag en nacht, zomer en winter."}
+          ]
+        },
+        "b1": {
+          "woorden": [
+            {"vraag": "'Uitvaren' betekent:", "opties": ["met de boot vertrekken", "boos worden", "aankomen", "zinken"], "juist": 0, "uitleg": "De reddingsboot vaart uit = vertrekt."},
+            {"vraag": "Een 'mui' is ...", "opties": ["een plek waar water snel terug naar zee stroomt", "een klein strand", "een soort boot", "een vis"], "juist": 0, "uitleg": "Levensgevaarlijk voor zwemmers."},
+            {"vraag": "'Alles laten vallen' betekent:", "opties": ["direct stoppen met wat je doet", "dingen op de grond gooien", "opgeven", "verliezen"], "juist": 0, "uitleg": "Figuurlijk: meteen komen als het nodig is."}
+          ],
+          "grammatica": [
+            {"vraag": "Welke zin is correct?", "opties": ["Toen de storm kwam, voeren ze uit.", "Als de storm kwam, voeren ze uit.", "Wanneer de storm kwam gisteren, voeren ze uit.", "Toen de storm komt, varen ze uit."], "juist": 0, "uitleg": "Eén moment in het verleden -> toen + verleden tijd."},
+            {"vraag": "'... je in een mui raakt, zwem dan opzij.'", "opties": ["Als", "Toen", "Wanneer toen", "Dat"], "juist": 0, "uitleg": "Voorwaarde -> als."},
+            {"vraag": "Ik weet niet ... de boot terugkomt.", "opties": ["wanneer", "toen", "als", "dat wanneer"], "juist": 0, "uitleg": "Indirecte vraag naar tijd -> wanneer."}
+          ],
+          "lezen": [
+            {"vraag": "Wat is 'het bijzondere aan de KNRM'?", "opties": ["De redders zijn bijna allemaal vrijwilligers.", "De boten zijn oud.", "Ze werken alleen in de zomer.", "Ze vragen geld voor een redding."], "juist": 0, "uitleg": "Ze hebben gewoon een baan ernaast."},
+            {"vraag": "Hoe snel varen de redders uit?", "opties": ["binnen enkele minuten", "binnen een uur", "binnen een dag", "de volgende ochtend"], "juist": 0, "uitleg": "Snelheid redt levens."},
+            {"vraag": "Wat moet je NIET doen in een mui?", "opties": ["tegen de stroom in zwemmen", "opzij zwemmen", "om hulp roepen", "rustig blijven"], "juist": 0, "uitleg": "Tegen de stroom in verlies je al je energie."}
+          ]
+        },
+        "b2": {
+          "woorden": [
+            {"vraag": "'Te hulp schieten' betekent:", "opties": ["snel gaan helpen", "met een geweer schieten", "om hulp roepen", "hulp weigeren"], "juist": 0, "uitleg": "schieten = heel snel bewegen."},
+            {"vraag": "'Onderkoeling' is ...", "opties": ["een te lage lichaamstemperatuur", "een koude douche", "bevroren water", "een koelkast"], "juist": 0, "uitleg": "Levensgevaarlijk in koud zeewater. (TR: hipotermi)"},
+            {"vraag": "'Op de loer liggen' betekent:", "opties": ["als gevaar dichtbij aanwezig zijn", "op de grond liggen", "slapen", "wachten op de bus"], "juist": 0, "uitleg": "Zoals een roofdier dat wacht."}
+          ],
+          "grammatica": [
+            {"vraag": "'Die vrijwilligheid betekent allerminst amateurisme.' 'Allerminst' betekent:", "opties": ["absoluut niet", "een beetje", "vooral", "misschien"], "juist": 0, "uitleg": "Sterke ontkenning: helemaal niet."},
+            {"vraag": "'Vrijwilligers die er hun verjaardag voor laten staan.' Dit betekent:", "opties": ["Ze offeren hun verjaardag op voor een redding.", "Ze vieren hun verjaardag op de boot.", "Ze vergeten hun verjaardag.", "Ze worden ouder."], "juist": 0, "uitleg": "iets laten staan = ervan afzien."},
+            {"vraag": "'Elke redding wordt geëvalueerd.' Dit is:", "opties": ["passief presens", "actief perfectum", "imperatief", "indirecte rede"], "juist": 0, "uitleg": "worden + voltooid deelwoord."}
+          ],
+          "lezen": [
+            {"vraag": "Hoe lang bestaat de reddingstraditie al?", "opties": ["al twee eeuwen", "twintig jaar", "vijftig jaar", "vijf eeuwen"], "juist": 0, "uitleg": "Sinds 1824."},
+            {"vraag": "Waarom is snelheid cruciaal?", "opties": ["In koud water dreigt snel onderkoeling.", "De boten verbruiken veel brandstof.", "De redders hebben haast.", "Het weer verandert."], "juist": 0, "uitleg": "Elke minuut telt."},
+            {"vraag": "Wie zijn de 'redders aan de wal'?", "opties": ["de donateurs die de KNRM financieren", "de lifeguards", "de familie van de redders", "de kustwacht"], "juist": 0, "uitleg": "Zonder donaties geen reddingen."}
+          ]
+        },
+        "c1": {
+          "woorden": [
+            {"vraag": "'Belangeloos' betekent:", "opties": ["zonder eigen voordeel te zoeken", "zonder interesse", "zonder resultaat", "zonder toestemming"], "juist": 0, "uitleg": "Niet uit eigenbelang. (TR: cikar gozetmeyen)"},
+            {"vraag": "'Zichzelf overschatten' betekent:", "opties": ["denken dat je meer kunt dan je echt kunt", "te bescheiden zijn", "goed trainen", "bang zijn"], "juist": 0, "uitleg": "Badgasten zwemmen bijvoorbeeld te ver."},
+            {"vraag": "'Grillig weer' is weer dat ...", "opties": ["onvoorspelbaar snel verandert", "altijd zonnig is", "heel koud is", "lang hetzelfde blijft"], "juist": 0, "uitleg": "grillig = wispelturig. (TR: kararsiz, degisken)"}
+          ],
+          "grammatica": [
+            {"vraag": "'Er schuilt iets typisch Nederlands in de KNRM.' 'Schuilen in' betekent hier:", "opties": ["verborgen aanwezig zijn in", "zich verstoppen voor regen", "bang zijn voor", "wonen in"], "juist": 0, "uitleg": "Er zit iets typisch Nederlands in."},
+            {"vraag": "'Een beroep doen op iemand' betekent:", "opties": ["iemands hulp of inzet vragen", "iemand een baan geven", "iemand aanklagen", "iemand bezoeken"], "juist": 0, "uitleg": "De KNRM vraagt de samenleving om vrijwilligers."},
+            {"vraag": "'Geen ophef maken over iets' betekent:", "opties": ["er niet veel drukte of publiciteit over maken", "het geheim houden", "erover klagen", "het ontkennen"], "juist": 0, "uitleg": "Nuchter je werk doen zonder drama."}
+          ],
+          "lezen": [
+            {"vraag": "Wat is 'typisch Nederlands' aan de KNRM volgens de tekst?", "opties": ["levensreddend werk zonder ophef, op vrijwilligers en donaties", "de oranje boten", "het koninklijke logo", "de locatie aan zee"], "juist": 0, "uitleg": "Belangeloze inzet als vanzelfsprekendheid."},
+            {"vraag": "Welke drie ontwikkelingen veranderen het werk?", "opties": ["groeiende pleziervaart, zelfoverschatting van badgasten, grilliger weer", "minder boten, minder geld, minder tijd", "meer regels, meer politie, meer havens", "kleinere stranden, koudere zeeen, minder vis"], "juist": 0, "uitleg": "Genoemd in de tweede alinea."},
+            {"vraag": "Wat bedoelt de auteur met 'een sociaal contract'?", "opties": ["de stilzwijgende afspraak dat mensen zich vrijwillig voor elkaar inzetten", "een arbeidscontract van de redders", "een verzekeringspolis", "een wet over reddingen"], "juist": 0, "uitleg": "Elke generatie moet dat opnieuw waarmaken."}
+          ]
+        }
+      }
+    },
+    {
+      "titel": "De Deltawerken: Nederland tegen de zee",
+      "bron": "Klas in de Natuur",
+      "video_url": "https://www.youtube.com/watch?v=Zh-vwb69PoQ",
+      "video_titel": "De deltawerken - Klas in de Natuur",
+      "afbeelding_url": "https://i.ytimg.com/vi/Zh-vwb69PoQ/hqdefault.jpg",
+      "a1": "In 1953 was er een grote ramp. De zee kwam over de dijken. Veel mensen verdronken.\n\nDaarna zei Nederland: nooit meer! Het land bouwde de Deltawerken. Dat zijn heel sterke dammen.\n\nNu is Zeeland veilig. De Deltawerken beschermen het land. Het is heel knap gemaakt.",
+      "a2": "In de nacht van 1 februari 1953 ging het mis. Een zware storm en heel hoog water braken de dijken in Zeeland. Meer dan 1800 mensen verdronken. Dit heet de Watersnoodramp.\n\nNa de ramp maakte Nederland een groot plan: het Deltaplan. Er kwamen sterke dammen en sluizen tussen de eilanden van Zeeland.\n\nHet beroemdste deel is de Oosterscheldekering. Die staat open, maar kan bij storm dicht. Zo blijft de natuur gezond en het land veilig.",
+      "b1": "De Deltawerken zijn het antwoord van Nederland op de Watersnood<strong>ramp</strong> van 1953, waarbij meer dan 1800 mensen omkwamen. Nadat de dijken waren gebroken, besloot het land: dit mag nooit meer gebeuren.\n\nIn de tientallen jaren daarna werden dammen, sluizen en <strong>keringen</strong> gebouwd die de Zeeuwse eilanden beschermen. Eerst wilde men de Oosterschelde helemaal <strong>afsluiten</strong>, maar dat zou de bijzondere natuur vernietigen.\n\nDaarom kwam er een slimme oplossing: een kering met enorme schuiven die normaal openstaan. Alleen bij gevaarlijk hoogwater gaan ze dicht. Zo bleef de Oosterschelde zout en levend - en Zeeland veilig.",
+      "b2": "Met de Deltawerken bouwde Nederland tussen 1954 en 1997 de beroemdste kustverdediging ter wereld. Het sluitstuk, de Maeslantkering bij Rotterdam, werd pas ruim veertig jaar na de ramp <strong>voltooid</strong>.\n\nHet project weerspiegelt ook veranderend denken. Waar de eerste dammen de zeearmen volledig afsloten, werd de Oosterscheldekering een <strong>compromis</strong> tussen veiligheid en ecologie: de kering staat open en sluit uitsluitend bij gevaarlijke <strong>waterstanden</strong>. De milieubeweging dwong dat compromis mede af.\n\nDe Deltawerken gelden inmiddels als een van de moderne wereldwonderen. Maar af is Nederland nooit: door de stijgende zeespiegel wordt alweer <strong>nagedacht</strong> over de verdediging van de volgende eeuw.",
+      "c1": "De Watersnoodramp van 1953 vormt tot op de dag van vandaag het morele <strong>ijkpunt</strong> van het Nederlandse waterbeleid: 'nooit meer' werd de stilzwijgende grondwet van een land dat grotendeels onder zeeniveau ligt. De Deltawerken zijn daarvan de betonnen vertaling.\n\nInteressant is hoe het project gaandeweg van karakter veranderde. Begonnen als pure ingenieurslogica - afsluiten wat afgesloten kan worden - eindigde het met de Oosterscheldekering als monument van <strong>voortschrijdend</strong> inzicht: veiligheid hoeft ecologie niet uit te sluiten, mits men bereid is de duurdere weg te kiezen. De milieubeweging <strong>dwong</strong> dat inzicht destijds mede <strong>af</strong>.\n\nDe geschiedenis is bovendien <strong>allerminst</strong> afgesloten. De zeespiegel stijgt sneller dan de bouwers ooit voorzagen, en deltacommissies buigen zich alweer over de vraag hoe Nederland er over een eeuw uit moet zien. De Deltawerken waren, zo bezien, geen eindpunt maar een <strong>generale repetitie</strong>.",
+      "woordenschat": "de ramp | zn | een heel ernstige gebeurtenis | De Watersnoodramp was in 1953. | felaket\nde dijk | zn | hoge wal die water tegenhoudt | De dijken braken door de storm. | set, bent\nde kering | zn | beweegbare muur tegen hoogwater | De kering sluit bij storm. | bariyer\nomkomen | ww | doodgaan bij een ramp of ongeluk | Er kwamen 1800 mensen om. | hayatini kaybetmek\nafsluiten | ww | helemaal dichtmaken | Men wilde de zeearm afsluiten. | kapatmak\nde zeespiegel | zn | de hoogte van het zeewater | De zeespiegel stijgt. | deniz seviyesi\nvoltooien | ww | helemaal afmaken | Het project werd in 1997 voltooid. | tamamlamak",
+      "b1_woorden": "de ramp | felaket | een heel ernstige gebeurtenis | | De ramp kostte 1800 levens. | Felaket 1800 cana mal oldu.\nde kering | bariyer | beweegbare waterkering | de dam | De Oosterscheldekering is beroemd. | Oosterschelde bariyeri unludur.\nafsluiten | kapatmak | helemaal dichtmaken | dichtmaken | Men wilde de Oosterschelde afsluiten. | Oosterschelde'yi kapatmak istediler.",
+      "b2_woorden": "voltooien | tamamlamak | helemaal afmaken | afmaken | De kering werd in 1997 voltooid. | Bariyer 1997'de tamamlandi.\nhet compromis | uzlasma | oplossing waarbij beide partijen iets krijgen | de middenweg | De kering was een compromis. | Bariyer bir uzlasmaydi.\nde waterstand | su seviyesi | hoe hoog het water staat | het waterpeil | Bij gevaarlijke waterstanden sluit de kering. | Tehlikeli su seviyelerinde bariyer kapanir.",
+      "c1_woorden": "het ijkpunt | referans noktasi | het vaste punt waaraan je alles meet | het referentiepunt | 1953 is het ijkpunt van het waterbeleid. | 1953 su politikasinin referans noktasidir.\nvoortschrijdend inzicht | zamanla gelisen anlayis | begrip dat groeit met de tijd | | De kering is een monument van voortschrijdend inzicht. | Bariyer gelisen anlayisin aniti.\nafdwingen | zorla kabul ettirmek | met druk voor elkaar krijgen | forceren | De milieubeweging dwong het compromis af. | Cevre hareketi uzlasmayi kabul ettirdi.",
+      "grammatica": "1) Nadat + bijzin (let op de tijden!)\n• Nadat de dijken waren gebroken, maakte Nederland het Deltaplan.\n(eerst gebeurd -> plusquamperfectum 'waren gebroken')\n2) Voordat + bijzin\n• Voordat de kering sluit, klinkt er een waarschuwing.\n3) Eerst / daarna / vervolgens (hoofdzinnen + inversie)\n• Eerst kwam de ramp. Daarna bouwde Nederland de Deltawerken.\n• Let op: na 'daarna' komt het werkwoord direct (inversie).",
+      "vragen": "1. (A2) Wat gebeurde er in de nacht van 1 februari 1953?\n2. (B1) Waarom werd de Oosterschelde niet helemaal afgesloten?\n3. (B2) Waarom is Nederland 'nooit af'?",
+      "antwoorden": "1. Een zware storm en heel hoog water braken de dijken in Zeeland; meer dan 1800 mensen verdronken.\n2. Omdat dat de bijzondere natuur zou vernietigen; er kwam een open kering die alleen bij gevaar sluit.\n3. Omdat de zeespiegel stijgt en er alweer wordt nagedacht over de verdediging van de volgende eeuw.",
+      "quiz": {
+        "a2": {
+          "woorden": [
+            {"vraag": "Een 'ramp' is ...", "opties": ["een heel ernstige gebeurtenis", "een feest", "een soort dijk", "een storm die meevalt"], "juist": 0, "uitleg": "Bijvoorbeeld de Watersnoodramp van 1953. (TR: felaket)"},
+            {"vraag": "Wat doet een dijk?", "opties": ["water tegenhouden", "stroom maken", "schepen helpen", "vis vangen"], "juist": 0, "uitleg": "Een hoge wal tussen water en land. (TR: set)"},
+            {"vraag": "'Voltooien' betekent:", "opties": ["helemaal afmaken", "beginnen", "verkopen", "tekenen"], "juist": 0, "uitleg": "Het project werd in 1997 voltooid. (TR: tamamlamak)"}
+          ],
+          "grammatica": [
+            {"vraag": "Eerst kwam de ramp. ... bouwde Nederland de Deltawerken.", "opties": ["Daarna", "Voordat", "Nadat", "Toen dat"], "juist": 0, "uitleg": "Volgorde: eerst ... daarna + inversie."},
+            {"vraag": "Welke zin is correct?", "opties": ["Daarna bouwde Nederland sterke dammen.", "Daarna Nederland bouwde sterke dammen.", "Daarna Nederland sterke dammen bouwde.", "Bouwde daarna Nederland sterke dammen."], "juist": 0, "uitleg": "Na 'daarna' volgt direct het werkwoord."},
+            {"vraag": "... de storm kwam, sliepen de mensen.", "opties": ["Toen", "Daarna", "Vervolgens", "Eerst"], "juist": 0, "uitleg": "Eén moment in het verleden -> toen."}
+          ],
+          "lezen": [
+            {"vraag": "Wanneer was de Watersnoodramp?", "opties": ["in 1953", "in 1997", "in 1421", "in 2000"], "juist": 0, "uitleg": "In de nacht van 1 februari 1953."},
+            {"vraag": "Hoeveel mensen verdronken er?", "opties": ["meer dan 1800", "ongeveer 100", "meer dan 10.000", "vijftig"], "juist": 0, "uitleg": "Vooral in Zeeland."},
+            {"vraag": "Wat is bijzonder aan de Oosterscheldekering?", "opties": ["Hij staat open en sluit alleen bij storm.", "Hij is altijd dicht.", "Hij is van hout.", "Hij is onzichtbaar."], "juist": 0, "uitleg": "Zo blijft de natuur gezond en het land veilig."}
+          ]
+        },
+        "b1": {
+          "woorden": [
+            {"vraag": "'Omkomen' betekent:", "opties": ["doodgaan bij een ramp of ongeluk", "aankomen", "verdwalen", "gewond raken"], "juist": 0, "uitleg": "Meer dan 1800 mensen kwamen om. (TR: hayatini kaybetmek)"},
+            {"vraag": "Een 'kering' is ...", "opties": ["een beweegbare muur tegen hoogwater", "een soort brug", "een vuurtoren", "een haven"], "juist": 0, "uitleg": "keren = tegenhouden. (TR: bariyer)"},
+            {"vraag": "'Een zeearm afsluiten' betekent hem ...", "opties": ["helemaal dichtmaken", "dieper maken", "schoonmaken", "oversteken"], "juist": 0, "uitleg": "Met een dam tussen zee en binnenwater."}
+          ],
+          "grammatica": [
+            {"vraag": "Nadat de dijken ... gebroken, maakte Nederland een plan.", "opties": ["waren", "zijn", "worden", "hadden"], "juist": 0, "uitleg": "Nadat + plusquamperfectum: waren gebroken."},
+            {"vraag": "... de kering sluit, klinkt er een waarschuwing.", "opties": ["Voordat", "Nadat", "Daarna", "Toen"], "juist": 0, "uitleg": "Eerst de waarschuwing, dan het sluiten -> voordat."},
+            {"vraag": "Welke zin beschrijft de juiste volgorde?", "opties": ["Nadat de ramp was gebeurd, bouwde men de Deltawerken.", "Voordat de ramp gebeurde, bouwde men de Deltawerken.", "Terwijl de ramp gebeurde, waren de Deltawerken klaar.", "De Deltawerken bouwde men, daarna kwam de ramp."], "juist": 0, "uitleg": "Eerst de ramp (1953), daarna de bouw (1954-1997)."}
+          ],
+          "lezen": [
+            {"vraag": "Wat besloot Nederland na de ramp?", "opties": ["Dit mag nooit meer gebeuren.", "Zeeland moet verhuizen.", "De zee moet weg.", "Er komt een nieuw land."], "juist": 0, "uitleg": "Dat werd het Deltaplan."},
+            {"vraag": "Waarom wilde men de Oosterschelde eerst helemaal afsluiten?", "opties": ["voor de veiligheid", "voor de scheepvaart", "voor de visserij", "voor het toerisme"], "juist": 0, "uitleg": "Maar dat zou de natuur vernietigen."},
+            {"vraag": "Wat gebeurt er bij gevaarlijk hoogwater?", "opties": ["De schuiven van de kering gaan dicht.", "De kering gaat open.", "De eilanden worden ontruimd.", "Er gebeurt niets."], "juist": 0, "uitleg": "Normaal staan ze open."}
+          ]
+        },
+        "b2": {
+          "woorden": [
+            {"vraag": "'Het sluitstuk' van een project is ...", "opties": ["het laatste, afrondende deel", "het begin", "het duurste deel", "het geheime deel"], "juist": 0, "uitleg": "De Maeslantkering (1997) was het sluitstuk."},
+            {"vraag": "Een 'compromis' is ...", "opties": ["een oplossing waarbij beide kanten iets krijgen", "een totale overwinning", "een belofte", "een wet"], "juist": 0, "uitleg": "Veiligheid én natuur. (TR: uzlasma)"},
+            {"vraag": "'De waterstand' is ...", "opties": ["hoe hoog het water staat", "de kwaliteit van het water", "de temperatuur", "de stroming"], "juist": 0, "uitleg": "Bij gevaarlijke waterstanden sluit de kering."}
+          ],
+          "grammatica": [
+            {"vraag": "'Waar de eerste dammen alles afsloten, werd de kering een compromis.' 'Waar' drukt uit:", "opties": ["een contrast", "een plaats", "een vraag", "een reden"], "juist": 0, "uitleg": "Formeel contrast: terwijl de eerste dammen ..."},
+            {"vraag": "'De milieubeweging dwong dat compromis mede af.' 'Mede' betekent:", "opties": ["gedeeltelijk, samen met anderen", "helemaal alleen", "per ongeluk", "tegen haar zin"], "juist": 0, "uitleg": "mede = ook, mee (samen met andere factoren)."},
+            {"vraag": "'Af is Nederland nooit' betekent:", "opties": ["Het werk aan de waterveiligheid stopt nooit.", "Nederland is nooit klaar met bouwen van huizen.", "Nederland is onaf en lelijk.", "De Deltawerken zijn mislukt."], "juist": 0, "uitleg": "Er komt altijd een volgende opgave."}
+          ],
+          "lezen": [
+            {"vraag": "Wanneer werden de Deltawerken gebouwd?", "opties": ["tussen 1954 en 1997", "tussen 1900 en 1950", "tussen 1421 en 1500", "na 2000"], "juist": 0, "uitleg": "Ruim veertig jaar werk."},
+            {"vraag": "Wat weerspiegelt het project?", "opties": ["veranderend denken over veiligheid en ecologie", "de rijkdom van Nederland", "de macht van de koning", "de angst voor de zee"], "juist": 0, "uitleg": "Van volledig afsluiten naar een open kering."},
+            {"vraag": "Waarom wordt er alweer nagedacht over nieuwe verdediging?", "opties": ["door de stijgende zeespiegel", "omdat de keringen kapot zijn", "vanwege toerisme", "door nieuwe wetten"], "juist": 0, "uitleg": "De verdediging van de volgende eeuw."}
+          ]
+        },
+        "c1": {
+          "woorden": [
+            {"vraag": "'Het morele ijkpunt' is ...", "opties": ["het vaste punt waaraan al het handelen wordt gemeten", "een meetinstrument", "een monument", "een wet"], "juist": 0, "uitleg": "ijken = kalibreren; 1953 als morele maatstaf."},
+            {"vraag": "'Voortschrijdend inzicht' betekent:", "opties": ["begrip dat met de tijd groeit en verandert", "een snelle beslissing", "oud denken", "wetenschappelijke twijfel"], "juist": 0, "uitleg": "Later weet je meer dan toen je begon."},
+            {"vraag": "'Allerminst afgesloten' betekent:", "opties": ["absoluut niet klaar", "bijna klaar", "voorlopig gesloten", "geheim"], "juist": 0, "uitleg": "allerminst = helemaal niet."}
+          ],
+          "grammatica": [
+            {"vraag": "''Nooit meer' werd de stilzwijgende grondwet.' 'Stilzwijgend' betekent:", "opties": ["niet uitgesproken maar door iedereen aanvaard", "zacht gefluisterd", "geheim gehouden", "wettelijk vastgelegd"], "juist": 0, "uitleg": "Een ongeschreven maar breed gedragen principe."},
+            {"vraag": "'Deltacommissies buigen zich over de vraag ...' 'Zich buigen over' betekent:", "opties": ["grondig bestuderen", "vooroverbuigen", "twijfelen aan", "beslissen zonder na te denken"], "juist": 0, "uitleg": "Zich over een probleem buigen = het serieus onderzoeken."},
+            {"vraag": "'De betonnen vertaling' van 'nooit meer' is ...", "opties": ["een metafoor: het principe omgezet in bouwwerken", "een document in het archief", "een vertaalfout", "een straatnaam"], "juist": 0, "uitleg": "Het abstracte principe kreeg concrete, betonnen vorm."}
+          ],
+          "lezen": [
+            {"vraag": "Hoe veranderde het project 'gaandeweg van karakter'?", "opties": ["van alles afsluiten naar veiligheid mét ecologie", "van goedkoop naar duur", "van geheim naar openbaar", "van klein naar internationaal"], "juist": 0, "uitleg": "De Oosterscheldekering als monument van dat inzicht."},
+            {"vraag": "Wat voorzagen de bouwers niet?", "opties": ["dat de zeespiegel zo snel zou stijgen", "dat de kering zou roesten", "dat er toeristen zouden komen", "dat Zeeland zou groeien"], "juist": 0, "uitleg": "Daarom is de geschiedenis niet afgesloten."},
+            {"vraag": "Waarom noemt de auteur de Deltawerken 'een generale repetitie'?", "opties": ["Er komt een nog grotere wateropgave aan.", "Ze waren een oefening zonder nut.", "Ze worden afgebroken.", "Ze zijn een theatervoorstelling."], "juist": 0, "uitleg": "Geen eindpunt: de volgende eeuw vraagt om meer."}
+          ]
+        }
+      }
     }
   ]
 }
