@@ -54,6 +54,9 @@
   .d-ex-tr { font-size: 13px; color: #777; margin-left: 18px; }
   .lvl { display: inline-block; background: #34495e; color: white; font-size: 11px; font-weight: bold; padding: 1px 6px; border-radius: 3px; margin-right: 3px; }
 
+  /* Quick word glosses shown directly under a level box */
+  .gloss { font-size: 13px; color: #666; background: rgba(255,255,255,0.6); border-top: 1px dashed #ccc; margin-top: 10px; padding-top: 8px; line-height: 1.6; }
+
   .grammar { background: #fbfcfd; border: 1px solid #d5dbdb; border-radius: 6px; padding: 8px 18px; line-height: 1.8; }
   .g-head { font-weight: bold; color: #1a5276; margin: 16px 0 6px; font-size: 15px; }
   .g-note { margin: 4px 0; }
@@ -195,13 +198,22 @@ function youtubeId(url) {
   return m ? m[1] : null;
 }
 
+// Small word-gloss line under a level box (only if the item has one).
+// item.gloss = { a1: "woord = anlam • woord = anlam", b2: "...", c1: "..." }
+function glossLine(item, level) {
+  const g = item.gloss && item.gloss[level];
+  return g ? `<div class="gloss">&#128273; ${g}</div>` : "";
+}
+
 // ===== Main render =====
 function render() {
   const item = DATA.items[currentIndex];
   const n = DATA.items.length;
   const vid = youtubeId(item.video_url);
+  // Optional video_start (seconds): the embedded player starts at that point
+  const startParam = item.video_start ? `?start=${item.video_start}` : "";
   const video = vid
-    ? `<div class="video-wrap"><iframe src="https://www.youtube.com/embed/${vid}" allowfullscreen title="${item.video_titel || ''}"></iframe></div>`
+    ? `<div class="video-wrap"><iframe src="https://www.youtube.com/embed/${vid}${startParam}" allowfullscreen title="${item.video_titel || ''}"></iframe></div>`
     : "";
 
   document.getElementById("content").innerHTML = `
@@ -209,11 +221,11 @@ function render() {
     <p class="meta">Nieuws ${currentIndex + 1}/${n} | Niveau A1 &rarr; C1</p>
     <span class="bron-tag">&#127909; ${item.bron || "video"}</span>
     ${video}
-    <div class="level-a1"><h3>&#128994; A1</h3>${nl2br(item.a1)}</div>
-    <div class="level-a2"><h3>&#128309; A2</h3>${nl2br(item.a2)}</div>
-    <div class="level-b1"><h3>&#128993; B1</h3>${nl2br(item.b1)}</div>
-    <div class="level-b2"><h3>&#128992; B2</h3>${nl2br(item.b2)}</div>
-    <div class="level-c1"><h3>&#128308; C1</h3>${nl2br(item.c1)}</div>
+    <div class="level-a1"><h3>&#128994; A1</h3>${nl2br(item.a1)}${glossLine(item, "a1")}</div>
+    <div class="level-a2"><h3>&#128309; A2</h3>${nl2br(item.a2)}${glossLine(item, "a2")}</div>
+    <div class="level-b1"><h3>&#128993; B1</h3>${nl2br(item.b1)}${glossLine(item, "b1")}</div>
+    <div class="level-b2"><h3>&#128992; B2</h3>${nl2br(item.b2)}${glossLine(item, "b2")}</div>
+    <div class="level-c1"><h3>&#128308; C1</h3>${nl2br(item.c1)}${glossLine(item, "c1")}</div>
     ${buildVocabTable(item.woordenschat)}
     ${buildDetailBox(item.b1_woorden, "<h2>&#128993; B1 &mdash; Woorden onder de loep</h2>", "box-b1", "A2", "")}
     ${buildDetailBox(item.b2_woorden, "<h2>&#128992; B2 &mdash; Woorden onder de loep</h2>", "box-b2", "B1", "A2")}
