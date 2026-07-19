@@ -3,67 +3,72 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dagelijkse Spreken Training</title>
+<title>Spreken - dagelijkse training</title>
 <style>
-  body { font-family: Georgia, serif; line-height: 1.7; color: #333; max-width: 760px; margin: 0 auto; padding: 20px; background: #fafafa; }
-  .container { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-  h1 { color: #1a5276; border-bottom: 3px solid #27ae60; padding-bottom: 10px; }
-  .meta { color: #7f8c8d; margin-top: -5px; }
-  .nav { display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
-  .nav button { background: #1a5276; color: white; border: none; border-radius: 6px; padding: 8px 16px; font-size: 16px; cursor: pointer; }
-  .nav button:hover { background: #27ae60; }
-  .nav input[type="date"] { padding: 7px 10px; border: 1px solid #bbb; border-radius: 6px; font-family: inherit; font-size: 14px; }
-  .nav .today-btn { background: #27ae60; }
+  /* Sober, professional palette: charcoal / slate / off-white */
+  body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.65; color: #2b2f33; max-width: 760px; margin: 0 auto; padding: 24px; background: #f2f2f0; }
+  .container { background: #ffffff; padding: 34px 38px; border-radius: 4px; border: 1px solid #e3e3df; }
+  h1 { color: #1f2d3d; font-size: 26px; font-weight: normal; letter-spacing: 0.5px; border-bottom: 2px solid #1f2d3d; padding-bottom: 12px; margin-bottom: 4px; }
+  .meta { color: #8a8f98; font-size: 14px; }
 
-  .card { border: 1px solid #d5dbdb; border-radius: 8px; padding: 18px; margin: 18px 0; background: #fbfcfd; }
-  .deel-badge { display: inline-block; color: white; font-size: 12px; font-weight: bold; padding: 2px 10px; border-radius: 12px; margin-bottom: 8px; }
-  .deel-1 { background: #3498db; }
-  .deel-2 { background: #e67e22; }
-  .vraag { font-size: 17px; font-weight: bold; color: #2c3e50; margin: 6px 0 12px; }
+  .uitleg { background: #f7f7f5; border-left: 3px solid #1f2d3d; padding: 12px 16px; font-size: 14px; color: #4a4f57; margin: 18px 0; }
 
-  .timer-row { display: flex; align-items: center; gap: 12px; margin: 10px 0; }
-  .timer-btn { background: #e74c3c; color: white; border: none; border-radius: 6px; padding: 8px 16px; cursor: pointer; font-family: inherit; font-size: 14px; }
-  .timer-display { font-size: 22px; font-weight: bold; color: #1a5276; min-width: 60px; }
-  .timer-display.done { color: #e74c3c; }
+  .nav { display: flex; align-items: center; justify-content: center; gap: 8px; margin: 20px 0; flex-wrap: wrap; }
+  .nav button { background: #1f2d3d; color: #fff; border: none; border-radius: 3px; padding: 8px 16px; font-size: 14px; cursor: pointer; font-family: inherit; }
+  .nav button:hover { background: #37475a; }
+  .nav input[type="date"] { padding: 7px 10px; border: 1px solid #c9ccd1; border-radius: 3px; font-family: inherit; font-size: 14px; color: #2b2f33; }
 
-  details { background: white; border: 1px solid #ddd; border-radius: 6px; margin: 8px 0; }
-  details summary { cursor: pointer; padding: 10px 14px; font-weight: bold; color: #1a5276; }
-  details .body { padding: 0 14px 12px; }
-  .b1-model { border-left: 4px solid #f39c12; }
-  .b2-model { border-left: 4px solid #e74c3c; }
-  .taalhulp { border-left: 4px solid #3498db; }
-  .valkuil { border-left: 4px solid #8e44ad; }
-  .valkuil .body { color: #8e44ad; }
+  .card { border: 1px solid #e3e3df; border-radius: 4px; padding: 22px 24px; margin: 22px 0; background: #fdfdfc; }
+  .card-nr { color: #8a8f98; font-size: 13px; letter-spacing: 1px; text-transform: uppercase; }
+  .titel { font-size: 19px; color: #1f2d3d; font-weight: bold; margin: 4px 0 12px; }
+  .situatie { white-space: pre-line; color: #2b2f33; margin-bottom: 12px; }
+  .vraag { border-left: 3px solid #8c6d46; background: #faf8f5; padding: 10px 14px; font-style: italic; color: #43392c; margin: 12px 0; }
+  .opdracht-img { max-width: 100%; border: 1px solid #e3e3df; border-radius: 3px; margin: 10px 0; }
 
-  .footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px; text-align: center; }
-  .error { color: #c0392b; background: #fdedec; padding: 15px; border-radius: 6px; }
-  .uitleg-box { background: #e8f8f5; border-left: 5px solid #27ae60; padding: 12px 15px; border-radius: 0 6px 6px 0; font-size: 14px; }
+  .timer-row { display: flex; align-items: center; gap: 14px; margin: 14px 0; }
+  .timer-btn { background: #fff; color: #1f2d3d; border: 1px solid #1f2d3d; border-radius: 3px; padding: 8px 18px; cursor: pointer; font-family: inherit; font-size: 14px; }
+  .timer-btn:hover { background: #1f2d3d; color: #fff; }
+  .timer-display { font-size: 22px; color: #1f2d3d; min-width: 64px; font-variant-numeric: tabular-nums; }
+  .timer-display.done { color: #8c2f2f; }
+
+  details { background: #fff; border: 1px solid #e3e3df; border-radius: 3px; margin: 8px 0; }
+  details summary { cursor: pointer; padding: 9px 14px; font-size: 14px; color: #1f2d3d; letter-spacing: 0.3px; }
+  details .body { padding: 2px 14px 12px; white-space: pre-line; font-size: 15px; }
+  .m1 { border-left: 3px solid #1f2d3d; }
+  .m2 { border-left: 3px solid #52667a; }
+  .m3 { border-left: 3px solid #8598ac; }
+  .hulp { border-left: 3px solid #8c6d46; }
+  .let-op { border-left: 3px solid #8c2f2f; }
+  .let-op .body { color: #6e3535; }
+
+  .footer { margin-top: 36px; padding-top: 16px; border-top: 1px solid #e3e3df; color: #a0a4ab; font-size: 12px; text-align: center; }
+  .error { color: #8c2f2f; background: #f9f1f1; padding: 14px; border-radius: 3px; }
 </style>
 </head>
 <body>
 <div class="container">
-  <h1>&#127908; Dagelijkse Spreken Training</h1>
-  <p class="meta">NT2 Spreken I &mdash; elke dag 3 opdrachten</p>
-  <div class="uitleg-box">
-    <strong>Zo werkt het:</strong> lees de opdracht, start de timer en geef je antwoord <em>hardop</em>.
-    Kijk daarna pas naar de modelantwoorden. Deel 1 = kort antwoord (20 sec), Deel 2 = langer antwoord (30 sec).
+  <h1>Spreken &mdash; dagelijkse training</h1>
+  <p class="meta">NT2 Programma I &middot; drie opdrachten per dag &middot; echte examenopgaven</p>
+  <div class="uitleg">
+    <strong>Werkwijze.</strong> Lees de situatie, bekijk het plaatje (als dat er is), start de timer
+    en geef uw antwoord hardop. Vergelijk daarna met de drie modelantwoorden &mdash;
+    Model 1 komt rechtstreeks uit het antwoordmodel, Model 2 en 3 zijn gelijkwaardige alternatieven op examenniveau.
   </div>
-  <div class="nav" style="margin-top:15px;">
-    <button id="prevBtn">&#8592; vorige</button>
+  <div class="nav">
+    <button id="prevBtn">&larr; vorige</button>
     <input type="date" id="datePicker">
-    <button id="todayBtn" class="today-btn">vandaag</button>
-    <button id="nextBtn">volgende &#8594;</button>
+    <button id="todayBtn">vandaag</button>
+    <button id="nextBtn">volgende &rarr;</button>
   </div>
   <div id="content"><p>Laden...</p></div>
-  <div class="footer"><p>&#127475;&#127473; Oefening baart kunst - succes met je examen!</p></div>
+  <div class="footer"><p>Oefening baart kunst.</p></div>
 </div>
 
 <script>
 // ===== Data =====
-// spreken.json lives in the same repo; per_dag items are shown per day, cycling.
 let DATA = null;
-let currentDay = 0;      // day offset index into the cycle
-let timers = {};         // running countdown intervals per card
+let currentDay = 0;
+let timers = {};
 
 async function loadData() {
   try {
@@ -78,7 +83,6 @@ async function loadData() {
   }
 }
 
-// Day-cycle: days since start_date, modulo number of day-sets
 function totalDays() { return Math.ceil(DATA.items.length / DATA.config.per_dag); }
 function dayForDate(date) {
   const start = new Date(DATA.config.start_date + "T00:00:00");
@@ -89,39 +93,42 @@ function dayForDate(date) {
 }
 
 // ===== Render =====
-function nl2br(t) { return (t || "").toString().replace(/\n/g, "<br>"); }
-
 function render() {
-  // Stop any running timers from the previous day view
   Object.values(timers).forEach(clearInterval);
   timers = {};
 
   const per = DATA.config.per_dag;
-  const startIdx = currentDay * per;
-  const todays = DATA.items.slice(startIdx, startIdx + per);
+  const todays = DATA.items.slice(currentDay * per, currentDay * per + per);
 
   const cards = todays.map((it, i) => {
-    const secs = it.deel === 2 ? 30 : 20;
+    // The exam gives ~30 seconds speaking time per answer
+    const secs = 30;
+    const img = it.afbeelding ? `<img class="opdracht-img" src="${it.afbeelding}" alt="plaatje bij de opdracht">` : "";
+    const vraag = it.vraag ? `<div class="vraag">U hoort: &ldquo;${it.vraag}&rdquo;</div>` : "";
     return `<div class="card">
-      <span class="deel-badge deel-${it.deel}">Deel ${it.deel} &middot; ${secs} sec</span>
-      <div class="vraag">${i + 1}. ${it.vraag}</div>
+      <span class="card-nr">Opdracht ${i + 1} van ${todays.length}</span>
+      <div class="titel">${it.titel}</div>
+      <div class="situatie">${it.situatie}</div>
+      ${img}
+      ${vraag}
       <div class="timer-row">
-        <button class="timer-btn" onclick="startTimer(${i}, ${secs})">&#9201; Start &amp; spreek!</button>
+        <button class="timer-btn" onclick="startTimer(${i}, ${secs})">Start &mdash; spreek hardop</button>
         <span class="timer-display" id="timer${i}">${secs}</span>
       </div>
-      <details class="b1-model"><summary>&#128993; Modelantwoord B1</summary><div class="body">${nl2br(it.model_b1)}</div></details>
-      <details class="b2-model"><summary>&#128992; Sterker antwoord (B2)</summary><div class="body">${nl2br(it.model_b2)}</div></details>
-      <details class="taalhulp"><summary>&#128736;&#65039; Taalhulp</summary><div class="body">${nl2br(it.taalhulp)}</div></details>
-      <details class="valkuil"><summary>&#9888;&#65039; Valkuil</summary><div class="body">${nl2br(it.valkuil)}</div></details>
+      <details class="m1"><summary>Model 1 &middot; uit het antwoordmodel</summary><div class="body">${it.model_1}</div></details>
+      <details class="m2"><summary>Model 2 &middot; alternatief</summary><div class="body">${it.model_2}</div></details>
+      <details class="m3"><summary>Model 3 &middot; alternatief</summary><div class="body">${it.model_3}</div></details>
+      <details class="hulp"><summary>Taalhulp</summary><div class="body">${it.taalhulp}</div></details>
+      <details class="let-op"><summary>Let op</summary><div class="body">${it.valkuil}</div></details>
     </div>`;
   }).join("");
 
   document.getElementById("content").innerHTML =
-    `<p class="meta">Dagset ${currentDay + 1} / ${totalDays()}</p>` + cards;
+    `<p class="meta">Dagset ${currentDay + 1} van ${totalDays()}</p>` + cards;
   window.scrollTo(0, 0);
 }
 
-// ===== Countdown timer per opdracht =====
+// ===== Timer =====
 function startTimer(i, secs) {
   clearInterval(timers[i]);
   const el = document.getElementById("timer" + i);
@@ -130,7 +137,7 @@ function startTimer(i, secs) {
   el.classList.remove("done");
   timers[i] = setInterval(() => {
     left--;
-    el.textContent = left > 0 ? left : "STOP!";
+    el.textContent = left > 0 ? left : "stop";
     if (left <= 0) { el.classList.add("done"); clearInterval(timers[i]); }
   }, 1000);
 }
