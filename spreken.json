@@ -1,173 +1,145 @@
 {
   "config": {
     "start_date": "2026-07-20",
-    "per_dag": 3
+    "per_deel": 8,
+    "deel1_sec": 20,
+    "deel2_sec": 30,
+    "deel1_ids": [2, 3, 11, 15, 16, 21, 28, 32, 34, 35, 36, 37, 38, 42, 44, 46, 50, 52, 56, 61, 62, 65, 66, 73, 77, 78, 79, 81, 86, 87, 94, 97, 99, 102, 105, 110, 111, 113, 115, 116, 127, 129, 130, 133, 136, 137, 140, 145, 147, 153, 155, 161, 164, 166, 167, 168, 172, 175, 176, 177, 179, 184, 193, 195, 196, 197, 200, 205, 207, 208, 211, 212, 213, 217, 219, 220, 221, 222, 223, 225, 228, 234, 239, 240, 243, 246, 247, 248, 250, 251, 257, 259, 264, 265, 266, 267, 268, 270, 273, 275, 276, 286, 287, 293, 294, 298, 300, 302, 305, 306, 307, 310, 311, 314, 315, 332, 335, 336, 337, 341, 347, 348, 349],
+    "deel2_ids": [1, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 29, 30, 31, 33, 39, 40, 41, 43, 45, 47, 48, 49, 51, 53, 54, 55, 57, 58, 59, 60, 63, 64, 67, 68, 69, 70, 71, 72, 74, 75, 76, 80, 82, 83, 84, 85, 88, 89, 90, 91, 92, 93, 95, 96, 98, 100, 101, 103, 104, 106, 107, 108, 109, 112, 114, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 128, 131, 132, 134, 135, 138, 139, 141, 142, 143, 144, 146, 148, 149, 150, 151, 152, 154, 156, 157, 158, 159, 160, 162, 163, 165, 169, 170, 171, 173, 174, 178, 180, 181, 182, 183, 185, 186, 187, 188, 189, 190, 191, 192, 194, 198, 199, 201, 202, 203, 204, 206, 209, 210, 214, 215, 216, 218, 224, 226, 227, 229, 230, 231, 232, 233, 235, 236, 237, 238, 241, 242, 244, 245, 249, 252, 253, 254, 255, 256, 258, 260, 261, 262, 263, 269, 271, 272, 274, 277, 278, 279, 280, 281, 282, 283, 284, 285, 288, 289, 290, 291, 292, 295, 296, 297, 299, 301, 303, 304, 308, 309, 312, 313, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 333, 334, 338, 339, 340, 342, 343, 344, 345, 346, 350]
   },
-  "items": [
-    {
-      "titel": "'s Avonds werken",
-      "situatie": "U werkt in een winkel.\nEén keer in de week moet u een avond werken.\nUw baas wil dat u op vrijdagavond komt werken.\nU wilt het liefst op maandagavond werken.\nOvertuig uw baas ervan dat u op maandagavond wilt werken.\nGeef twee redenen.",
-      "vraag": "Waarom wil jij per se op maandagavond werken?",
-      "afbeelding": null,
-      "model_1": "Ik heb op vrijdagavond mijn sport.\nIk moet op vrijdagavond vroeg thuis zijn voor mijn kinderen.",
+  "verrijking": {
+    "1": {
       "model_2": "Op vrijdagavond ga ik altijd naar mijn familie.\nOp maandagavond heb ik geen andere plannen.",
       "model_3": "Mijn vrouw werkt op vrijdagavond, dus ik moet thuis zijn.\nOp maandagavond kan ik makkelijk werken.",
       "taalhulp": "Ik heb op ... / Ik moet ...\nTwee redenen = twee korte zinnen is genoeg.",
-      "valkuil": "Geef precies wat er wordt gevraagd: twee redenen, niet meer en niet minder."
+      "valkuil": "Geef precies wat er wordt gevraagd: twee redenen, niet meer en niet minder.",
+      "structuren": "iemand overtuigen van = ikna etmek\nper se = ille de\nvroeg thuis zijn = erken evde olmak"
     },
-    {
-      "titel": "Aan de beurt",
-      "situatie": "U staat bij de bakker.\nNa u is een vrouw binnengekomen.\nDe verkoopster vraagt wie er aan de beurt is.\nDe vrouw zegt dat zij aan de beurt is.\nU bent het daar niet mee eens.\nWat zegt u tegen de vrouw?",
-      "vraag": "",
-      "afbeelding": null,
-      "model_1": "Sorry, ik was eerst.",
+    "2": {
       "model_2": "Sorry mevrouw, maar ik was voor u.",
       "model_3": "Neemt u mij niet kwalijk, ik was eerder aan de beurt.",
-      "taalhulp": "aan de beurt zijn = sıranın sende olması\nSorry, maar ... (vriendelijk protesteren)",
-      "valkuil": "Kort en beleefd is hier perfect - een lange uitleg is niet nodig."
+      "taalhulp": "Sorry, maar ... (vriendelijk protesteren)",
+      "valkuil": "Kort en beleefd is hier perfect - een lange uitleg is niet nodig.",
+      "structuren": "aan de beurt zijn = siranin kendisinde olmasi\nIk was eerst. / Ik was voor u. = ben once geldim\nNeemt u mij niet kwalijk = kusura bakmayin"
     },
-    {
-      "titel": "Activiteit schoolfeest",
-      "situatie": "U werkt op een basisschool.\nDe school bestaat twintig jaar en viert feest.\nSamen met uw collega's bedenkt u activiteiten voor het feest.\nU heeft een leuk idee voor het feest.\nKijk naar het plaatje.\nDoe een voorstel voor een activiteit voor op het feest.",
-      "vraag": "Wat stel jij voor als activiteit?",
-      "afbeelding": "images/img_003.png",
-      "model_1": "We kunnen de kinderen schminken.",
+    "3": {
       "model_2": "Ik stel voor dat we de kinderen gaan schminken. Dat vinden ze leuk.",
       "model_3": "Misschien kunnen we een schminkhoek maken voor de kinderen.",
       "taalhulp": "We kunnen ... / Ik stel voor dat ...\nBeschrijf wat je op het plaatje ziet.",
-      "valkuil": "Gebruik het plaatje in je antwoord - dat verwacht de beoordelaar."
+      "valkuil": "Gebruik het plaatje in je antwoord - dat verwacht de beoordelaar.",
+      "structuren": "een voorstel doen = oneri yapmak\nde kinderen schminken = cocuklarin yuzunu boyamak\nIk stel voor dat ... = ... oneriyorum"
     },
-    {
-      "titel": "Advies examen",
-      "situatie": "U volgt een opleiding tot verzorgende.\nMorgen is er een examen.\nUw medestudent weet niet wat zij vanavond het best kan doen:\nvroeg naar bed gaan of studeren voor het examen.\nVertel uw medestudent wat zij volgens u het beste kan doen.\nVertel ook waarom u dat vindt.",
-      "vraag": "Wat zal ik doen? Zal ik vroeg gaan slapen of zal ik nog gaan studeren?",
-      "afbeelding": null,
-      "model_1": "Je kunt het beste vroeg naar bed gaan. Je moet morgen fit zijn.",
+    "4": {
       "model_2": "Ga maar vroeg slapen. Met een moe hoofd kun je niet goed nadenken.",
       "model_3": "Ik zou vroeg naar bed gaan. Je hebt al genoeg gestudeerd.",
       "taalhulp": "Je kunt het beste ... / Ik zou ...\nAdvies + reden: twee zinnen.",
-      "valkuil": "Kies één optie en geef een reden - blijf niet twijfelen in je antwoord."
+      "valkuil": "Kies één optie en geef een reden - blijf niet twijfelen in je antwoord.",
+      "structuren": "Je kunt het beste ... = en iyisi ... yapman\nvroeg naar bed gaan = erken yatmak\nfit zijn = zinde olmak"
     },
-    {
-      "titel": "Advies over studie",
-      "situatie": "Een vriendin van u wil een mbo-opleiding voor tandartsassistent gaan volgen.\nZe twijfelt of ze deze opleiding thuis op de computer of in een klas op school wil volgen.\nGeef uw vriendin advies over hoe zij de opleiding het best kan gaan volgen.\nNoem hierbij twee redenen.",
-      "vraag": "Hoe kan ik het beste de opleiding tandartsassistente gaan volgen? Thuis of in een klas?",
-      "afbeelding": null,
-      "model_1": "Je kunt het beste de opleiding online doen.\nJe hebt geen reistijd. En het is ook goedkoper.",
+    "5": {
       "model_2": "Ik denk dat de klas beter is.\nJe kunt vragen stellen aan de docent. En je leert andere studenten kennen.",
       "model_3": "Doe het thuis op de computer.\nJe kunt zelf je tijd kiezen. En je hoeft niet te reizen.",
       "taalhulp": "Je kunt het beste ... / Ik denk dat ...\nEn ... (tweede reden toevoegen)",
-      "valkuil": "Twee redenen gevraagd - tel ze na in je hoofd voordat je stopt."
+      "valkuil": "Twee redenen gevraagd - tel ze na in je hoofd voordat je stopt.",
+      "structuren": "een opleiding volgen = egitim almak\nde reistijd = yol suresi\nJe hoeft niet te ... = ... gerekmiyor"
     },
-    {
-      "titel": "Agenda",
-      "situatie": "U gaat starten met een nieuwe opleiding.\nU hebt voor uw opleiding een agenda nodig.\nU kunt een papieren agenda kopen of de agenda op uw telefoon gebruiken.\nEen medestudent vraagt wat u kiest.\nVertel uw medestudent welk soort agenda u kiest en waarom.",
-      "vraag": "Wat kies jij? Een papieren agenda of de agenda op je telefoon?",
-      "afbeelding": null,
-      "model_1": "Ik kies de agenda op mijn telefoon. Ik heb mijn telefoon altijd bij mij.",
+    "6": {
       "model_2": "Ik kies een papieren agenda. Schrijven helpt mij om dingen te onthouden.",
       "model_3": "Ik gebruik de agenda op mijn telefoon. Die geeft mij automatisch een herinnering.",
-      "taalhulp": "Ik kies ... / Ik gebruik ...\nkeuze + reden in twee zinnen.",
-      "valkuil": "'de agenda op mijn telefoon' - let op het lidwoord."
+      "taalhulp": "Ik kies ... / Ik gebruik ...\nKeuze + reden in twee zinnen.",
+      "valkuil": "'de agenda op mijn telefoon' - let op het lidwoord.",
+      "structuren": "iets bij je hebben = yaninda olmasi\ndingen onthouden = akilda tutmak\neen herinnering krijgen = hatirlatma almak"
     },
-    {
-      "titel": "Andere afdeling",
-      "situatie": "U werkt in een ziekenhuis.\nU moet op een andere afdeling gaan werken.\nUw leidinggevende vraagt aan u op welke afdeling u het liefst wilt werken.\nKijk naar de plaatjes.\nVertel op welke afdeling u het liefst wilt werken en waarom.",
-      "vraag": "Wij hebben nog een functie op de kinderafdeling en op de eerste hulp. Waar wil jij het liefste werken?",
-      "afbeelding": "images/img_007.png",
-      "model_1": "Ik wil het liefst werken op de kinderafdeling.\nIk houd van kinderen.",
+    "7": {
       "model_2": "Ik wil graag naar de eerste hulp.\nIk werk graag snel en ik vind het werk daar interessant.",
       "model_3": "Ik kies de kinderafdeling.\nIk heb ervaring met kinderen en dat werk past goed bij mij.",
       "taalhulp": "Ik wil het liefst ... / Ik kies ...\nhouden van / passen bij",
-      "valkuil": "'op de afdeling' (vaste prepositie: op)."
+      "valkuil": "'op de afdeling' (vaste prepositie: op).",
+      "structuren": "op de afdeling werken = serviste calismak\nhet liefst = en cok tercihen\npassen bij = uygun olmak, yakismak"
     },
-    {
-      "titel": "Auto en werk",
-      "situatie": "Het is in Nederland vaak druk op de snelwegen.\nToch gaan veel mensen met de auto naar hun werk.\nWat vindt u ervan dat mensen met de auto naar hun werk gaan?\nVertel ook waarom u dat vindt.",
-      "vraag": "",
-      "afbeelding": null,
-      "model_1": "Ik vind het stom dat mensen met de auto naar hun werk gaan.\nZij verliezen tijd in de file.",
+    "8": {
       "model_2": "Ik begrijp het wel. Met de auto ben je vrij en soms is er geen goede bus.",
       "model_3": "Ik vind het niet slim. De trein is vaak sneller en beter voor het milieu.",
       "taalhulp": "Ik vind het ... dat ... (werkwoord naar het einde)\nIk begrijp het wel, want ...",
-      "valkuil": "Na 'dat' gaat het werkwoord naar het einde van de zin."
+      "valkuil": "Na 'dat' gaat het werkwoord naar het einde van de zin.",
+      "structuren": "in de file staan = trafikte beklemek\ntijd verliezen = zaman kaybetmek\nIk vind het ... dat ... = bence ... ki ..."
     },
-    {
-      "titel": "Auto kopen",
-      "situatie": "U wilt een nieuwe auto kopen.\nU praat met de verkoper.\nHij wil weten wat u belangrijk vindt bij een nieuwe auto.\nVertel wat u belangrijk vindt. Noem drie dingen.",
-      "vraag": "Wat vindt u belangrijk voor uw nieuwe auto?",
-      "afbeelding": null,
-      "model_1": "Ik vind de kleur belangrijk. Ik vind de prijs ook belangrijk.\nEn de auto moet elektrisch zijn.",
+    "9": {
       "model_2": "De auto moet veilig zijn. Hij moet ook groot genoeg zijn voor mijn gezin.\nEn de prijs is belangrijk.",
       "model_3": "Ik vind drie dingen belangrijk: de prijs, het merk en zuinig rijden.",
       "taalhulp": "Ik vind ... belangrijk.\nDe auto moet ... zijn.",
-      "valkuil": "Drie dingen gevraagd - noem er echt drie."
+      "valkuil": "Drie dingen gevraagd - noem er echt drie.",
+      "structuren": "belangrijk vinden = onemli bulmak\nzuinig rijden = az yakit yakmak\nDe auto moet ... zijn = araba ... olmali"
     },
-    {
-      "titel": "Auto met reclame",
-      "situatie": "U werkt in groentewinkel De Groentespecialist.\nUw baas wil graag meer reclame maken.\nDaarvoor wil hij de eigen auto's van de medewerkers gebruiken.\nUw collega vraagt wat u van dit plan vindt.\nKijk naar het plaatje en vertel wat u van het plan vindt.",
-      "vraag": "Wat vind jij van het nieuwe plan van de baas?",
-      "afbeelding": "images/img_010.png",
-      "model_1": "Ik vind het plan van de baas prima. De auto wordt heel mooi.\nEn we krijgen ook extra geld van de baas.",
+    "10": {
       "model_2": "Ik vind het geen goed plan. Het is mijn eigen auto en ik wil geen reclame erop.",
       "model_3": "Ik vind het een goed idee. Zo krijgt de winkel meer klanten.",
       "taalhulp": "Ik vind het (geen) goed plan.\nZo krijgt ... (gevolg)",
-      "valkuil": "Ook een negatieve mening is prima - als je maar een reden geeft."
+      "valkuil": "Ook een negatieve mening is prima - als je maar een reden geeft.",
+      "structuren": "reclame maken = reklam yapmak\nextra geld krijgen = ek para almak\nmeer klanten krijgen = daha cok musteri kazanmak"
     },
-    {
-      "titel": "Auto of trein",
-      "situatie": "Hoe reist u liever, met de auto of met de trein?\nVertel hoe u liever reist.\nGeef één reden.",
-      "vraag": "",
-      "afbeelding": null,
-      "model_1": "Ik reis liever met de trein. Dat is beter voor het milieu.",
+    "11": {
       "model_2": "Ik reis liever met de auto. Dan ben ik vrij en kan ik overal stoppen.",
       "model_3": "Ik ga liever met de trein. In de trein kan ik lezen of werken.",
       "taalhulp": "Ik reis liever met ...\nDat is ... / Dan kan ik ...",
-      "valkuil": "liever + met de trein/auto - vergeet 'met' niet."
+      "valkuil": "liever + met de trein/auto - vergeet 'met' niet.",
+      "structuren": "liever reizen met = ... ile seyahati tercih etmek\nbeter voor het milieu = cevre icin daha iyi"
     },
-    {
-      "titel": "Auto of vliegtuig?",
-      "situatie": "Uw buurman wil met zijn gezin op vakantie naar Marokko.\nHij weet niet of hij met de auto zal gaan of met het vliegtuig.\nHij vraagt uw advies.\nVertel uw buurman wat hij het beste kan doen en waarom.\nGeef ten minste twee redenen.",
-      "vraag": "Wat lijkt jou het beste? Met de auto gaan, of met het vliegtuig?",
-      "afbeelding": null,
-      "model_1": "Je kunt beter met het vliegtuig.\nHet vliegtuig is snel en vliegen naar Marokko is niet duur.",
+    "12": {
       "model_2": "Ga met het vliegtuig.\nDe reis met de auto is te lang en te vermoeiend met kinderen.",
       "model_3": "Ik zou met de auto gaan.\nJe kunt veel bagage meenemen en in Marokko heb je dan een auto.",
       "taalhulp": "Je kunt beter ... / Ik zou ...\nte lang / te duur / te vermoeiend",
-      "valkuil": "'met het vliegtuig' (het-woord), 'met de auto' (de-woord)."
+      "valkuil": "'met het vliegtuig' (het-woord), 'met de auto' (de-woord).",
+      "structuren": "op vakantie gaan naar = tatile gitmek\nte lang / te vermoeiend = fazla uzun / fazla yorucu\nbagage meenemen = bagaj goturmek"
     },
-    {
-      "titel": "Baan aangeboden",
-      "situatie": "Uw medestudent loopt stage bij een bouwbedrijf.\nZijn opleiding duurt nog een jaar.\nZijn baas biedt hem een baan aan.\nUw medestudent vraagt wat hij zal doen: de baan aannemen of eerst zijn opleiding afmaken.\nVertel wat hij het beste kan doen en waarom.",
-      "vraag": "Mijn stagebedrijf heeft mij een baan aangeboden. Zal ik hem aannemen of zal ik eerst mijn opleiding afmaken?",
-      "afbeelding": null,
-      "model_1": "Je kunt het beste de opleiding afmaken.\nJe kunt later een goede baan krijgen.",
+    "13": {
       "model_2": "Maak eerst je opleiding af. Met een diploma verdien je later meer.",
       "model_3": "Ik zou de opleiding afmaken. Het is nog maar één jaar en dan heb je je diploma.",
       "taalhulp": "Je kunt het beste ... / Maak eerst ...\neen opleiding afmaken / een baan aannemen",
-      "valkuil": "'de opleiding afmaken' - scheidbaar werkwoord: maak ... af."
+      "valkuil": "'de opleiding afmaken' - scheidbaar werkwoord: maak ... af.",
+      "structuren": "een baan aannemen = isi kabul etmek\nde opleiding afmaken = egitimi bitirmek\nstage lopen = staj yapmak"
     },
-    {
-      "titel": "Baby's knippen",
-      "situatie": "U volgt een mbo-opleiding voor kapper.\nVorige week hebt u geoefend met het knippen van baby's.\nDe docent heeft adviezen gegeven om baby's stil te laten zitten tijdens het knippen.\nUw medestudent heeft de les gemist en vraagt hoe ze kan zorgen dat baby's stilzitten.\nKijk naar de plaatjes en gebruik ze alle drie.",
-      "vraag": "Lijkt me lastig hoor, baby's knippen. Hoe kun je ervoor zorgen dat ze stil blijven zitten?",
-      "afbeelding": "images/img_014.png",
-      "model_1": "Je kunt een baby in een speciale stoel zetten.\nJe kunt de baby naar een filmpje laten kijken.\nJe kunt de baby op de schoot van de moeder zetten.",
+    "14": {
       "model_2": "Je kunt drie dingen doen: een speciale stoel gebruiken, een filmpje laten zien, of de baby bij de moeder op schoot zetten.",
       "model_3": "Gebruik een speciale babystoel. Een filmpje helpt ook goed.\nEn anders kan de baby op de schoot van de moeder zitten.",
       "taalhulp": "Je kunt ... zetten / laten kijken\nop schoot zitten",
-      "valkuil": "Alle plaatjes gebruiken = alle drie de tips noemen."
+      "valkuil": "Alle plaatjes gebruiken = alle drie de tips noemen.",
+      "structuren": "stil laten zitten = kipirdamadan oturtmak\nnaar een filmpje laten kijken = video izletmek\nop de schoot van de moeder = annenin kucaginda"
     },
-    {
-      "titel": "Badmeester",
-      "situatie": "U bent badmeester.\nVandaag komt er een nieuwe collega.\nDe collega vraagt wat hij moet doen.\nKijk naar het plaatje.\nLeg aan uw collega uit wat hij moet doen.",
-      "vraag": "Waar moet ik mee beginnen?",
-      "afbeelding": "images/img_015.png",
-      "model_1": "Je moet eerst de bladeren uit het zwembad halen.",
+    "15": {
       "model_2": "Begin met het schoonmaken van het zwembad: haal eerst de bladeren uit het water.",
       "model_3": "Je begint met de bladeren. Haal ze met het net uit het zwembad.",
       "taalhulp": "Je moet eerst ... / Begin met ...\niets uit ... halen",
-      "valkuil": "Instructie geven mag met 'je moet' of een imperatief (Haal ...!)."
+      "valkuil": "Instructie geven mag met 'je moet' of een imperatief (Haal ...!).",
+      "structuren": "de bladeren uit het zwembad halen = yapraklari havuzdan cikarmak\nHaal de bladeren er eerst uit! = once yapraklari cikar!\nbeginnen met = ile baslamak"
+    },
+    "16": {
+      "model_2": "Sorry, de taart is niet gelukt. Hij is in de oven verbrand.",
+      "model_3": "Ik ben de taart helaas thuis vergeten. Zal ik hem morgen meenemen?",
+      "taalhulp": "Sorry, ... / helaas ...\nPerfectum: heeft gegeten, is verbrand, ben vergeten",
+      "valkuil": "Een kort, duidelijk excuus is genoeg - maak het niet te lang.",
+      "structuren": "meenemen naar = yanina alip goturmek\nvan de taart eten = pastadan yemek\nniet gelukt zijn = basarili olmamak, tutmamak"
+    },
+    "21": {
+      "model_2": "Ik vind goede begeleiding belangrijk. En de lessen moeten praktisch zijn.",
+      "model_3": "De school moet goed bereikbaar zijn. En ik wil veel praktijk in de opleiding.",
+      "taalhulp": "... moet(en) ... zijn\nIk vind ... belangrijk.",
+      "valkuil": "Twee dingen gevraagd - gebruik twee korte zinnen.",
+      "structuren": "belangrijk vinden aan = -de onemli bulmak\nde stageperiode = staj donemi\nEr moet ... zijn = ... olmali"
+    },
+    "28": {
+      "model_2": "Je moet naar een politieke bijeenkomst gaan en daar een verslag over schrijven.",
+      "model_3": "Je moet een bijeenkomst over de verkiezingen bezoeken. Daarna schrijf je een verslag.",
+      "taalhulp": "Je moet ... (instructie)\neen verslag maken / schrijven over",
+      "valkuil": "Gebruik het plaatje: noem de politieke bijeenkomst.",
+      "structuren": "een verslag maken van = raporunu yazmak\nde verkiezingen = secimler\naanwezig zijn bij = -de hazir bulunmak"
+    },
+    "32": {
+      "model_2": "Ik zoek het boek Basistechniek deel 2, maar het is niet in de bibliotheek. Weet u waar ik het kan lenen?",
+      "model_3": "Het boek voor het huiswerk is niet aanwezig in de bibliotheek. Wat kan ik nu het beste doen?",
+      "taalhulp": "Ik zoek ... / ... is niet aanwezig.\nWaar kan ik ... vinden? / Weet u waar ...?",
+      "valkuil": "Probleem + vraag: twee zinnen zijn genoeg.",
+      "structuren": "niet aanwezig zijn = mevcut olmamak\nWaar kan ik ... vinden? = ...yi nerede bulabilirim?\neen boek lenen = kitap odunc almak"
     }
-  ]
+  }
 }

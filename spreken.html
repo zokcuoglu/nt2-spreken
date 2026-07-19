@@ -5,76 +5,108 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Spreken - dagelijkse training</title>
 <style>
-  /* Sober, professional palette: charcoal / slate / off-white */
-  body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.65; color: #2b2f33; max-width: 760px; margin: 0 auto; padding: 24px; background: #f2f2f0; }
-  .container { background: #ffffff; padding: 34px 38px; border-radius: 4px; border: 1px solid #e3e3df; }
-  h1 { color: #1f2d3d; font-size: 26px; font-weight: normal; letter-spacing: 0.5px; border-bottom: 2px solid #1f2d3d; padding-bottom: 12px; margin-bottom: 4px; }
-  .meta { color: #8a8f98; font-size: 14px; }
+  /* Exam-style palette: dark examination blue, plain sans-serif, high contrast */
+  body { font-family: Arial, Helvetica, sans-serif; line-height: 1.6; color: #1f2430; max-width: 780px; margin: 0 auto; padding: 20px; background: #dfe4ea; }
+  .container { background: #ffffff; padding: 0 0 26px; border-radius: 4px; border: 1px solid #b9c2cf; overflow: hidden; }
+  .kop { background: #14355f; color: #ffffff; padding: 20px 30px; }
+  .kop h1 { margin: 0; font-size: 22px; font-weight: bold; }
+  .kop .sub { color: #b9c9de; font-size: 13px; margin-top: 4px; }
+  .inhoud { padding: 20px 30px 0; }
 
-  .uitleg { background: #f7f7f5; border-left: 3px solid #1f2d3d; padding: 12px 16px; font-size: 14px; color: #4a4f57; margin: 18px 0; }
+  .uitleg { background: #eef2f7; border: 1px solid #c9d3e0; padding: 10px 14px; font-size: 13px; color: #33415c; margin: 14px 0; border-radius: 3px; }
 
-  .nav { display: flex; align-items: center; justify-content: center; gap: 8px; margin: 20px 0; flex-wrap: wrap; }
-  .nav button { background: #1f2d3d; color: #fff; border: none; border-radius: 3px; padding: 8px 16px; font-size: 14px; cursor: pointer; font-family: inherit; }
-  .nav button:hover { background: #37475a; }
-  .nav input[type="date"] { padding: 7px 10px; border: 1px solid #c9ccd1; border-radius: 3px; font-family: inherit; font-size: 14px; color: #2b2f33; }
+  .nav { display: flex; align-items: center; justify-content: center; gap: 8px; margin: 16px 0; flex-wrap: wrap; }
+  .nav button { background: #14355f; color: #fff; border: none; border-radius: 3px; padding: 8px 16px; font-size: 13px; cursor: pointer; font-family: inherit; }
+  .nav button:hover { background: #1d4a85; }
+  .nav .exam-btn { background: #7a1f1f; }
+  .nav .exam-btn:hover { background: #943030; }
+  .nav input[type="date"] { padding: 7px 10px; border: 1px solid #9aa7b8; border-radius: 3px; font-family: inherit; font-size: 13px; }
 
-  .card { border: 1px solid #e3e3df; border-radius: 4px; padding: 22px 24px; margin: 22px 0; background: #fdfdfc; }
-  .card-nr { color: #8a8f98; font-size: 13px; letter-spacing: 1px; text-transform: uppercase; }
-  .titel { font-size: 19px; color: #1f2d3d; font-weight: bold; margin: 4px 0 12px; }
-  .situatie { white-space: pre-line; color: #2b2f33; margin-bottom: 12px; }
-  .vraag { border-left: 3px solid #8c6d46; background: #faf8f5; padding: 10px 14px; font-style: italic; color: #43392c; margin: 12px 0; }
-  .opdracht-img { max-width: 100%; border: 1px solid #e3e3df; border-radius: 3px; margin: 10px 0; }
+  .deel-kop { background: #14355f; color: #fff; padding: 8px 14px; border-radius: 3px; font-size: 14px; font-weight: bold; margin: 24px 0 6px; }
+  .deel-kop .tijd { float: right; font-weight: normal; color: #b9c9de; }
 
-  .timer-row { display: flex; align-items: center; gap: 14px; margin: 14px 0; }
-  .timer-btn { background: #fff; color: #1f2d3d; border: 1px solid #1f2d3d; border-radius: 3px; padding: 8px 18px; cursor: pointer; font-family: inherit; font-size: 14px; }
-  .timer-btn:hover { background: #1f2d3d; color: #fff; }
-  .timer-display { font-size: 22px; color: #1f2d3d; min-width: 64px; font-variant-numeric: tabular-nums; }
-  .timer-display.done { color: #8c2f2f; }
+  .card { border: 1px solid #b9c2cf; border-radius: 3px; padding: 16px 20px; margin: 12px 0; background: #ffffff; }
+  .card-nr { color: #5b6c85; font-size: 12px; font-weight: bold; letter-spacing: 0.5px; text-transform: uppercase; }
+  .titel { font-size: 16px; color: #14355f; font-weight: bold; margin: 3px 0 8px; }
+  .situatie { white-space: pre-line; font-size: 14px; }
+  .vraag { border-left: 4px solid #14355f; background: #eef2f7; padding: 8px 12px; font-style: italic; color: #14355f; margin: 10px 0; font-size: 14px; }
+  .opdracht-img { max-width: 100%; border: 1px solid #b9c2cf; border-radius: 3px; margin: 8px 0; }
 
-  details { background: #fff; border: 1px solid #e3e3df; border-radius: 3px; margin: 8px 0; }
-  details summary { cursor: pointer; padding: 9px 14px; font-size: 14px; color: #1f2d3d; letter-spacing: 0.3px; }
-  details .body { padding: 2px 14px 12px; white-space: pre-line; font-size: 15px; }
-  .m1 { border-left: 3px solid #1f2d3d; }
-  .m2 { border-left: 3px solid #52667a; }
-  .m3 { border-left: 3px solid #8598ac; }
-  .hulp { border-left: 3px solid #8c6d46; }
-  .let-op { border-left: 3px solid #8c2f2f; }
-  .let-op .body { color: #6e3535; }
+  .timer-row { display: flex; align-items: center; gap: 12px; margin: 10px 0; }
+  .timer-btn { background: #fff; color: #14355f; border: 2px solid #14355f; border-radius: 3px; padding: 6px 16px; cursor: pointer; font-family: inherit; font-size: 13px; font-weight: bold; }
+  .timer-btn:hover { background: #14355f; color: #fff; }
+  .timer-display { font-size: 20px; font-weight: bold; color: #14355f; min-width: 56px; font-variant-numeric: tabular-nums; }
+  .timer-display.done { color: #7a1f1f; }
 
-  .footer { margin-top: 36px; padding-top: 16px; border-top: 1px solid #e3e3df; color: #a0a4ab; font-size: 12px; text-align: center; }
-  .error { color: #8c2f2f; background: #f9f1f1; padding: 14px; border-radius: 3px; }
+  details { background: #fff; border: 1px solid #c4ccd8; border-radius: 3px; margin: 6px 0; }
+  details summary { cursor: pointer; padding: 8px 12px; font-size: 13px; font-weight: bold; color: #14355f; }
+  details .body { padding: 2px 12px 10px; white-space: pre-line; font-size: 14px; }
+  .m1 { border-left: 4px solid #14355f; }
+  .m2, .m3 { border-left: 4px solid #5b7ba6; }
+  .hulp { border-left: 4px solid #6d5f3f; }
+  .strc { border-left: 4px solid #3f6d52; }
+  .let-op { border-left: 4px solid #7a1f1f; }
+  .let-op .body { color: #6e2a2a; }
+
+  .exam-balk { background: #7a1f1f; color: #fff; padding: 10px 14px; border-radius: 3px; font-size: 14px; margin: 16px 0; }
+  .footer { margin-top: 28px; padding: 14px 30px 0; border-top: 1px solid #d5dae2; color: #7c8698; font-size: 12px; text-align: center; }
+  .error { color: #7a1f1f; background: #f7ecec; padding: 14px; border-radius: 3px; }
 </style>
 </head>
 <body>
 <div class="container">
-  <h1>Spreken &mdash; dagelijkse training</h1>
-  <p class="meta">NT2 Programma I &middot; drie opdrachten per dag &middot; echte examenopgaven</p>
-  <div class="uitleg">
-    <strong>Werkwijze.</strong> Lees de situatie, bekijk het plaatje (als dat er is), start de timer
-    en geef uw antwoord hardop. Vergelijk daarna met de drie modelantwoorden &mdash;
-    Model 1 komt rechtstreeks uit het antwoordmodel, Model 2 en 3 zijn gelijkwaardige alternatieven op examenniveau.
+  <div class="kop">
+    <h1>Spreken &mdash; dagelijkse training</h1>
+    <div class="sub">NT2 Programma I &middot; per dag 8 korte + 8 langere opdrachten, zoals op het echte examen</div>
   </div>
-  <div class="nav">
-    <button id="prevBtn">&larr; vorige</button>
-    <input type="date" id="datePicker">
-    <button id="todayBtn">vandaag</button>
-    <button id="nextBtn">volgende &rarr;</button>
+  <div class="inhoud">
+    <div class="uitleg">
+      <strong>Werkwijze:</strong> lees de situatie, start de timer en antwoord hardop. Deel 1 = kort antwoord (20 sec),
+      Deel 2 = langer antwoord (30 sec). Model 1 komt uit het antwoordmodel; Model 2 en 3 zijn gelijkwaardige
+      alternatieven op examenniveau.
+    </div>
+    <div class="nav">
+      <button id="prevBtn">&larr; vorige</button>
+      <input type="date" id="datePicker">
+      <button id="todayBtn">vandaag</button>
+      <button id="nextBtn">volgende &rarr;</button>
+      <button id="examBtn" class="exam-btn">Proefexamen</button>
+    </div>
+    <div id="content"><p>Laden...</p></div>
   </div>
-  <div id="content"><p>Laden...</p></div>
   <div class="footer"><p>Oefening baart kunst.</p></div>
 </div>
 
+<script src="spreken_data.js"></script>
 <script>
-// ===== Data =====
-let DATA = null;
+// DATA (350 items) comes from spreken_data.js in the repo.
+// spreken.json only carries config (deel 1/2 id lists) + enrichments per id.
+let CFG = null, VERRIJK = {}, BYID = {};
 let currentDay = 0;
 let timers = {};
+let exam = null; // { list: [...], idx: n } when exam mode is active
 
-async function loadData() {
+// Fix frequent OCR errors in the source texts before display
+function fixOcr(t) {
+  return (t || "")
+    .replace(/\bult\b/g, "uit").replace(/\brels\b/g, "reis")
+    .replace(/opieiding/g, "opleiding").replace(/\bgoele\b/g, "goede")
+    .replace(/DOENT\b/g, "DOEN?");
+}
+// Source questions are often ALL CAPS; show them in normal sentence case
+function niceVraag(v) {
+  v = fixOcr(v || "");
+  if (v && v === v.toUpperCase()) v = v.charAt(0) + v.slice(1).toLowerCase();
+  return v;
+}
+
+async function init() {
   try {
     const resp = await fetch("spreken.json", { cache: "no-store" });
     if (!resp.ok) throw new Error("HTTP " + resp.status);
-    DATA = await resp.json();
+    const j = await resp.json();
+    CFG = j.config; VERRIJK = j.verrijking || {};
+    DATA.forEach(it => BYID[it.id] = it);
     currentDay = dayForDate(new Date());
     render();
   } catch (e) {
@@ -83,73 +115,114 @@ async function loadData() {
   }
 }
 
-function totalDays() { return Math.ceil(DATA.items.length / DATA.config.per_dag); }
+function totalDays() {
+  return Math.ceil(Math.max(CFG.deel1_ids.length, CFG.deel2_ids.length) / CFG.per_deel);
+}
 function dayForDate(date) {
-  const start = new Date(DATA.config.start_date + "T00:00:00");
+  const start = new Date(CFG.start_date + "T00:00:00");
   const d = new Date(date.getFullYear(), date.getMonth(), date.getDate());
   const diff = Math.round((d - start) / 86400000);
   const n = totalDays();
   return ((diff % n) + n) % n;
 }
+// Slice of ids for a day; shorter pools wrap around so every day is complete
+function idsForDay(ids, day) {
+  const out = [], n = ids.length, per = CFG.per_deel;
+  for (let k = 0; k < per; k++) out.push(ids[(day * per + k) % n]);
+  return out;
+}
 
-// ===== Render =====
+// ===== Card builder (shared by day view and exam results) =====
+function buildCard(id, nr, secs, withModels) {
+  const it = BYID[id];
+  if (!it) return "";
+  const v = VERRIJK[String(id)] || {};
+  const img = it.image ? `<img class="opdracht-img" src="${it.image}" alt="plaatje bij de opdracht">` : "";
+  const vraag = it.vraag ? `<div class="vraag">U hoort: &ldquo;${niceVraag(it.vraag)}&rdquo;</div>` : "";
+  let extra = "";
+  if (withModels) {
+    extra += `<details class="m1"><summary>Model 1 &middot; uit het antwoordmodel</summary><div class="body">${fixOcr(it.antwoord)}</div></details>`;
+    if (v.model_2) extra += `<details class="m2"><summary>Model 2 &middot; alternatief</summary><div class="body">${v.model_2}</div></details>`;
+    if (v.model_3) extra += `<details class="m3"><summary>Model 3 &middot; alternatief</summary><div class="body">${v.model_3}</div></details>`;
+    if (v.taalhulp) extra += `<details class="hulp"><summary>Taalhulp</summary><div class="body">${v.taalhulp}</div></details>`;
+    if (v.structuren) extra += `<details class="strc"><summary>Kritieke structuren</summary><div class="body">${v.structuren}</div></details>`;
+    if (v.valkuil) extra += `<details class="let-op"><summary>Let op</summary><div class="body">${v.valkuil}</div></details>`;
+  }
+  const timer = secs ? `<div class="timer-row">
+      <button class="timer-btn" onclick="startTimer('${nr}', ${secs})">Start &mdash; spreek hardop</button>
+      <span class="timer-display" id="timer${nr}">${secs}</span>
+    </div>` : "";
+  return `<div class="card">
+    <span class="card-nr">Opdracht ${nr}</span>
+    <div class="titel">${it.title}</div>
+    <div class="situatie">${fixOcr(it.situatie)}</div>
+    ${img}${vraag}${timer}${extra}</div>`;
+}
+
+// ===== Day view =====
 function render() {
-  Object.values(timers).forEach(clearInterval);
-  timers = {};
+  Object.values(timers).forEach(clearInterval); timers = {}; exam = null;
+  const d1 = idsForDay(CFG.deel1_ids, currentDay);
+  const d2 = idsForDay(CFG.deel2_ids, currentDay);
+  let html = `<p style="color:#5b6c85;font-size:13px;">Dagset ${currentDay + 1} van ${totalDays()}</p>`;
+  html += `<div class="deel-kop">Deel 1 &middot; korte opdrachten <span class="tijd">${CFG.deel1_sec} seconden per antwoord</span></div>`;
+  d1.forEach((id, i) => html += buildCard(id, "1." + (i + 1), CFG.deel1_sec, true));
+  html += `<div class="deel-kop">Deel 2 &middot; langere opdrachten <span class="tijd">${CFG.deel2_sec} seconden per antwoord</span></div>`;
+  d2.forEach((id, i) => html += buildCard(id, "2." + (i + 1), CFG.deel2_sec, true));
+  document.getElementById("content").innerHTML = html;
+  window.scrollTo(0, 0);
+}
 
-  const per = DATA.config.per_dag;
-  const todays = DATA.items.slice(currentDay * per, currentDay * per + per);
-
-  const cards = todays.map((it, i) => {
-    // The exam gives ~30 seconds speaking time per answer
-    const secs = 30;
-    const img = it.afbeelding ? `<img class="opdracht-img" src="${it.afbeelding}" alt="plaatje bij de opdracht">` : "";
-    const vraag = it.vraag ? `<div class="vraag">U hoort: &ldquo;${it.vraag}&rdquo;</div>` : "";
-    return `<div class="card">
-      <span class="card-nr">Opdracht ${i + 1} van ${todays.length}</span>
-      <div class="titel">${it.titel}</div>
-      <div class="situatie">${it.situatie}</div>
-      ${img}
-      ${vraag}
-      <div class="timer-row">
-        <button class="timer-btn" onclick="startTimer(${i}, ${secs})">Start &mdash; spreek hardop</button>
-        <span class="timer-display" id="timer${i}">${secs}</span>
-      </div>
-      <details class="m1"><summary>Model 1 &middot; uit het antwoordmodel</summary><div class="body">${it.model_1}</div></details>
-      <details class="m2"><summary>Model 2 &middot; alternatief</summary><div class="body">${it.model_2}</div></details>
-      <details class="m3"><summary>Model 3 &middot; alternatief</summary><div class="body">${it.model_3}</div></details>
-      <details class="hulp"><summary>Taalhulp</summary><div class="body">${it.taalhulp}</div></details>
-      <details class="let-op"><summary>Let op</summary><div class="body">${it.valkuil}</div></details>
-    </div>`;
-  }).join("");
-
+// ===== Exam mode: random 8 + 8 from the whole pool, answers only afterwards =====
+function shuffled(arr) { return arr.slice().sort(() => Math.random() - 0.5); }
+function startExam() {
+  Object.values(timers).forEach(clearInterval); timers = {};
+  const d1 = shuffled(CFG.deel1_ids).slice(0, CFG.per_deel).map(id => ({ id, deel: 1 }));
+  const d2 = shuffled(CFG.deel2_ids).slice(0, CFG.per_deel).map(id => ({ id, deel: 2 }));
+  exam = { list: d1.concat(d2), idx: 0 };
+  renderExamStep();
+}
+function renderExamStep() {
+  Object.values(timers).forEach(clearInterval); timers = {};
+  const n = exam.list.length;
+  if (exam.idx >= n) return renderExamResult();
+  const cur = exam.list[exam.idx];
+  const secs = cur.deel === 1 ? CFG.deel1_sec : CFG.deel2_sec;
+  const knop = exam.idx < n - 1 ? "Volgende opdracht" : "Klaar - bekijk de antwoorden";
   document.getElementById("content").innerHTML =
-    `<p class="meta">Dagset ${currentDay + 1} van ${totalDays()}</p>` + cards;
+    `<div class="exam-balk">Proefexamen &middot; opdracht ${exam.idx + 1} van ${n} &middot; Deel ${cur.deel}</div>` +
+    buildCard(cur.id, exam.idx + 1, secs, false) +
+    `<div class="nav"><button onclick="exam.idx++; renderExamStep();">${knop} &rarr;</button>
+     <button onclick="render()" style="background:#5b6c85;">Stoppen</button></div>`;
+  window.scrollTo(0, 0);
+}
+function renderExamResult() {
+  let html = `<div class="exam-balk">Proefexamen afgerond &mdash; vergelijk uw antwoorden met de modellen.</div>`;
+  exam.list.forEach((cur, i) => html += buildCard(cur.id, i + 1, 0, true));
+  html += `<div class="nav"><button onclick="startExam()">Nieuw proefexamen</button>
+    <button onclick="render()" style="background:#5b6c85;">Terug naar de dagset</button></div>`;
+  document.getElementById("content").innerHTML = html;
   window.scrollTo(0, 0);
 }
 
 // ===== Timer =====
-function startTimer(i, secs) {
-  clearInterval(timers[i]);
-  const el = document.getElementById("timer" + i);
+function startTimer(key, secs) {
+  clearInterval(timers[key]);
+  const el = document.getElementById("timer" + key);
   let left = secs;
-  el.textContent = left;
-  el.classList.remove("done");
-  timers[i] = setInterval(() => {
+  el.textContent = left; el.classList.remove("done");
+  timers[key] = setInterval(() => {
     left--;
     el.textContent = left > 0 ? left : "stop";
-    if (left <= 0) { el.classList.add("done"); clearInterval(timers[i]); }
+    if (left <= 0) { el.classList.add("done"); clearInterval(timers[key]); }
   }, 1000);
 }
 
 // ===== Navigation =====
-function show(day) {
-  const n = totalDays();
-  currentDay = ((day % n) + n) % n;
-  render();
-}
+function show(day) { const n = totalDays(); currentDay = ((day % n) + n) % n; render(); }
 document.getElementById("prevBtn").addEventListener("click", () => show(currentDay - 1));
 document.getElementById("nextBtn").addEventListener("click", () => show(currentDay + 1));
+document.getElementById("examBtn").addEventListener("click", startExam);
 document.getElementById("todayBtn").addEventListener("click", () => {
   document.getElementById("datePicker").valueAsDate = new Date();
   show(dayForDate(new Date()));
@@ -158,7 +231,7 @@ document.getElementById("datePicker").addEventListener("change", (e) => {
   if (e.target.value) show(dayForDate(new Date(e.target.value + "T00:00:00")));
 });
 document.getElementById("datePicker").valueAsDate = new Date();
-loadData();
+init();
 </script>
 </body>
 </html>
