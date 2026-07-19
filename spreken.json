@@ -1,0 +1,128 @@
+{
+  "config": {
+    "start_date": "2026-07-20",
+    "per_dag": 3
+  },
+  "items": [
+    {
+      "deel": 1,
+      "vraag": "Wat doet u het liefst in het weekend? Vertel.",
+      "model_b1": "In het weekend ga ik het liefst wandelen in het park. Daarna drink ik koffie met mijn vrienden. Dat vind ik gezellig.",
+      "model_b2": "In het weekend trek ik er het liefst op uit: een flinke wandeling, daarna ergens koffiedrinken met vrienden. Zo laad ik op voor de nieuwe week.",
+      "taalhulp": "het liefst + werkwoord\nDat vind ik gezellig / ontspannend.",
+      "valkuil": "Inversie: 'In het weekend ga ik ...' (FOUT: 'In het weekend ik ga')."
+    },
+    {
+      "deel": 1,
+      "vraag": "Hoe komt u meestal op uw werk of school? Vertel.",
+      "model_b1": "Ik ga meestal met de fiets naar mijn werk. Het duurt ongeveer twintig minuten. Als het regent, neem ik de bus.",
+      "model_b2": "Meestal pak ik de fiets; dat is snel en gezond. Alleen bij slecht weer wijk ik uit naar de bus.",
+      "taalhulp": "meestal / soms / als het regent\nHet duurt ongeveer ... minuten.",
+      "valkuil": "'met de fiets', 'met de bus' (FOUT: 'bij de fiets')."
+    },
+    {
+      "deel": 2,
+      "vraag": "Uw buurman maakt 's nachts veel lawaai. U spreekt hem aan. Wat zegt u?",
+      "model_b1": "Goedemorgen buurman. Mag ik iets vragen? 's Nachts hoor ik veel lawaai en ik kan niet slapen. Ik moet vroeg opstaan voor mijn werk. Kunt u het misschien wat rustiger doen? Alvast bedankt.",
+      "model_b2": "Dag buurman, heeft u even? Ik wil het graag over het geluid 's nachts hebben. Ik begrijp dat u weleens bezoek heeft, maar ik slaap er slecht door en moet vroeg beginnen. Zouden we hier samen een oplossing voor kunnen vinden?",
+      "taalhulp": "Mag ik iets vragen? / Heeft u even?\nKunt u misschien ...? (beleefd verzoek)\nIk begrijp dat ..., maar ...",
+      "valkuil": "Beleefd blijven: 'Kunt u misschien ...' scoort beter dan een bevel."
+    },
+    {
+      "deel": 1,
+      "vraag": "Wat is uw favoriete seizoen? Waarom?",
+      "model_b1": "Mijn favoriete seizoen is de lente. Het wordt warmer en alles wordt groen. Ik fiets dan graag.",
+      "model_b2": "Ik geniet het meest van de lente: de dagen worden langer, alles bloeit en je merkt dat iedereen vrolijker wordt.",
+      "taalhulp": "Mijn favoriete ... is ...\nomdat + werkwoord naar het einde",
+      "valkuil": "'... omdat het warmer wordt' - in de bijzin gaat het werkwoord naar achteren."
+    },
+    {
+      "deel": 1,
+      "vraag": "Uw collega is jarig. Wat zegt u tegen haar?",
+      "model_b1": "Gefeliciteerd met je verjaardag! Ik wens je een fijne dag. Ga je nog iets leuks doen?",
+      "model_b2": "Van harte gefeliciteerd! Alle goeds voor het nieuwe levensjaar. Vier je het nog met familie?",
+      "taalhulp": "Gefeliciteerd met ...!\nIk wens je ...",
+      "valkuil": "'Gefeliciteerd MET je verjaardag' (vaste prepositie: met)."
+    },
+    {
+      "deel": 2,
+      "vraag": "U kunt morgen niet naar de les komen. U belt de docent. Wat zegt u?",
+      "model_b1": "Goedemiddag, u spreekt met [naam]. Ik bel omdat ik morgen helaas niet naar de les kan komen. Ik heb een afspraak in het ziekenhuis. Kan ik het huiswerk misschien online krijgen? Dank u wel.",
+      "model_b2": "Goedemiddag, met [naam]. Ik wil u even laten weten dat ik morgen verhinderd ben vanwege een ziekenhuisafspraak. Vervelend, want ik mis de les niet graag. Zou u mij kunnen doorgeven wat ik moet inhalen?",
+      "taalhulp": "U spreekt met ... / Ik bel omdat ...\nverhinderd zijn = niet kunnen komen\nZou u ... kunnen ...?",
+      "valkuil": "Aan de telefoon eerst jezelf voorstellen: 'U spreekt met ...' - dat verwacht de beoordelaar."
+    },
+    {
+      "deel": 1,
+      "vraag": "Wat eet u meestal als avondeten? Vertel.",
+      "model_b1": "Ik eet meestal warm: rijst of pasta met groente en kip. In het weekend koken we vaak Turks. Dat vind ik het lekkerst.",
+      "model_b2": "Doordeweeks houden we het simpel: pasta of rijst met veel groente. In het weekend nemen we de tijd voor Turkse gerechten; koken is bij ons echt een familiemoment.",
+      "taalhulp": "meestal / vaak / soms\nDat vind ik het lekkerst.",
+      "valkuil": "'met veel groente' - groente blijft hier enkelvoud."
+    },
+    {
+      "deel": 2,
+      "vraag": "In de supermarkt klopt de prijs bij de kassa niet. Wat zegt u?",
+      "model_b1": "Sorry, mag ik iets vragen? Volgens mij klopt de prijs niet. In het schap stond 2 euro, maar ik zie hier 3 euro. Kunt u het even controleren? Dank u wel.",
+      "model_b2": "Neemt u mij niet kwalijk, volgens mij zit er een verschil tussen de schapprijs en de kassaprijs. Zou u dat even kunnen nakijken? Anders laat ik het artikel liever vervallen.",
+      "taalhulp": "Volgens mij klopt ... niet.\nKunt u het even controleren / nakijken?",
+      "valkuil": "Bij prijzen blijft 'euro' enkelvoud: '2 euro' (niet 'euro's')."
+    },
+    {
+      "deel": 1,
+      "vraag": "Wat vindt u van het weer in Nederland? Vertel.",
+      "model_b1": "Het weer in Nederland is vaak grijs en het regent veel. Dat vind ik soms lastig. Maar de lente en de zomer zijn mooi.",
+      "model_b2": "Het Nederlandse weer is nogal wisselvallig - vier seizoenen op één dag, zeggen ze weleens. Ik heb geleerd er rekening mee te houden: goede regenkleding doet wonderen.",
+      "taalhulp": "Ik vind het ... / Dat vind ik lastig.\nwisselvallig = steeds veranderend",
+      "valkuil": "'het weer' is een het-woord: 'Het is mooi weer.'"
+    },
+    {
+      "deel": 2,
+      "vraag": "U wilt een dag vrij vragen aan uw leidinggevende. Wat zegt u?",
+      "model_b1": "Goedemorgen, heeft u even tijd? Ik wil graag een dag vrij vragen. Volgende week vrijdag heb ik een belangrijke afspraak. Is dat mogelijk? Ik kan mijn werk op donderdag afmaken.",
+      "model_b2": "Goedemorgen, schikt het even? Ik zou graag volgende week vrijdag een dag verlof opnemen vanwege een privéafspraak. Ik zorg er uiteraard voor dat mijn taken vóór donderdag zijn afgerond. Zou dat lukken?",
+      "taalhulp": "Ik wil graag ... vragen. / Ik zou graag ...\nIs dat mogelijk? / Zou dat lukken?\nverlof opnemen = een vrije dag nemen",
+      "valkuil": "'een dag vrij' of 'verlof opnemen' - niet 'vakantie maken'."
+    },
+    {
+      "deel": 1,
+      "vraag": "Vertel iets over uw familie.",
+      "model_b1": "Wij zijn met z'n drieën: mijn vrouw, onze dochter en ik. Mijn familie woont in Turkije. We bellen elke week met elkaar.",
+      "model_b2": "Ons gezin bestaat uit drie personen. Mijn ouders en mijn broer wonen nog in Turkije; gelukkig spreken we elkaar wekelijks via videobellen, dus de afstand valt mee.",
+      "taalhulp": "Wij zijn met z'n drieën / vieren.\nhet gezin (klein) - de familie (groot)",
+      "valkuil": "gezin en familie zijn niet hetzelfde - kies het juiste woord."
+    },
+    {
+      "deel": 2,
+      "vraag": "De wasmachine die u vorige week kocht, is kapot. U belt de winkel. Wat zegt u?",
+      "model_b1": "Goedemiddag, u spreekt met [naam]. Vorige week heb ik bij u een wasmachine gekocht, maar hij doet het niet meer. Ik heb de bon nog. Kunt u hem repareren, of krijg ik een nieuwe? Wat kunt u voor mij doen?",
+      "model_b2": "Goedemiddag, met [naam]. Ik heb vorige week een wasmachine bij u aangeschaft, maar het apparaat is inmiddels defect. Volgens de garantie heb ik recht op reparatie of vervanging. Hoe lossen we dit op?",
+      "taalhulp": "Hij doet het niet (meer). = het is kapot\nIk heb de bon nog. / de garantie\nWat kunt u voor mij doen?",
+      "valkuil": "Perfectum voor het verleden: 'Ik heb ... gekocht.'"
+    },
+    {
+      "deel": 1,
+      "vraag": "Wat doet u om gezond te blijven? Vertel.",
+      "model_b1": "Ik probeer elke dag te bewegen. Ik fiets naar mijn werk en eet veel groente. Ook probeer ik genoeg te slapen.",
+      "model_b2": "Ik houd het simpel: dagelijks fietsen, gevarieerd eten en op tijd naar bed. Sinds ik dat volhoud, zit ik lekkerder in mijn vel.",
+      "taalhulp": "Ik probeer te + infinitief\nom gezond te blijven (doel)",
+      "valkuil": "proberen + te: 'Ik probeer te sporten.' (niet zonder 'te')."
+    },
+    {
+      "deel": 2,
+      "vraag": "Uw kind is ziek en kan niet naar school. U belt de school. Wat zegt u?",
+      "model_b1": "Goedemorgen, u spreekt met de vader van [naam] uit groep 5. Ik wil mijn kind ziek melden. Ze heeft koorts en blijft vandaag thuis. Ik bel morgen weer als het nog niet beter gaat.",
+      "model_b2": "Goedemorgen, met de vader van [naam] uit groep 5. Ik bel om haar ziek te melden: ze heeft vannacht koorts gekregen. Zodra ze opknapt, komt ze uiteraard weer naar school. Moet ik verder nog iets regelen?",
+      "taalhulp": "ziek melden\nde koorts hebben\nZodra ... (werkwoord naar het einde)",
+      "valkuil": "'Ziekmelden' is een klassiek examenscenario - leer deze openingszin uit je hoofd."
+    },
+    {
+      "deel": 1,
+      "vraag": "Wat zijn uw plannen voor de zomer? Vertel.",
+      "model_b1": "Deze zomer gaan we twee weken naar Turkije. We bezoeken mijn familie en gaan naar zee. Daar heb ik veel zin in.",
+      "model_b2": "We zijn van plan twee weken naar Turkije te gaan: familie bezoeken, naar zee, lekker eten. Ik kijk er nu al naar uit.",
+      "taalhulp": "We gaan ... (toekomst)\nIk heb er zin in. / Ik kijk ernaar uit.",
+      "valkuil": "Vaste preposities: zin hebben IN, uitkijken NAAR."
+    }
+  ]
+}

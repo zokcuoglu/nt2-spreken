@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dagelijkse Spreken Training</title>
+<style>
+  body { font-family: Georgia, serif; line-height: 1.7; color: #333; max-width: 760px; margin: 0 auto; padding: 20px; background: #fafafa; }
+  .container { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+  h1 { color: #1a5276; border-bottom: 3px solid #27ae60; padding-bottom: 10px; }
+  .meta { color: #7f8c8d; margin-top: -5px; }
+  .nav { display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+  .nav button { background: #1a5276; color: white; border: none; border-radius: 6px; padding: 8px 16px; font-size: 16px; cursor: pointer; }
+  .nav button:hover { background: #27ae60; }
+  .nav input[type="date"] { padding: 7px 10px; border: 1px solid #bbb; border-radius: 6px; font-family: inherit; font-size: 14px; }
+  .nav .today-btn { background: #27ae60; }
+
+  .card { border: 1px solid #d5dbdb; border-radius: 8px; padding: 18px; margin: 18px 0; background: #fbfcfd; }
+  .deel-badge { display: inline-block; color: white; font-size: 12px; font-weight: bold; padding: 2px 10px; border-radius: 12px; margin-bottom: 8px; }
+  .deel-1 { background: #3498db; }
+  .deel-2 { background: #e67e22; }
+  .vraag { font-size: 17px; font-weight: bold; color: #2c3e50; margin: 6px 0 12px; }
+
+  .timer-row { display: flex; align-items: center; gap: 12px; margin: 10px 0; }
+  .timer-btn { background: #e74c3c; color: white; border: none; border-radius: 6px; padding: 8px 16px; cursor: pointer; font-family: inherit; font-size: 14px; }
+  .timer-display { font-size: 22px; font-weight: bold; color: #1a5276; min-width: 60px; }
+  .timer-display.done { color: #e74c3c; }
+
+  details { background: white; border: 1px solid #ddd; border-radius: 6px; margin: 8px 0; }
+  details summary { cursor: pointer; padding: 10px 14px; font-weight: bold; color: #1a5276; }
+  details .body { padding: 0 14px 12px; }
+  .b1-model { border-left: 4px solid #f39c12; }
+  .b2-model { border-left: 4px solid #e74c3c; }
+  .taalhulp { border-left: 4px solid #3498db; }
+  .valkuil { border-left: 4px solid #8e44ad; }
+  .valkuil .body { color: #8e44ad; }
+
+  .footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px; text-align: center; }
+  .error { color: #c0392b; background: #fdedec; padding: 15px; border-radius: 6px; }
+  .uitleg-box { background: #e8f8f5; border-left: 5px solid #27ae60; padding: 12px 15px; border-radius: 0 6px 6px 0; font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>&#127908; Dagelijkse Spreken Training</h1>
+  <p class="meta">NT2 Spreken I &mdash; elke dag 3 opdrachten</p>
+  <div class="uitleg-box">
+    <strong>Zo werkt het:</strong> lees de opdracht, start de timer en geef je antwoord <em>hardop</em>.
+    Kijk daarna pas naar de modelantwoorden. Deel 1 = kort antwoord (20 sec), Deel 2 = langer antwoord (30 sec).
+  </div>
+  <div class="nav" style="margin-top:15px;">
+    <button id="prevBtn">&#8592; vorige</button>
+    <input type="date" id="datePicker">
+    <button id="todayBtn" class="today-btn">vandaag</button>
+    <button id="nextBtn">volgende &#8594;</button>
+  </div>
+  <div id="content"><p>Laden...</p></div>
+  <div class="footer"><p>&#127475;&#127473; Oefening baart kunst - succes met je examen!</p></div>
+</div>
+
+<script>
+// ===== Data =====
+// spreken.json lives in the same repo; per_dag items are shown per day, cycling.
+let DATA = null;
+let currentDay = 0;      // day offset index into the cycle
+let timers = {};         // running countdown intervals per card
+
+async function loadData() {
+  try {
+    const resp = await fetch("spreken.json", { cache: "no-store" });
+    if (!resp.ok) throw new Error("HTTP " + resp.status);
+    DATA = await resp.json();
+    currentDay = dayForDate(new Date());
+    render();
+  } catch (e) {
+    document.getElementById("content").innerHTML =
+      '<p class="error">Kon spreken.json niet laden: ' + e.message + "</p>";
+  }
+}
+
+// Day-cycle: days since start_date, modulo number of day-sets
+function totalDays() { return Math.ceil(DATA.items.length / DATA.config.per_dag); }
+function dayForDate(date) {
+  const start = new Date(DATA.config.start_date + "T00:00:00");
+  const d = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+  const diff = Math.round((d - start) / 86400000);
+  const n = totalDays();
+  return ((diff % n) + n) % n;
+}
+
+// ===== Render =====
+function nl2br(t) { return (t || "").toString().replace(/\n/g, "<br>"); }
+
+function render() {
+  // Stop any running timers from the previous day view
+  Object.values(timers).forEach(clearInterval);
+  timers = {};
+
+  const per = DATA.config.per_dag;
+  const startIdx = currentDay * per;
+  const todays = DATA.items.slice(startIdx, startIdx + per);
+
+  const cards = todays.map((it, i) => {
+    const secs = it.deel === 2 ? 30 : 20;
+    return `<div class="card">
+      <span class="deel-badge deel-${it.deel}">Deel ${it.deel} &middot; ${secs} sec</span>
+      <div class="vraag">${i + 1}. ${it.vraag}</div>
+      <div class="timer-row">
+        <button class="timer-btn" onclick="startTimer(${i}, ${secs})">&#9201; Start &amp; spreek!</button>
+        <span class="timer-display" id="timer${i}">${secs}</span>
+      </div>
+      <details class="b1-model"><summary>&#128993; Modelantwoord B1</summary><div class="body">${nl2br(it.model_b1)}</div></details>
+      <details class="b2-model"><summary>&#128992; Sterker antwoord (B2)</summary><div class="body">${nl2br(it.model_b2)}</div></details>
+      <details class="taalhulp"><summary>&#128736;&#65039; Taalhulp</summary><div class="body">${nl2br(it.taalhulp)}</div></details>
+      <details class="valkuil"><summary>&#9888;&#65039; Valkuil</summary><div class="body">${nl2br(it.valkuil)}</div></details>
+    </div>`;
+  }).join("");
+
+  document.getElementById("content").innerHTML =
+    `<p class="meta">Dagset ${currentDay + 1} / ${totalDays()}</p>` + cards;
+  window.scrollTo(0, 0);
+}
+
+// ===== Countdown timer per opdracht =====
+function startTimer(i, secs) {
+  clearInterval(timers[i]);
+  const el = document.getElementById("timer" + i);
+  let left = secs;
+  el.textContent = left;
+  el.classList.remove("done");
+  timers[i] = setInterval(() => {
+    left--;
+    el.textContent = left > 0 ? left : "STOP!";
+    if (left <= 0) { el.classList.add("done"); clearInterval(timers[i]); }
+  }, 1000);
+}
+
+// ===== Navigation =====
+function show(day) {
+  const n = totalDays();
+  currentDay = ((day % n) + n) % n;
+  render();
+}
+document.getElementById("prevBtn").addEventListener("click", () => show(currentDay - 1));
+document.getElementById("nextBtn").addEventListener("click", () => show(currentDay + 1));
+document.getElementById("todayBtn").addEventListener("click", () => {
+  document.getElementById("datePicker").valueAsDate = new Date();
+  show(dayForDate(new Date()));
+});
+document.getElementById("datePicker").addEventListener("change", (e) => {
+  if (e.target.value) show(dayForDate(new Date(e.target.value + "T00:00:00")));
+});
+document.getElementById("datePicker").valueAsDate = new Date();
+loadData();
+</script>
+</body>
+</html>
